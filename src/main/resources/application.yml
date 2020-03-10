@@ -1,0 +1,13 @@
+server:
+      servlet:
+            context-path: /crud
+      port: 8080
+
+
+spring:
+      profiles:
+            active: druid
+      devtools:
+            add-properties: true
+      banner:
+            location: classpath:banner.txt

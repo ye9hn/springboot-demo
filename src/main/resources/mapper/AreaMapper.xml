@@ -1,0 +1,20 @@
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.henu.demo.dao.AreaMapper">
+    <select id="selectAll" resultType="java.lang.Integer">
+-- 		select IFNULL(sum(area_id),0) from tb_area
+       select IFNULL(count(1),0) from tb_area
+	</select>
+
+	<select id="selectArea" resultType="com.henu.demo.entity.Area" parameterType="Integer">
+		select area_id as areaId,area_name as areaName, priority ,create_time as createTime, last_edit_time as lastEditTime from tb_area  limit #{areaId-1},20
+	</select>
+	<select id="selectMap" resultType="com.henu.demo.entity.Area" parameterType="Integer">
+		select area_id as areaId,area_name as areaName, priority ,create_time as createTime, last_edit_time as lastEditTime from tb_area  limit #{areaId-1},10
+	</select>
+	<update id="updateAreaNameByAreaId" >
+		update tb_area set area_name=#{areaName},last_edit_time=now() where area_id=#{areaId}
+	</update>
+</mapper>
