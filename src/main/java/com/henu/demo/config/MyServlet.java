@@ -13,7 +13,7 @@ import javax.servlet.Filter;
  * 自定义注册一个Servlet，listener或者是filter
  */
 //@Configuration
-public class ServletConfig {
+public class MyServlet {
     @Autowired
     private DispatcherServlet dispatcherServlet;
 

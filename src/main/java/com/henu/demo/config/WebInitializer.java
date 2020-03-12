@@ -11,7 +11,7 @@ import javax.servlet.ServletRegistration;
 /**
  * Spring自定义Servlet
  */
-@Component
+//@Component
 public class WebInitializer implements WebApplicationInitializer {
     @Override
     public void onStartup(ServletContext servletContext){
