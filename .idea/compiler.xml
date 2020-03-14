@@ -10,11 +10,13 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="boot-mongodb" target="1.8" />
       <module name="springboot-mybatis" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="boot-mongodb" options="-parameters" />
       <module name="springboot-mybatis" options="-parameters" />
     </option>
   </component>
