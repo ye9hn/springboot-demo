@@ -12,7 +12,7 @@
     <groupId>com.henu</groupId>
     <artifactId>boot-mybatis</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-<packaging>jar</packaging>
+    <packaging>jar</packaging>
     <dependencies>
 
         <dependency>
@@ -64,26 +64,7 @@
             <artifactId>commons-lang3</artifactId>
             <version>3.5</version>
         </dependency>
-        <!--spring-kafka已经集成了kafka-client，kafka-client用于单独使用kafka测试用-->
-        <!--        这里有大坑，版本不能随便用。
-                            kafka的client包必须和安装的kafka版本对应下面是spring官方给的对应关系我装的kafka是2.1.0版本，
-                            所以应该使用的kafka-client是1.0.x或1.1.x或2.0.0但是spring-kafka已经依赖了kafka-client，
-                            我们需要确认依赖进的是哪个版本项目的spring-boot-starter-parent版本：
-                            2.0.5.RELEASE点spring-kafka进去看到
-                            <groupId>org.apache.kafka</groupId>
-                            <artifactId>kafka-clients</artifactId>
-                            <version>1.0.2</version>kafka-client的版本是1.0.2，满足-->
-        <dependency>
-            <groupId>org.springframework.kafka</groupId>
-            <artifactId>spring-kafka</artifactId>
-        </dependency>
-        <!--kafka client-->
-        <!--        <dependency>-->
-        <!--            <groupId>org.apache.kafka</groupId>-->
-        <!--            <artifactId>kafka-clients</artifactId>-->
-        <!--            <version>2.0.1</version>&lt;!&ndash;$NO-MVN-MAN-VER$ &ndash;&gt;-->
-        <!--        </dependency>-->
-
+        
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>

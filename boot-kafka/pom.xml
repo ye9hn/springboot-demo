@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>springboot-demo</artifactId>
+        <groupId>com.henu</groupId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.henu</groupId>
+    <artifactId>boot-kafka</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+
+<dependencies>
+    <!--spring-kafka已经集成了kafka-client，kafka-client用于单独使用kafka测试用-->
+    <!--        这里有大坑，版本不能随便用。
+                        kafka的client包必须和安装的kafka版本对应下面是spring官方给的对应关系我装的kafka是2.1.0版本，
+                        所以应该使用的kafka-client是1.0.x或1.1.x或2.0.0但是spring-kafka已经依赖了kafka-client，
+                        我们需要确认依赖进的是哪个版本项目的spring-boot-starter-parent版本：
+                        2.0.5.RELEASE点spring-kafka进去看到
+                        <groupId>org.apache.kafka</groupId>
+                        <artifactId>kafka-clients</artifactId>
+                        <version>1.0.2</version>kafka-client的版本是1.0.2，满足-->
+    <dependency>
+        <groupId>org.springframework.kafka</groupId>
+        <artifactId>spring-kafka</artifactId>
+    </dependency>
+    <!--kafka client-->
+    <!--        <dependency>-->
+    <!--            <groupId>org.apache.kafka</groupId>-->
+    <!--            <artifactId>kafka-clients</artifactId>-->
+    <!--            <version>2.0.1</version>&lt;!&ndash;$NO-MVN-MAN-VER$ &ndash;&gt;-->
+    <!--        </dependency>-->
+
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-web</artifactId>
+    </dependency>
+    <!-- Gson -->
+    <dependency>
+        <groupId>com.google.code.gson</groupId>
+        <artifactId>gson</artifactId>
+        <version>2.8.6</version><!--$NO-MVN-MAN-VER$ -->
+    </dependency>
+</dependencies>
+</project>

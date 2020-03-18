@@ -5,6 +5,7 @@
     <modules>
         <module>boot-mongo</module>
         <module>boot-mybatis</module>
+        <module>boot-kafka</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
