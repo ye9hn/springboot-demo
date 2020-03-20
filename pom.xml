@@ -6,6 +6,9 @@
         <module>boot-mongo</module>
         <module>boot-mybatis</module>
         <module>boot-kafka</module>
+        <module>boot-common</module>
+        <module>boot_auth_server</module>
+        <module>boot_source</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

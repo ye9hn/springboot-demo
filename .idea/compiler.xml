@@ -6,25 +6,34 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="boot-kafka" />
         <module name="boot-mybatis" />
         <module name="boot-mongo" />
-        <module name="boot-kafka" />
+        <module name="boot_auth_server" />
+        <module name="boot-common" />
+        <module name="boot_source" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="boot-common" target="1.8" />
       <module name="boot-kafka" target="1.8" />
       <module name="boot-mongo" target="1.8" />
       <module name="boot-mongodb" target="1.8" />
       <module name="boot-mybatis" target="1.8" />
+      <module name="boot_auth_server" target="1.8" />
+      <module name="boot_source" target="1.8" />
       <module name="springboot-demo" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="boot-common" options="-parameters" />
       <module name="boot-kafka" options="-parameters" />
       <module name="boot-mongo" options="-parameters" />
       <module name="boot-mongodb" options="-parameters" />
       <module name="boot-mybatis" options="-parameters" />
+      <module name="boot_auth_server" options="-parameters" />
+      <module name="boot_source" options="-parameters" />
       <module name="springboot-demo" options="-parameters" />
     </option>
   </component>
