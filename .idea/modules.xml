@@ -2,12 +2,17 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/boot-common/boot-common.iml" filepath="$PROJECT_DIR$/boot-common/boot-common.iml" />
-      <module fileurl="file://$PROJECT_DIR$/boot-kafka/boot-kafka.iml" filepath="$PROJECT_DIR$/boot-kafka/boot-kafka.iml" />
-      <module fileurl="file://$PROJECT_DIR$/boot-mongo/boot-mongo.iml" filepath="$PROJECT_DIR$/boot-mongo/boot-mongo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/boot-mybatis/boot-mybatis.iml" filepath="$PROJECT_DIR$/boot-mybatis/boot-mybatis.iml" />
-      <module fileurl="file://$PROJECT_DIR$/boot_auth_server/boot_auth_server.iml" filepath="$PROJECT_DIR$/boot_auth_server/boot_auth_server.iml" />
-      <module fileurl="file://$PROJECT_DIR$/boot_source/boot_source.iml" filepath="$PROJECT_DIR$/boot_source/boot_source.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boot_security_distribute/boot-common/boot-common.iml" filepath="$PROJECT_DIR$/boot_security_distribute/boot-common/boot-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-kafka/boot-kafka.iml" filepath="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-kafka/boot-kafka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mongo/boot-mongo.iml" filepath="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mongo/boot-mongo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mybatis/boot-mybatis.iml" filepath="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mybatis/boot-mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boot_security_distribute/boot_auth_server/boot_auth_server.iml" filepath="$PROJECT_DIR$/boot_security_distribute/boot_auth_server/boot_auth_server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot_kafka_mongo_mybatis.iml" filepath="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot_kafka_mongo_mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boot_oauth2/boot_oauth2.iml" filepath="$PROJECT_DIR$/boot_oauth2/boot_oauth2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boot_security_distribute/boot_security_distribute.iml" filepath="$PROJECT_DIR$/boot_security_distribute/boot_security_distribute.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boot_security_distribute/boot_source/boot_source.iml" filepath="$PROJECT_DIR$/boot_security_distribute/boot_source/boot_source.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boot_oauth2/oauth_server/oauth_server.iml" filepath="$PROJECT_DIR$/boot_oauth2/oauth_server/oauth_server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boot_oauth2/oauth_source/oauth_source.iml" filepath="$PROJECT_DIR$/boot_oauth2/oauth_source/oauth_source.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/springboot-demo.iml" filepath="$PROJECT_DIR$/.idea/springboot-demo.iml" />
     </modules>
   </component>

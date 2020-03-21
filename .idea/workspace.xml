@@ -7,43 +7,84 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f15c308-8065-45a2-b182-f557d0f640f9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/boot-common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-common/src/main/java/com/henu/common/BootCommonApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-common/src/main/java/com/henu/common/config/CommonProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-common/src/main/java/com/henu/common/domain/Payload.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-common/src/main/java/com/henu/common/utils/JsonUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-common/src/main/java/com/henu/common/utils/JwtUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-common/src/main/java/com/henu/common/utils/RsaUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-common/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot-common/src/test/java/com/henu/commom/test/BootCommonApplicationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot_auth_server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot_auth_server/src/main/java/com/henu/auth/AuthServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot_auth_server/src/main/java/com/henu/auth/config/RsaKeyProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot_auth_server/src/main/java/com/henu/auth/config/WebSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot_auth_server/src/main/java/com/henu/auth/controller/ProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot_auth_server/src/main/java/com/henu/auth/domain/SysRole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot_auth_server/src/main/java/com/henu/auth/domain/SysUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot_auth_server/src/main/java/com/henu/auth/filter/JwtLoginFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot_auth_server/src/main/java/com/henu/auth/filter/JwtVerifyFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot_auth_server/src/main/java/com/henu/auth/mapper/RoleMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot_auth_server/src/main/java/com/henu/auth/mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot_auth_server/src/main/java/com/henu/auth/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot_auth_server/src/main/java/com/henu/auth/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot_auth_server/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot_auth_server/src/test/java/EncodingTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot_source/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot_source/src/main/java/com/henu/source/BootSourceApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot_source/src/main/java/com/henu/source/config/RsaKeyProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot_source/src/main/java/com/henu/source/config/WebSecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot_source/src/main/java/com/henu/source/controller/ProductController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot_source/src/main/java/com/henu/source/domain/SysRole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot_source/src/main/java/com/henu/source/domain/SysUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot_source/src/main/java/com/henu/source/filter/JwtVerifyFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot_source/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/boot_security_distribute/boot-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-common/src/main/java/com/henu/common/BootCommonApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot_security_distribute/boot-common/src/main/java/com/henu/common/BootCommonApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-common/src/main/java/com/henu/common/config/CommonProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot_security_distribute/boot-common/src/main/java/com/henu/common/config/CommonProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-common/src/main/java/com/henu/common/domain/Payload.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot_security_distribute/boot-common/src/main/java/com/henu/common/domain/Payload.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-common/src/main/java/com/henu/common/utils/JsonUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot_security_distribute/boot-common/src/main/java/com/henu/common/utils/JsonUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-common/src/main/java/com/henu/common/utils/JwtUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot_security_distribute/boot-common/src/main/java/com/henu/common/utils/JwtUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-common/src/main/java/com/henu/common/utils/RsaUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot_security_distribute/boot-common/src/main/java/com/henu/common/utils/RsaUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-common/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/boot_security_distribute/boot-common/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-common/src/test/java/com/henu/commom/test/BootCommonApplicationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot_security_distribute/boot-common/src/test/java/com/henu/commom/test/BootCommonApplicationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-kafka/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-kafka/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-kafka/src/main/java/com/henu/kafka/BootKafkaApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-kafka/src/main/java/com/henu/kafka/BootKafkaApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-kafka/src/main/java/com/henu/kafka/controller/KafkaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-kafka/src/main/java/com/henu/kafka/controller/KafkaController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-kafka/src/main/java/com/henu/kafka/entity/Area.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-kafka/src/main/java/com/henu/kafka/entity/Area.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-kafka/src/main/java/com/henu/kafka/entity/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-kafka/src/main/java/com/henu/kafka/entity/Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-kafka/src/main/java/com/henu/kafka/service/KafkaReceiveService.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-kafka/src/main/java/com/henu/kafka/service/KafkaReceiveService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-kafka/src/main/java/com/henu/kafka/service/KafkaSendService.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-kafka/src/main/java/com/henu/kafka/service/KafkaSendService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-kafka/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-kafka/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-kafka/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-kafka/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-mongo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mongo/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-mongo/src/main/java/com/henu/mongo/BootMongoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mongo/src/main/java/com/henu/mongo/BootMongoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-mongo/src/main/java/com/henu/mongo/config/MongoDBConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mongo/src/main/java/com/henu/mongo/config/MongoDBConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-mongo/src/main/java/com/henu/mongo/controller/MongoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mongo/src/main/java/com/henu/mongo/controller/MongoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-mongo/src/main/java/com/henu/mongo/entity/Area.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mongo/src/main/java/com/henu/mongo/entity/Area.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-mongo/src/main/java/com/henu/mongo/entity/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mongo/src/main/java/com/henu/mongo/entity/Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-mongo/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mongo/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-mongo/src/main/resources/banner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mongo/src/main/resources/banner.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-mongo/src/test/java/BootMongoApplicationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mongo/src/test/java/BootMongoApplicationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-mybatis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mybatis/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-mybatis/src/main/java/com/henu/mybat/BootMybatisApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mybatis/src/main/java/com/henu/mybat/BootMybatisApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-mybatis/src/main/java/com/henu/mybat/config/MyMvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mybatis/src/main/java/com/henu/mybat/config/MyMvcConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-mybatis/src/main/java/com/henu/mybat/config/MyServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mybatis/src/main/java/com/henu/mybat/config/MyServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-mybatis/src/main/java/com/henu/mybat/config/MybatisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mybatis/src/main/java/com/henu/mybat/config/MybatisConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-mybatis/src/main/java/com/henu/mybat/config/WebInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mybatis/src/main/java/com/henu/mybat/config/WebInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-mybatis/src/main/java/com/henu/mybat/config/dao/SessionFactoryConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mybatis/src/main/java/com/henu/mybat/config/dao/SessionFactoryConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-mybatis/src/main/java/com/henu/mybat/config/service/TransactionManagementConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mybatis/src/main/java/com/henu/mybat/config/service/TransactionManagementConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-mybatis/src/main/java/com/henu/mybat/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mybatis/src/main/java/com/henu/mybat/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-mybatis/src/main/java/com/henu/mybat/dao/AreaMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mybatis/src/main/java/com/henu/mybat/dao/AreaMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-mybatis/src/main/java/com/henu/mybat/entity/Area.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mybatis/src/main/java/com/henu/mybat/entity/Area.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-mybatis/src/main/java/com/henu/mybat/entity/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mybatis/src/main/java/com/henu/mybat/entity/Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-mybatis/src/main/java/com/henu/mybat/handler/GlobalExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mybatis/src/main/java/com/henu/mybat/handler/GlobalExceptionHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-mybatis/src/main/java/com/henu/mybat/util/MD5Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mybatis/src/main/java/com/henu/mybat/util/MD5Util.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-mybatis/src/main/java/com/henu/mybat/util/PropertiesUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mybatis/src/main/java/com/henu/mybat/util/PropertiesUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-mybatis/src/main/resources/application-druid.yml" beforeDir="false" afterPath="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mybatis/src/main/resources/application-druid.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-mybatis/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mybatis/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-mybatis/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mybatis/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-mybatis/src/main/resources/banner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mybatis/src/main/resources/banner.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-mybatis/src/main/resources/mapper/AreaMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mybatis/src/main/resources/mapper/AreaMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-mybatis/src/main/resources/salt.properties" beforeDir="false" afterPath="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mybatis/src/main/resources/salt.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot-mybatis/src/main/resources/templates/hello.html" beforeDir="false" afterPath="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mybatis/src/main/resources/templates/hello.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot_auth_server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/boot_security_distribute/boot_auth_server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot_auth_server/src/main/java/com/henu/auth/AuthServerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot_security_distribute/boot_auth_server/src/main/java/com/henu/auth/AuthServerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot_auth_server/src/main/java/com/henu/auth/config/RsaKeyProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot_security_distribute/boot_auth_server/src/main/java/com/henu/auth/config/RsaKeyProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot_auth_server/src/main/java/com/henu/auth/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot_security_distribute/boot_auth_server/src/main/java/com/henu/auth/config/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot_auth_server/src/main/java/com/henu/auth/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot_security_distribute/boot_auth_server/src/main/java/com/henu/auth/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot_auth_server/src/main/java/com/henu/auth/domain/SysRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot_security_distribute/boot_auth_server/src/main/java/com/henu/auth/domain/SysRole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot_auth_server/src/main/java/com/henu/auth/domain/SysUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot_security_distribute/boot_auth_server/src/main/java/com/henu/auth/domain/SysUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot_auth_server/src/main/java/com/henu/auth/filter/JwtLoginFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot_security_distribute/boot_auth_server/src/main/java/com/henu/auth/filter/JwtLoginFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot_auth_server/src/main/java/com/henu/auth/filter/JwtVerifyFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot_security_distribute/boot_auth_server/src/main/java/com/henu/auth/filter/JwtVerifyFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot_auth_server/src/main/java/com/henu/auth/mapper/RoleMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot_security_distribute/boot_auth_server/src/main/java/com/henu/auth/mapper/RoleMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot_auth_server/src/main/java/com/henu/auth/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot_security_distribute/boot_auth_server/src/main/java/com/henu/auth/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot_auth_server/src/main/java/com/henu/auth/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot_security_distribute/boot_auth_server/src/main/java/com/henu/auth/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot_auth_server/src/main/java/com/henu/auth/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot_security_distribute/boot_auth_server/src/main/java/com/henu/auth/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot_auth_server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/boot_security_distribute/boot_auth_server/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot_auth_server/src/test/java/EncodingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot_security_distribute/boot_auth_server/src/test/java/EncodingTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot_source/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/boot_security_distribute/boot_source/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot_source/src/main/java/com/henu/source/BootSourceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot_security_distribute/boot_source/src/main/java/com/henu/source/BootSourceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot_source/src/main/java/com/henu/source/config/RsaKeyProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot_security_distribute/boot_source/src/main/java/com/henu/source/config/RsaKeyProperties.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot_source/src/main/java/com/henu/source/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot_security_distribute/boot_source/src/main/java/com/henu/source/config/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot_source/src/main/java/com/henu/source/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot_security_distribute/boot_source/src/main/java/com/henu/source/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot_source/src/main/java/com/henu/source/domain/SysRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot_security_distribute/boot_source/src/main/java/com/henu/source/domain/SysRole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot_source/src/main/java/com/henu/source/domain/SysUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot_security_distribute/boot_source/src/main/java/com/henu/source/domain/SysUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot_source/src/main/java/com/henu/source/filter/JwtVerifyFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot_security_distribute/boot_source/src/main/java/com/henu/source/filter/JwtVerifyFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot_source/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/boot_security_distribute/boot_source/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -56,6 +97,19 @@
     <ignored path="$PROJECT_DIR$/auth_server/target/" />
     <ignored path="$PROJECT_DIR$/boot_auth_server/target/" />
     <ignored path="$PROJECT_DIR$/boot_source/target/" />
+    <ignored path="$PROJECT_DIR$/boot_oauth2/target/" />
+    <ignored path="$PROJECT_DIR$/boot_oauth2/oauth_source/target/" />
+    <ignored path="$PROJECT_DIR$/boot_kafka_mongo_mybatis/target/" />
+    <ignored path="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mybatis/target/" />
+    <ignored path="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mongo/target/" />
+    <ignored path="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-kafka/target/" />
+    <ignored path="$PROJECT_DIR$/boot_security_distribute/target/" />
+    <ignored path="$PROJECT_DIR$/boot_security_distribute/boot_source/target/" />
+    <ignored path="$PROJECT_DIR$/boot_security_distribute/boot-common/target/" />
+    <ignored path="$PROJECT_DIR$/boot_security_distribute/boot_auth_server/target/" />
+    <ignored path="$PROJECT_DIR$/boot_oauth2/oauth_server/target/" />
+    <ignored path="$PROJECT_DIR$/boot_oauth2/oauth_common/target/" />
+    <ignored path="$PROJECT_DIR$/boot_oauth2/boot_common/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,53 +139,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/boot_auth_server/src/main/java/com/henu/auth/filter/JwtLoginFilter.java">
+        <entry file="file://$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mongo/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="23" column="49" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.1.6.RELEASE/spring-security-web-5.1.6.RELEASE-sources.jar!/org/springframework/security/web/authentication/UsernamePasswordAuthenticationFilter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="624">
-              <caret line="46" column="28" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
+            <state relative-caret-position="260">
+              <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+        <entry file="file://$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mongo/src/main/java/com/henu/mongo/BootMongoApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/boot_auth_server/src/main/java/com/henu/auth/filter/JwtVerifyFilter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="962">
-              <caret line="55" column="49" selection-start-line="55" selection-start-column="49" selection-end-line="55" selection-end-column="49" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/boot_auth_server/src/main/java/com/henu/auth/config/WebSecurityConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1118">
-              <caret line="57" column="38" selection-start-line="57" selection-start-column="38" selection-end-line="57" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="130">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -179,37 +199,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/boot-mybatis/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/boot-mybatis/pom.xml" />
-        <option value="$PROJECT_DIR$/boot-kafka/src/main/java/com/henu/kafka/service/com/henu/kafka/entity/Message.java" />
-        <option value="$PROJECT_DIR$/boot-kafka/src/main/java/com/henu/kafka/entity/Message.java" />
-        <option value="$PROJECT_DIR$/boot-kafka/pom.xml" />
-        <option value="$PROJECT_DIR$/boot-kafka/src/main/java/com/henu/kafka/BootKafkaApplication.java" />
-        <option value="$PROJECT_DIR$/boot-kafka/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/boot-kafka/src/main/java/com/henu/kafka/config/KafkaConfig.java" />
-        <option value="$PROJECT_DIR$/boot-kafka/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/boot-mongo/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/boot-mongo/src/main/java/com/henu/mongo/controller/MongoController.java" />
-        <option value="$PROJECT_DIR$/boot-mybatis/src/main/java/com/henu/mybat/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/boot-kafka/src/main/java/com/henu/kafka/controller/KafkaController.java" />
-        <option value="$PROJECT_DIR$/boot-kafka/src/main/java/com/henu/kafka/service/KafkaReceiveService.java" />
-        <option value="$PROJECT_DIR$/boot-kafka/src/main/java/com/henu/kafka/service/KafkaSendService.java" />
-        <option value="$PROJECT_DIR$/boot-common/src/main/java/com/henu/common/config/BootCommonApplication.java" />
-        <option value="$PROJECT_DIR$/boot-common/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/boot-common/src/main/java/com/henu/common/utils/JsonUtils.java" />
-        <option value="$PROJECT_DIR$/boot-common/src/main/java/com/henu/common/domain/Payload.java" />
-        <option value="$PROJECT_DIR$/boot-common/pom.xml" />
-        <option value="$PROJECT_DIR$/boot-common/src/test/java/com/henu/commom/test/BootCommonApplication.java" />
-        <option value="$PROJECT_DIR$/auth_server/pom.xml" />
-        <option value="$PROJECT_DIR$/boot-common/src/main/java/com/henu/common/BootCommonApplication.java" />
-        <option value="$PROJECT_DIR$/boot-common/src/test/java/com/henu/commom/test/BootCommonApplicationTest.java" />
-        <option value="$PROJECT_DIR$/boot_auth_server/src/main/java/com/henu/auth/controller/ProductController.java" />
-        <option value="$PROJECT_DIR$/boot_auth_server/src/main/java/com/henu/auth/domain/SysRole.java" />
-        <option value="$PROJECT_DIR$/boot_auth_server/src/main/java/com/henu/auth/mapper/RoleMapper.java" />
-        <option value="$PROJECT_DIR$/boot_auth_server/src/main/java/com/henu/auth/AuthServerApplication.java" />
-        <option value="$PROJECT_DIR$/boot_auth_server/src/main/java/com/henu/auth/config/RsaKeyProperties.java" />
-        <option value="$PROJECT_DIR$/boot-common/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/boot-common/src/main/java/com/henu/common/config/CommonProperties.java" />
         <option value="$PROJECT_DIR$/boot_auth_server/src/main/java/com/henu/auth/JwtLoginFilter.java" />
         <option value="$PROJECT_DIR$/boot-common/src/main/java/com/henu/common/utils/JwtUtils.java" />
         <option value="$PROJECT_DIR$/boot_auth_server/src/test/java/EncodingTest.java" />
@@ -229,7 +218,38 @@
         <option value="$PROJECT_DIR$/boot_auth_server/src/main/java/com/henu/auth/filter/JwtLoginFilter.java" />
         <option value="$PROJECT_DIR$/boot_auth_server/pom.xml" />
         <option value="$PROJECT_DIR$/boot_source/pom.xml" />
+        <option value="$PROJECT_DIR$/boot_oauth2/oauth_source/src/main/java/com/henu/oauth_source/OauthSourceApplication.java" />
+        <option value="$PROJECT_DIR$/boot_oauth2/oauth_source/src/main/java/com/henu/oauth_source/controller/ProductController.java" />
+        <option value="$PROJECT_DIR$/boot_oauth2/oauth_source/src/main/java/com/henu/oauth_source/config/OauthSourceConfig.java" />
+        <option value="$PROJECT_DIR$/boot_oauth2/oauth_source/src/main/java/com/henu/oauth_source/domain/SysRole.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/boot_kafka_mongo_mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/boot_security_distribute/pom.xml" />
+        <option value="$PROJECT_DIR$/boot_oauth2/oauth_server/src/main/java/com/henu/oauth_server/OauthServerApplication.java" />
+        <option value="$PROJECT_DIR$/boot_oauth2/oauth_server/src/main/java/com/henu/oauth_server/domain/SysUser.java" />
+        <option value="$PROJECT_DIR$/boot_oauth2/oauth_server/src/main/java/com/henu/oauth_server/service/UserService.java" />
+        <option value="$PROJECT_DIR$/boot_oauth2/oauth_server/src/main/java/com/henu/oauth_server/config/WebSecurityConfig.java" />
+        <option value="$PROJECT_DIR$/boot_oauth2/oauth_server/src/main/java/com/henu/oauth_server/config/Oauth2ServerConfig.java" />
+        <option value="$PROJECT_DIR$/boot_oauth2/oauth_server/src/main/java/com/henu/oauth_server/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/boot_oauth2/oauth_source/src/main/java/com/henu/oauth_source/config/Oauth2SourceConfig.java" />
+        <option value="$PROJECT_DIR$/boot_oauth2/oauth_common/src/main/java/com/henu/oauth/domain/SysRole.java" />
+        <option value="$PROJECT_DIR$/boot_oauth2/oauth_common/src/main/java/domain/SysRole.java" />
+        <option value="$PROJECT_DIR$/boot_oauth2/oauth_common/src/main/java/com/henu/common/domain/SysRole.java" />
+        <option value="$PROJECT_DIR$/boot_oauth2/boot_common/pom.xml" />
+        <option value="$PROJECT_DIR$/boot_oauth2/boot_common/src/main/java/com/henu/common/domain/SysRole.java" />
+        <option value="$PROJECT_DIR$/boot_oauth2/oauth_server/src/main/java/com/henu/oauth_server/mapper/RoleMapper.java" />
+        <option value="$PROJECT_DIR$/boot_oauth2/oauth_server/src/main/java/com/henu/oauth_server/mapper/UserMapper.java" />
+        <option value="$PROJECT_DIR$/boot_oauth2/oauth_source/pom.xml" />
+        <option value="$PROJECT_DIR$/boot_oauth2/oauth_common/src/main/java/com/henu/common/domain/SysUser.java" />
+        <option value="$PROJECT_DIR$/boot_oauth2/oauth_common/pom.xml" />
+        <option value="$PROJECT_DIR$/boot_oauth2/oauth_server/src/main/java/com/henu/oauth/domain/SysRole.java" />
+        <option value="$PROJECT_DIR$/boot_oauth2/oauth_server/src/main/java/com/henu/oauth/mapper/RoleMapper.java" />
+        <option value="$PROJECT_DIR$/boot_oauth2/oauth_server/src/main/java/com/henu/oauth/mapper/UserMapper.java" />
+        <option value="$PROJECT_DIR$/boot_oauth2/pom.xml" />
+        <option value="$PROJECT_DIR$/boot_oauth2/oauth_server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/boot_oauth2/oauth_source/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mongo/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/boot_oauth2/oauth_server/pom.xml" />
       </list>
     </option>
   </component>
@@ -255,14 +275,24 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="oauth_server" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="oauth_server" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="777" />
-    <option name="y" value="34" />
-    <option name="width" value="567" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="593" />
     <option name="height" value="688" />
   </component>
   <component name="ProjectView">
@@ -271,7 +301,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -279,10 +308,76 @@
               <item name="springboot-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="springboot-demo" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="springboot-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="boot_kafka_mongo_mybatis" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="boot_kafka_mongo_mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="boot-mongo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="boot_kafka_mongo_mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="boot-mongo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="boot_kafka_mongo_mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="boot-mongo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="boot_kafka_mongo_mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="boot-mongo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="boot_kafka_mongo_mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="boot-mongo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mongo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="boot_kafka_mongo_mybatis" type="462c0819:PsiDirectoryNode" />
+              <item name="boot-mongo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="boot_oauth2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springboot-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springboot-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="boot_oauth2" type="462c0819:PsiDirectoryNode" />
+              <item name="oauth_server" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -296,13 +391,15 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../dubbo-boot/dubbo-admin-develop" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/boot_oauth2/oauth_source/src/main/java/com/henu/oauth" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\DataSpace\IdeaSpace\springboot-demo\boot_security_distribute" />
+      <recent name="D:\DataSpace\IdeaSpace\springboot-demo\boot_kafka_mongo_mybatis" />
       <recent name="D:\DataSpace\IdeaSpace\springboot-demo\boot-mybatis\src\main\resources" />
       <recent name="D:\DataSpace\IdeaSpace\springboot-demo" />
       <recent name="D:\DataSpace\IdeaSpace\springboot-mybatis\src\main\resources\mapper" />
@@ -315,11 +412,11 @@
       <recent name="com.henu.demo.config.service" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\DataSpace\IdeaSpace\springboot-demo\boot_source\src\main\java\com\henu\source\domain" />
-      <recent name="D:\DataSpace\IdeaSpace\springboot-demo\boot_source\src\main\java\com\henu\source" />
-      <recent name="D:\DataSpace\IdeaSpace\springboot-demo\boot_source\src\main\resources" />
-      <recent name="D:\DataSpace\IdeaSpace\springboot-demo\boot_auth_server\src\test\java" />
-      <recent name="D:\DataSpace\IdeaSpace\springboot-demo\boot_auth_server\src\main\java\com\henu\auth" />
+      <recent name="D:\DataSpace\IdeaSpace\springboot-demo\boot_oauth2\oauth_source\src\main\java\com\henu\oauth" />
+      <recent name="D:\DataSpace\IdeaSpace\springboot-demo\boot_oauth2\oauth_server\src\main\java\com\henu\oauth\domain" />
+      <recent name="D:\DataSpace\IdeaSpace\springboot-demo\boot_oauth2\oauth_common\src\main\java\com\henu\common\domain" />
+      <recent name="D:\DataSpace\IdeaSpace\springboot-demo\boot_oauth2\oauth_common\src\main\java\com\henu\common" />
+      <recent name="D:\DataSpace\IdeaSpace\springboot-demo\boot_oauth2\boot_common\src\main\java\com\henu\common" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -334,42 +431,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.BootSourceApplication">
+  <component name="RunManager" selected="Spring Boot.OauthSourceApplication">
     <configuration name="EncodingTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="EncodingTest" />
       <module name="boot_auth_server" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BootCommonApplicationTest.generateKey" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="boot-common" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.henu.commom.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.henu.commom.test" />
-      <option name="MAIN_CLASS_NAME" value="com.henu.commom.test.BootCommonApplicationTest" />
-      <option name="METHOD_NAME" value="generateKey" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BootCommonApplicationTest.getPublicKey" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="boot-common" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.henu.commom.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.henu.commom.test" />
-      <option name="MAIN_CLASS_NAME" value="com.henu.commom.test.BootCommonApplicationTest" />
-      <option name="METHOD_NAME" value="getPublicKey" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -419,6 +484,32 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.henu.source.BootSourceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OauthServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="oauth_server" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.henu.oauth.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.henu.oauth.OauthServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OauthSourceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="oauth_source" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.henu.oauth.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.henu.oauth.OauthSourceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -499,22 +590,22 @@
     </configuration>
     <list>
       <item itemvalue="Application.EncodingTest" />
-      <item itemvalue="JUnit.BootCommonApplicationTest.generateKey" />
-      <item itemvalue="JUnit.BootCommonApplicationTest.getPublicKey" />
       <item itemvalue="Spring Boot.BootMongoApplication" />
       <item itemvalue="Spring Boot.BootKafkaApplication" />
       <item itemvalue="Spring Boot.BootMybatisApplication" />
       <item itemvalue="Spring Boot.AuthServerApplication" />
       <item itemvalue="Spring Boot.BootSourceApplication" />
+      <item itemvalue="Spring Boot.OauthServerApplication" />
+      <item itemvalue="Spring Boot.OauthSourceApplication" />
       <item itemvalue="Tomcat Server.Idea Tomcat 8.5.33" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.OauthSourceApplication" />
+        <item itemvalue="Spring Boot.OauthServerApplication" />
         <item itemvalue="Spring Boot.BootSourceApplication" />
         <item itemvalue="Spring Boot.AuthServerApplication" />
         <item itemvalue="Application.EncodingTest" />
-        <item itemvalue="JUnit.BootCommonApplicationTest.getPublicKey" />
-        <item itemvalue="JUnit.BootCommonApplicationTest.generateKey" />
       </list>
     </recent_temporary>
   </component>
@@ -563,7 +654,13 @@
       <workItem from="1584612527650" duration="135000" />
       <workItem from="1584623223382" duration="7589000" />
       <workItem from="1584677715751" duration="6470000" />
-      <workItem from="1584684735878" duration="1847000" />
+      <workItem from="1584684735878" duration="6185000" />
+      <workItem from="1584715678101" duration="329000" />
+      <workItem from="1584716053470" duration="1428000" />
+      <workItem from="1584766827380" duration="15195000" />
+      <workItem from="1584784810634" duration="394000" />
+      <workItem from="1584785244331" duration="1379000" />
+      <workItem from="1584787580353" duration="3304000" />
     </task>
     <servers />
   </component>
@@ -600,14 +697,46 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="194474000" />
+    <option name="totallyTimeSpent" value="220841000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Web" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.2246596" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.20499243" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" weight="0.32980332" />
+      <window_info anchor="bottom" id="Java Enterprise" order="0" />
+      <window_info anchor="bottom" id="Spring" order="1" weight="0.3295082" />
+      <window_info anchor="bottom" id="Message" order="2" />
+      <window_info anchor="bottom" id="Find" order="3" weight="0.32786885" />
+      <window_info anchor="bottom" id="Messages" order="4" weight="0.26557377" />
+      <window_info anchor="bottom" id="Run" order="5" weight="0.34754097" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.42459017" />
+      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="9" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.3295082" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Terminal" order="13" weight="0.32786885" />
+      <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" weight="0.3295082" />
+      <window_info anchor="bottom" id="Application Servers" order="15" weight="0.3295082" />
+      <window_info anchor="right" id="Bean Validation" order="0" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.24962178" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.48108926" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32980332" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Web" order="0" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.28214827" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -617,7 +746,7 @@
       <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="bottom" id="Find" order="3" weight="0.32850242" />
       <window_info anchor="bottom" id="Messages" order="4" weight="0.53114754" />
-      <window_info active="true" anchor="bottom" id="Run" order="5" visible="true" weight="0.39508197" />
+      <window_info anchor="bottom" id="Run" order="5" weight="0.39508197" />
       <window_info anchor="bottom" id="Debug" order="6" weight="0.42459017" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
@@ -633,38 +762,7 @@
       <window_info anchor="right" id="Ant Build" order="2" weight="0.24962178" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
       <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Maven" order="5" weight="0.4515885" />
-      <window_info anchor="right" id="Database" order="6" weight="0.32980332" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-    </layout>
-    <layout-to-restore>
-      <window_info id="Web" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.23676248" />
-      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Favorites" order="5" side_tool="true" weight="0.32980332" />
-      <window_info anchor="bottom" id="Java Enterprise" order="0" />
-      <window_info anchor="bottom" id="Spring" order="1" />
-      <window_info anchor="bottom" id="Message" order="2" />
-      <window_info anchor="bottom" id="Find" order="3" weight="0.32850242" />
-      <window_info anchor="bottom" id="Messages" order="4" weight="0.32569557" />
-      <window_info anchor="bottom" id="Run" order="5" weight="0.5057283" />
-      <window_info anchor="bottom" id="Debug" order="6" weight="0.48608837" />
-      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="9" />
-      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Terminal" order="13" weight="0.32850242" />
-      <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
-      <window_info anchor="right" id="Bean Validation" order="0" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Maven" order="5" weight="0.32980332" />
+      <window_info anchor="right" id="Maven" order="5" weight="0.48108926" />
       <window_info anchor="right" id="Database" order="6" weight="0.32980332" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout-to-restore>
@@ -694,13 +792,13 @@
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/boot_auth_server/src/main/java/com/henu/auth/filter/JwtLoginFilter.java</url>
+          <url>file://$PROJECT_DIR$/boot_security_distribute/boot_auth_server/src/main/java/com/henu/auth/filter/JwtLoginFilter.java</url>
           <line>35</line>
           <properties />
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/boot_auth_server/src/main/java/com/henu/auth/service/impl/UserServiceImpl.java</url>
+          <url>file://$PROJECT_DIR$/boot_security_distribute/boot_auth_server/src/main/java/com/henu/auth/service/impl/UserServiceImpl.java</url>
           <line>20</line>
           <properties />
           <option name="timeStamp" value="7" />
@@ -719,323 +817,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/boot-mybatis/src/main/java/com/henu/mybat/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="42" column="24" selection-start-line="42" selection-start-column="24" selection-end-line="42" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boot-kafka/src/main/java/com/henu/kafka/service/KafkaSendService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="16" column="24" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1395#1396#0" expanded="true" />
-            <element signature="e#1478#1479#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.7.RELEASE/spring-boot-autoconfigure-2.1.7.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/kafka/KafkaProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="56" column="49" lean-forward="true" selection-start-line="56" selection-start-column="49" selection-end-line="56" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.7.RELEASE/spring-boot-autoconfigure-2.1.7.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/kafka/KafkaAutoConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="57" column="45" lean-forward="true" selection-start-line="57" selection-start-column="45" selection-end-line="57" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boot-mybatis/src/main/java/com/henu/mybat/BootMybatisApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boot-common/src/main/java/com/henu/common/domain/Payload.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boot-common/src/main/java/com/henu/common/utils/JsonUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1092">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boot-common/src/main/java/com/henu/common/utils/RsaUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1898">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boot-mybatis/src/main/resources/application-druid.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="26" column="18" lean-forward="true" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boot-common/src/test/java/com/henu/commom/test/BootCommonApplicationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boot-mybatis/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boot-common/src/main/java/com/henu/common/config/CommonProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boot-common/src/main/java/com/henu/common/BootCommonApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boot-common/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="3" column="17" lean-forward="true" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boot_auth_server/src/main/java/com/henu/auth/config/RsaKeyProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boot-common/src/main/java/com/henu/common/utils/JwtUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="53" column="73" selection-start-line="53" selection-start-column="73" selection-end-line="53" selection-end-column="73" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.1.6.RELEASE/spring-security-web-5.1.6.RELEASE-sources.jar!/org/springframework/security/web/authentication/www/BasicAuthenticationFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="214" column="42" lean-forward="true" selection-start-line="152" selection-start-column="8" selection-end-line="214" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boot_auth_server/src/main/java/com/henu/auth/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="4" column="57" lean-forward="true" selection-start-line="4" selection-start-column="57" selection-end-line="4" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.9.RELEASE/spring-core-5.1.9.RELEASE-sources.jar!/org/springframework/cglib/proxy/MethodProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="219" selection-start-line="219" selection-end-line="219" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.1.6.RELEASE/spring-security-core-5.1.6.RELEASE-sources.jar!/org/springframework/security/authentication/UsernamePasswordAuthenticationToken.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="58" selection-start-line="58" selection-end-line="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.5.1/mybatis-3.5.1-sources.jar!/org/apache/ibatis/binding/MapperProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="47">
-          <caret line="57" selection-start-line="57" selection-end-line="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boot_auth_server/src/test/java/EncodingTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boot_source/src/main/java/com/henu/source/config.java" />
-    <entry file="file://$PROJECT_DIR$/boot_auth_server/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boot_source/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="21" column="22" lean-forward="true" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boot_source/src/main/java/com/henu/source/filter/JwtLoginFilter.java" />
-    <entry file="file://$PROJECT_DIR$/boot_source/src/main/java/com/henu/source/domain/SysRole.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boot_source/src/main/java/com/henu/source/domain/SysUser.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boot_auth_server/src/main/java/com/henu/auth/AuthServerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#516#517#0" expanded="true" />
-            <element signature="e#587#588#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boot_source/src/main/java/com/henu/source/controller/ProductController.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boot_source/src/main/java/com/henu/source/BootSourceApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="44" lean-forward="true" selection-start-line="12" selection-start-column="44" selection-end-line="12" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#220#221#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boot_auth_server/src/main/java/com/henu/auth/mapper/RoleMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="13" column="50" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boot_auth_server/src/main/java/com/henu/auth/mapper/UserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="19" column="47" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boot_source/src/main/java/com/henu/source/config/WebSecurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boot_source/src/main/java/com/henu/source/config/RsaKeyProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="12" column="31" lean-forward="true" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#404#405#0" expanded="true" />
-            <element signature="e#436#437#0" expanded="true" />
-            <element signature="e#489#490#0" expanded="true" />
-            <element signature="e#531#532#0" expanded="true" />
-            <element signature="e#700#701#0" expanded="true" />
-            <element signature="e#733#734#0" expanded="true" />
-            <element signature="e#785#786#0" expanded="true" />
-            <element signature="e#829#830#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boot_source/src/main/java/com/henu/source/filter/JwtVerifyFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1248">
-          <caret line="48" column="37" lean-forward="true" selection-start-line="48" selection-start-column="37" selection-end-line="48" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boot_auth_server/src/main/java/com/henu/auth/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boot_auth_server/src/main/java/com/henu/auth/domain/SysUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="57" column="20" selection-start-line="57" selection-start-column="20" selection-end-line="57" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boot_auth_server/src/main/java/com/henu/auth/domain/SysRole.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="5" column="40" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boot_auth_server/src/main/java/com/henu/auth/controller/ProductController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="12" column="27" lean-forward="true" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
-          <folding>
-            <element signature="e#330#331#0" expanded="true" />
-            <element signature="e#364#365#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/5.1.6.RELEASE/spring-security-config-5.1.6.RELEASE-sources.jar!/org/springframework/security/config/annotation/web/builders/HttpSecurity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3238">
@@ -1043,21 +824,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/boot-mybatis/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    <entry file="file://$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mybatis/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1612" />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boot_auth_server/pom.xml">
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="35" column="22" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
-        </state>
-      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/boot_auth_server/src/main/java/com/henu/auth/filter/JwtLoginFilter.java">
+    <entry file="file://$PROJECT_DIR$/boot_security_distribute/boot_auth_server/src/main/java/com/henu/auth/filter/JwtLoginFilter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
           <caret line="23" column="49" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
@@ -1071,7 +844,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/boot_auth_server/src/main/java/com/henu/auth/filter/JwtVerifyFilter.java">
+    <entry file="file://$PROJECT_DIR$/boot_security_distribute/boot_auth_server/src/main/java/com/henu/auth/filter/JwtVerifyFilter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="962">
           <caret line="55" column="49" selection-start-line="55" selection-start-column="49" selection-end-line="55" selection-end-column="49" />
@@ -1081,7 +854,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/boot_auth_server/src/main/java/com/henu/auth/config/WebSecurityConfig.java">
+    <entry file="file://$PROJECT_DIR$/boot_security_distribute/boot_auth_server/src/main/java/com/henu/auth/config/WebSecurityConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1118">
           <caret line="57" column="38" selection-start-line="57" selection-start-column="38" selection-end-line="57" selection-end-column="38" />
@@ -1098,27 +871,304 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/boot-common/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    <entry file="file://$PROJECT_DIR$/boot_security_distribute/boot-common/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1014">
           <caret line="44" selection-start-line="44" selection-end-line="44" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boot_source/pom.xml">
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot_security_distribute/boot_auth_server/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="936">
-          <caret line="36" column="26" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
+        <state>
+          <caret selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot_security_distribute/boot_auth_server/src/main/java/com/henu/auth/controller/ProductController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="27" />
+          <folding>
+            <element signature="e#330#331#0" expanded="true" />
+            <element signature="e#364#365#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
+        <state relative-caret-position="52">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot_security_distribute/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot_kafka_mongo_mybatis/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="15" column="14" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot_oauth2/oauth_server/src/main/java/com/henu/oauth_server/domain/SysRole.java" />
+    <entry file="file://$PROJECT_DIR$/boot_oauth2/oauth_server/src/main/java/com/henu/oauth_server/domain/SysUser.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.3.3.RELEASE/spring-security-oauth2-2.3.3.RELEASE.jar!/org/springframework/security/oauth2/config/annotation/web/configuration/EnableAuthorizationServer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.3.3.RELEASE/spring-security-oauth2-2.3.3.RELEASE-sources.jar!/org/springframework/security/oauth2/config/annotation/web/configuration/EnableAuthorizationServer.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot_oauth2/oauth_server/src/main/java/com/henu/oauth/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot_oauth2/oauth_server/src/main/java/com/henu/oauth/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="21" column="49" selection-start-line="21" selection-start-column="49" selection-end-line="21" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot_oauth2/oauth_server/src/main/java/com/henu/oauth/config/WebSecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="787">
+          <caret line="38" column="23" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1019#1020#0" expanded="true" />
+            <element signature="e#1069#1070#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot_oauth2/oauth_source/src/main/java/com/henu/oauth/controller/ProductController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="31" lean-forward="true" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot_oauth2/oauth_source/src/main/java/com/henu/oauth_source/domain/SysUser.java" />
+    <entry file="file://$PROJECT_DIR$/boot_oauth2/oauth_source/src/main/java/com/henu/oauth/config/Oauth2SourceConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1203">
+          <caret line="52" column="2" lean-forward="true" selection-start-line="52" selection-start-column="2" selection-end-line="52" selection-end-column="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/spring-security-oauth2/2.3.3.RELEASE/spring-security-oauth2-2.3.3.RELEASE-sources.jar!/org/springframework/security/oauth2/provider/token/store/JdbcTokenStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="197" column="35" selection-start-line="197" selection-start-column="35" selection-end-line="197" selection-end-column="35" />
+          <folding>
+            <element signature="e#8691#8891#0" expanded="true" />
+            <element signature="e#8890#8891#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot_oauth2/oauth_common/src/main/java/domain/SysUser.java" />
+    <entry file="file://$PROJECT_DIR$/boot_oauth2/oauth_common/src/main/java/domain/SysRole.java" />
+    <entry file="file://$PROJECT_DIR$/boot_oauth2/oauth_source/src/main/java/com/henu/oauth_source/domain/SysRole.java" />
+    <entry file="file://$PROJECT_DIR$/boot_oauth2/oauth_server/src/main/java/com/henu/oauth/config/Oauth2ServerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="832">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2140#2141#0" expanded="true" />
+            <element signature="e#2193#2194#0" expanded="true" />
+            <element signature="e#2262#2263#0" expanded="true" />
+            <element signature="e#2318#2319#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot_oauth2/oauth_common/src/main/java/com/henu/oauth/common/domain/SysUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="8" selection-start-column="8" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot_security_distribute/boot_auth_server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="774">
+          <caret line="35" column="27" selection-start-line="35" selection-start-column="27" selection-end-line="35" selection-end-column="27" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot_oauth2/oauth_common/src/main/java/com/henu/oauth/common/domain/SysRole.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot_security_distribute/boot_auth_server/src/main/java/com/henu/auth/mapper/RoleMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" column="44" lean-forward="true" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot_security_distribute/boot_source/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="558">
+          <caret line="36" column="26" selection-start-line="36" selection-start-column="26" selection-end-line="36" selection-end-column="26" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot_oauth2/oauth_source/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot_oauth2/oauth_common/src/main/java/com/henu/common/domain/SysRole.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="35" column="12" selection-start-line="35" selection-start-column="12" selection-end-line="35" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot_oauth2/oauth_common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot_oauth2/oauth_server/src/main/java/com/henu/oauth/mapper/RoleMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot_oauth2/oauth_common/src/main/java/com/henu/common/domain/SysUser.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot_oauth2/oauth_server/src/main/java/com/henu/oauth/mapper/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="19" column="14" lean-forward="true" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot_oauth2/oauth_server/src/main/java/com/henu/oauth/domain/SysRole.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot_oauth2/oauth_server/src/main/java/com/henu/oauth/domain/SysUser.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot_oauth2/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="17" column="37" selection-start-line="17" selection-start-column="37" selection-end-line="17" selection-end-column="37" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot_oauth2/oauth_server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="21" column="25" lean-forward="true" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot_oauth2/oauth_server/src/main/java/com/henu/oauth/OauthServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot_oauth2/oauth_source/src/main/java/com/henu/oauth/domain/SysUser.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot_oauth2/oauth_source/src/main/java/com/henu/oauth/domain/SysRole.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot_oauth2/oauth_source/src/main/java/com/henu/oauth/OauthSourceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot_oauth2/oauth_source/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mongo/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot_oauth2/oauth_server/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="39" column="3" selection-start-line="39" selection-start-column="3" selection-end-line="39" selection-end-column="3" />
+        </state>
+      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mongo/src/main/java/com/henu/mongo/BootMongoApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>

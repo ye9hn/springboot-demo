@@ -3,12 +3,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <modules>
-        <module>boot-mongo</module>
-        <module>boot-mybatis</module>
-        <module>boot-kafka</module>
-        <module>boot-common</module>
-        <module>boot_auth_server</module>
-        <module>boot_source</module>
+        <module>boot_oauth2</module>
+        <module>boot_kafka_mongo_mybatis</module>
+        <module>boot_security_distribute</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

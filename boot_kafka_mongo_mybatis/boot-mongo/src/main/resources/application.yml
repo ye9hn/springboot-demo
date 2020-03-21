@@ -9,6 +9,6 @@ spring:
             location: classpath:banner.txt
       data:
             mongodb:
-                  uri: mongodb://192.168.0.105:27017/mytest
+                  uri: mongodb://192.168.0.107:27017/mytest
 
 
