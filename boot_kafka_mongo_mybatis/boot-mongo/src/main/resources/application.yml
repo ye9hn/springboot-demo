@@ -10,5 +10,7 @@ spring:
       data:
             mongodb:
                   uri: mongodb://192.168.0.107:27017/mytest
+  #                mongodb://192.168.0.107:27017,192.168.0.107:27018,192.168.0.107:27019/mytest?connect=replicaSet&slaveOk=true&replicaSet=myrs
+#                  mongodb://192.168.0.107:27017/mytest
 
 

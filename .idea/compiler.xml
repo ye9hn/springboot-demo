@@ -7,8 +7,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="boot-kafka" />
-        <module name="boot-mongo" />
+        <module name="boot_netty" />
         <module name="boot-mybatis" />
+        <module name="boot-mongo" />
         <module name="boot_auth_server" />
         <module name="oauth_source" />
         <module name="boot-common" />
@@ -24,6 +25,7 @@
       <module name="boot-mybatis" target="1.8" />
       <module name="boot_auth_server" target="1.8" />
       <module name="boot_kafka_mongo_mybatis" target="1.8" />
+      <module name="boot_netty" target="1.8" />
       <module name="boot_oauth2" target="1.8" />
       <module name="boot_security_distribute" target="1.8" />
       <module name="boot_source" target="1.8" />
@@ -42,6 +44,7 @@
       <module name="boot-mybatis" options="-parameters" />
       <module name="boot_auth_server" options="-parameters" />
       <module name="boot_kafka_mongo_mybatis" options="-parameters" />
+      <module name="boot_netty" options="-parameters" />
       <module name="boot_oauth2" options="-parameters" />
       <module name="boot_security_distribute" options="-parameters" />
       <module name="boot_source" options="-parameters" />

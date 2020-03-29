@@ -1,3 +1,5 @@
+package com.henu.mongo;
+
 import com.henu.mongo.entity.Area;
 import com.henu.mongo.entity.Message;
 import org.junit.Test;
@@ -22,8 +24,7 @@ public class BootMongoApplicationTest {
 
     @Test
     public void testMongoDB() {
-        System.out.println(mongoTemplate.toString());
-        for (int i = 0; i < 1000; i++) {
+        for (int i = 0; i < 10; i++) {
             Area area = new Area();
             area.setAreaId(i);
             area.setAreaName("hello" + i);

@@ -6,6 +6,7 @@
         <module>boot_oauth2</module>
         <module>boot_kafka_mongo_mybatis</module>
         <module>boot_security_distribute</module>
+        <module>boot_netty</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

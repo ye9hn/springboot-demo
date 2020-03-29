@@ -22,12 +22,12 @@ spring:
     max-open-prepared-statements: 50
     max-pool-prepared-statement-per-connection-size: 20
 mybatis:
-    mapper-locations: classpath:mapper/*.xml
-    type-aliases-package: com.henu.mybat.dao
-    configuration:
-      map-underscore-to-camel-case: true
-      log-impl: org.apache.ibatis.logging.slf4j.Slf4jImpl
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.henu.mybat.dao
+  configuration:
+    map-underscore-to-camel-case: true
+    log-impl: org.apache.ibatis.logging.slf4j.Slf4jImpl
 logging:
   level:
-    com.henu.demo.dao:
+    com.henu.mybat:
       info
