@@ -3,19 +3,15 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>springboot-demo</artifactId>
+        <artifactId>boot_netty</artifactId>
         <groupId>com.henu</groupId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.henu</groupId>
-    <artifactId>boot_netty</artifactId>
-    <packaging>pom</packaging>
+    <artifactId>BIO</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <modules>
-        <module>BIO</module>
-    </modules>
 
 
 </project>

@@ -7,6 +7,7 @@
     <file url="file://$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mongo" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mybatis" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/boot_netty" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/boot_netty/BIO" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/boot_oauth2" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/boot_oauth2/oauth_server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/boot_oauth2/oauth_source" charset="UTF-8" />

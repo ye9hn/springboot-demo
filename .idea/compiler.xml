@@ -7,17 +7,18 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="boot-kafka" />
-        <module name="boot_netty" />
         <module name="boot-mybatis" />
+        <module name="boot_source" />
         <module name="boot-mongo" />
         <module name="boot_auth_server" />
         <module name="oauth_source" />
         <module name="boot-common" />
+        <module name="BIO" />
         <module name="oauth_server" />
-        <module name="boot_source" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="BIO" target="1.8" />
       <module name="boot-common" target="1.8" />
       <module name="boot-kafka" target="1.8" />
       <module name="boot-mongo" target="1.8" />
@@ -37,6 +38,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="BIO" options="-parameters" />
       <module name="boot-common" options="-parameters" />
       <module name="boot-kafka" options="-parameters" />
       <module name="boot-mongo" options="-parameters" />

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/boot_netty/BIO/BIO.iml" filepath="$PROJECT_DIR$/boot_netty/BIO/BIO.iml" />
       <module fileurl="file://$PROJECT_DIR$/boot_security_distribute/boot-common/boot-common.iml" filepath="$PROJECT_DIR$/boot_security_distribute/boot-common/boot-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-kafka/boot-kafka.iml" filepath="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-kafka/boot-kafka.iml" />
       <module fileurl="file://$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mongo/boot-mongo.iml" filepath="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mongo/boot-mongo.iml" />
