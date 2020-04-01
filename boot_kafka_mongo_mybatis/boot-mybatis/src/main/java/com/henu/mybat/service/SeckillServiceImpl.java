@@ -4,6 +4,8 @@ import com.henu.mybat.current.MyLock;
 import com.henu.mybat.dao.PhoneMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
 import java.util.concurrent.locks.ReentrantLock;
 
 @Service
@@ -13,6 +15,7 @@ public class SeckillServiceImpl implements SeckillService{
 
     MyLock lock=new MyLock();
     private volatile Integer  stock=0;
+    @Transactional
     @Override
     public void phoneSeckill(String pId) {
         stock=phoneMapper.selectPhoneStock(pId);

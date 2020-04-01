@@ -11,7 +11,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mybatis/src/main/java/com/henu/mybat/current/MyLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mybatis/src/main/java/com/henu/mybat/current/MyLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mybatis/src/main/java/com/henu/mybat/service/SeckillServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mybatis/src/main/java/com/henu/mybat/service/SeckillServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot_netty/BIO/src/main/java/co/henu/boot_bio/BIOClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot_netty/BIO/src/main/java/co/henu/boot_bio/BIOClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/boot_netty/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/boot_netty/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -39,6 +40,7 @@
     <ignored path="$PROJECT_DIR$/boot_oauth2/boot_common/target/" />
     <ignored path="$PROJECT_DIR$/boot_netty/target/" />
     <ignored path="$PROJECT_DIR$/boot_netty/BIO/target/" />
+    <ignored path="$PROJECT_DIR$/boot_netty/NIO/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,55 +68,7 @@
     <favorites_list name="springboot-mybatis" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mybatis/src/main/java/com/henu/mybat/service/SeckillServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="17" column="48" lean-forward="true" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mybatis/src/main/java/com/henu/mybat/BootMybatisApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-              <folding>
-                <element signature="e#619#620#0" expanded="true" />
-                <element signature="e#692#693#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mybatis/src/main/java/com/henu/mybat/current/MyLock.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="72" column="23" lean-forward="true" selection-start-line="72" selection-start-column="12" selection-end-line="72" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="docComment;field#lockHolder#0;class#MyLock#0" />
-                <element signature="e#326#327#0" expanded="true" />
-                <element signature="e#354#355#0" expanded="true" />
-                <element signature="e#393#394#0" expanded="true" />
-                <element signature="e#427#428#0" expanded="true" />
-                <element signature="e#464#465#0" expanded="true" />
-                <element signature="e#497#498#0" expanded="true" />
-                <element signature="e#549#550#0" expanded="true" />
-                <element signature="e#593#594#0" expanded="true" />
-                <element signature="docComment;method#lock#0;class#MyLock#0" />
-                <element signature="docComment;method#unlock#0;class#MyLock#0" />
-                <element signature="method#compareAndSwapState#0;class#MyLock#0" />
-                <element signature="class#UnsafeInstance#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -149,6 +103,7 @@
       <find>/</find>
       <find>当前商品</find>
       <find>当前商品库存为</find>
+      <find>acquire(</find>
     </findStrings>
     <dirStrings>
       <dir>D:\DataSpace\IdeaSpace\springboot-mybatis\src\main\java\com\henu\demo\dao</dir>
@@ -157,15 +112,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HierarchyBrowserManager">
+    <option name="SCOPE" value="All" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/boot_source/pom.xml" />
-        <option value="$PROJECT_DIR$/boot_oauth2/oauth_source/src/main/java/com/henu/oauth_source/OauthSourceApplication.java" />
-        <option value="$PROJECT_DIR$/boot_oauth2/oauth_source/src/main/java/com/henu/oauth_source/controller/ProductController.java" />
-        <option value="$PROJECT_DIR$/boot_oauth2/oauth_source/src/main/java/com/henu/oauth_source/config/OauthSourceConfig.java" />
-        <option value="$PROJECT_DIR$/boot_oauth2/oauth_source/src/main/java/com/henu/oauth_source/domain/SysRole.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/boot_security_distribute/pom.xml" />
         <option value="$PROJECT_DIR$/boot_oauth2/oauth_server/src/main/java/com/henu/oauth_server/OauthServerApplication.java" />
         <option value="$PROJECT_DIR$/boot_oauth2/oauth_server/src/main/java/com/henu/oauth_server/domain/SysUser.java" />
@@ -199,7 +151,6 @@
         <option value="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mybatis/src/main/java/com/henu/mybat/entity/Phone.java" />
         <option value="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mongo/src/test/java/com/henu/mongo/BootMongoApplicationTest.java" />
         <option value="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mybatis/src/test/java/com/henu/mybat/TestApplication.java" />
-        <option value="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mybatis/src/main/java/com/henu/mybat/controller/UserController.java" />
         <option value="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mybatis/src/main/java/com/henu/mybat/controller/SeckillController.java" />
         <option value="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mybatis/src/main/java/com/henu/mybat/service/SeckillService.java" />
         <option value="$PROJECT_DIR$/boot_kafka_mongo_mybatis/pom.xml" />
@@ -208,9 +159,16 @@
         <option value="$PROJECT_DIR$/boot_netty/src/main/java/com/henu/boot_netty/BIOServer.java" />
         <option value="$PROJECT_DIR$/boot_netty/src/main/java/com/henu/boot_netty/BIOClient.java" />
         <option value="$PROJECT_DIR$/boot_netty/BIO/src/main/java/boot_netty/BIOClient.java" />
-        <option value="$PROJECT_DIR$/boot_netty/BIO/src/main/java/co/henu/boot_bio/BIOClient.java" />
+        <option value="$PROJECT_DIR$/boot_netty/NIO/src/main/java/com/henu/nio/MyBuffer.java" />
+        <option value="$PROJECT_DIR$/boot_netty/NIO/src/main/java/com/henu/nio/MyFileChannel.java" />
+        <option value="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mybatis/src/main/java/com/henu/mybat/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/boot_netty/NIO/src/main/java/com/henu/nio/MyFileChannel02.java" />
+        <option value="$PROJECT_DIR$/boot_netty/NIO/src/main/java/com/henu/nio/MyFileChannel03.java" />
         <option value="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mybatis/src/main/java/com/henu/mybat/service/SeckillServiceImpl.java" />
         <option value="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mybatis/src/main/java/com/henu/mybat/current/MyLock.java" />
+        <option value="$PROJECT_DIR$/boot_netty/NIO/src/main/java/com/henu/nio/MyFileChannel04.java" />
+        <option value="$PROJECT_DIR$/boot_netty/NIO/src/main/java/com/henu/nio/MyFileChannel05.java" />
+        <option value="$PROJECT_DIR$/boot_netty/BIO/src/main/java/co/henu/boot_bio/BIOClient.java" />
       </list>
     </option>
   </component>
@@ -250,17 +208,18 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="562" />
-    <option name="height" value="754" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-18" />
+    <option name="y" value="27" />
+    <option name="width" value="466" />
+    <option name="height" value="688" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -313,34 +272,11 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="mybat" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="springboot-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="boot_kafka_mongo_mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="boot-mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mybat" type="462c0819:PsiDirectoryNode" />
-              <item name="current" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springboot-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="boot_kafka_mongo_mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="boot-mybatis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="mybat" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -354,7 +290,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../dubbo-boot" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../concurrency" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
@@ -371,11 +307,11 @@
       <recent name="D:\DataSpace\IdeaSpace\springboot-demo\boot_oauth2\oauth_common\src\main\java\com\henu\common" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.henu.nio" />
       <recent name="com.henu.source.controller" />
       <recent name="com.henu.source.config" />
       <recent name="com.henu.demo.config" />
       <recent name="com.henu.demo.handler" />
-      <recent name="com.henu.demo.config.service" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\DataSpace\IdeaSpace\springboot-demo\boot_security_distribute" />
@@ -397,13 +333,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.BootMybatisApplication">
+  <component name="RunManager" selected="Application.BIOClient">
     <configuration name="BIOClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.henu.boot_netty.BIOClient" />
-      <module name="boot_netty" />
+      <option name="MAIN_CLASS_NAME" value="co.henu.boot_bio.BIOClient" />
+      <module name="BIO" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.henu.boot_netty.*" />
+          <option name="PATTERN" value="co.henu.boot_bio.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -411,12 +347,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BIOServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.henu.boot_netty.BIOServer" />
-      <module name="boot_netty" />
+    <configuration name="MyFileChannel02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.henu.nio.MyFileChannel02" />
+      <module name="NIO" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.henu.boot_netty.*" />
+          <option name="PATTERN" value="com.henu.nio.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -424,38 +360,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BootMongoApplicationTest.testMongoDB" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="boot-mongo" />
-      <option name="PACKAGE_NAME" value="com.henu.mongo" />
-      <option name="MAIN_CLASS_NAME" value="com.henu.mongo.BootMongoApplicationTest" />
-      <option name="METHOD_NAME" value="testMongoDB" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BootMongoApplicationTest.testPage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="boot-mongo" />
-      <option name="PACKAGE_NAME" value="com.henu.mongo" />
-      <option name="MAIN_CLASS_NAME" value="com.henu.mongo.BootMongoApplicationTest" />
-      <option name="METHOD_NAME" value="testPage" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestApplication.seckill" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="boot-mybatis" />
+    <configuration name="MyFileChannel03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.henu.nio.MyFileChannel03" />
+      <module name="NIO" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.henu.mybat.*" />
+          <option name="PATTERN" value="com.henu.nio.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.henu.mybat" />
-      <option name="MAIN_CLASS_NAME" value="com.henu.mybat.TestApplication" />
-      <option name="METHOD_NAME" value="seckill" />
-      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyFileChannel04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.henu.nio.MyFileChannel04" />
+      <module name="NIO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.henu.nio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyFileChannel05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.henu.nio.MyFileChannel05" />
+      <module name="NIO" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.henu.nio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -558,11 +497,11 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.BIOServer" />
+      <item itemvalue="Application.MyFileChannel02" />
+      <item itemvalue="Application.MyFileChannel03" />
+      <item itemvalue="Application.MyFileChannel04" />
+      <item itemvalue="Application.MyFileChannel05" />
       <item itemvalue="Application.BIOClient" />
-      <item itemvalue="JUnit.BootMongoApplicationTest.testMongoDB" />
-      <item itemvalue="JUnit.BootMongoApplicationTest.testPage" />
-      <item itemvalue="JUnit.TestApplication.seckill" />
       <item itemvalue="Spring Boot.BootMongoApplication" />
       <item itemvalue="Spring Boot.BootKafkaApplication" />
       <item itemvalue="Spring Boot.BootMybatisApplication" />
@@ -571,10 +510,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.BIOClient" />
-        <item itemvalue="Application.BIOServer" />
-        <item itemvalue="JUnit.TestApplication.seckill" />
-        <item itemvalue="JUnit.BootMongoApplicationTest.testMongoDB" />
-        <item itemvalue="JUnit.BootMongoApplicationTest.testPage" />
+        <item itemvalue="Application.MyFileChannel05" />
+        <item itemvalue="Application.MyFileChannel04" />
+        <item itemvalue="Application.MyFileChannel03" />
+        <item itemvalue="Application.MyFileChannel02" />
       </list>
     </recent_temporary>
   </component>
@@ -637,6 +576,9 @@
       <workItem from="1585138799787" duration="106000" />
       <workItem from="1585395744642" duration="13356000" />
       <workItem from="1585473098515" duration="10635000" />
+      <workItem from="1585542996433" duration="10826000" />
+      <workItem from="1585655204621" duration="7580000" />
+      <workItem from="1585743761081" duration="1750000" />
     </task>
     <servers />
   </component>
@@ -673,13 +615,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="262151000" />
+    <option name="totallyTimeSpent" value="282307000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <layout>
       <window_info id="Web" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" weight="0.21104388" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.2624811" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -689,8 +631,8 @@
       <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="bottom" id="Find" order="3" weight="0.32786885" />
       <window_info anchor="bottom" id="Messages" order="4" weight="0.26557377" />
-      <window_info anchor="bottom" id="Run" order="5" weight="0.44590163" />
-      <window_info anchor="bottom" id="Debug" order="6" weight="0.4295082" />
+      <window_info active="true" anchor="bottom" id="Run" order="5" visible="true" weight="0.45901638" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.4852459" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="9" />
@@ -700,10 +642,10 @@
       <window_info anchor="bottom" id="Terminal" order="13" weight="0.32786885" />
       <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" weight="0.3295082" />
       <window_info anchor="bottom" id="Application Servers" order="15" weight="0.3295082" />
-      <window_info anchor="right" id="Bean Validation" order="0" />
+      <window_info anchor="right" id="Bean Validation" order="0" weight="0.32980332" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="2" weight="0.24962178" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.15733737" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Maven" order="5" weight="0.48108926" />
       <window_info anchor="right" id="Database" order="6" weight="0.32980332" />
@@ -778,6 +720,18 @@
           <properties />
           <option name="timeStamp" value="7" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/boot_netty/NIO/src/main/java/com/henu/nio/MyFileChannel.java</url>
+          <line>15</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/boot_netty/NIO/src/main/java/com/henu/nio/MyFileChannel05.java</url>
+          <line>36</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
           <url>jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.7.RELEASE/spring-boot-autoconfigure-2.1.7.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/mongo/MongoProperties.java</url>
           <line>51</line>
@@ -792,184 +746,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mongo/src/main/java/com/henu/mongo/service/MongoService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mongo/src/main/java/com/henu/mongo/service/impl/MongoServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mongo/src/main/java/com/henu/mongo/controller/MongoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="28" column="48" selection-start-line="28" selection-start-column="48" selection-end-line="28" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boot_oauth2/oauth_server/src/main/java/com/henu/oauth/config/Oauth2ServerConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-144">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/boot/spring-security-oauth2-autoconfigure/2.1.0.M4/spring-security-oauth2-autoconfigure-2.1.0.M4.jar!/org/springframework/boot/autoconfigure/security/oauth2/OAuth2ClientProperties.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-170">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/boot/spring-security-oauth2-autoconfigure/2.1.0.M4/spring-security-oauth2-autoconfigure-2.1.0.M4.jar!/org/springframework/boot/autoconfigure/security/oauth2/OAuth2AutoConfiguration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/boot/spring-security-oauth2-autoconfigure/2.1.0.M4/spring-security-oauth2-autoconfigure-2.1.0.M4.jar!/org/springframework/boot/autoconfigure/security/oauth2/method/OAuth2MethodSecurityConfiguration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-860">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/oauth/boot/spring-security-oauth2-autoconfigure/2.1.0.M4/spring-security-oauth2-autoconfigure-2.1.0.M4.jar!/org/springframework/boot/autoconfigure/security/oauth2/authserver/AuthorizationServerProperties.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-158">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-security/2.1.0.RELEASE/spring-cloud-security-2.1.0.RELEASE.jar!/org/springframework/cloud/security/oauth2/client/feign/OAuth2FeignRequestInterceptor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1796">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-security/2.1.0.RELEASE/spring-cloud-security-2.1.0.RELEASE.jar!/org/springframework/cloud/security/oauth2/client/ResourceServerTokenRelayAutoConfiguration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-security/2.1.0.RELEASE/spring-cloud-security-2.1.0.RELEASE.jar!/META-INF/spring.factories">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-context/2.1.0.RELEASE/spring-cloud-context-2.1.0.RELEASE.jar!/org/springframework/cloud/bootstrap/encrypt/RsaProperties.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-236">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-context/2.1.0.RELEASE/spring-cloud-context-2.1.0.RELEASE.jar!/org/springframework/cloud/endpoint/RefreshEndpoint.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/2.1.0.RELEASE/spring-cloud-commons-2.1.0.RELEASE.jar!/org/springframework/cloud/commons/httpclient/HttpClientConfiguration.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/2.1.0.RELEASE/spring-cloud-commons-2.1.0.RELEASE.jar!/org/springframework/cloud/client/SpringCloudApplication.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.1.6.RELEASE/spring-security-web-5.1.6.RELEASE-sources.jar!/org/springframework/security/web/http/SecurityHeaders.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boot_oauth2/oauth_source/src/main/java/com/henu/oauth/config/Oauth2SourceConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="52" column="2" lean-forward="true" selection-start-line="52" selection-start-column="2" selection-end-line="52" selection-end-column="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.1.6.RELEASE/spring-security-web-5.1.6.RELEASE-sources.jar!/org/springframework/security/web/authentication/AbstractAuthenticationProcessingFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1794">
-          <caret line="110" column="22" selection-start-line="110" selection-start-column="22" selection-end-line="110" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boot_security_distribute/boot_source/src/main/java/com/henu/source/config/WebSecurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-260">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/5.1.6.RELEASE/spring-security-config-5.1.6.RELEASE-sources.jar!/org/springframework/security/config/annotation/web/configurers/AbstractAuthenticationFilterConfigurer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="61" column="180" selection-start-line="61" selection-start-column="180" selection-end-line="61" selection-end-column="180" />
-          <folding>
-            <element signature="e#4142#4143#0" expanded="true" />
-            <element signature="e#4171#4172#0" expanded="true" />
-            <element signature="e#15610#15611#0" expanded="true" />
-            <element signature="e#15632#15633#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.1.6.RELEASE/spring-security-web-5.1.6.RELEASE-sources.jar!/org/springframework/security/web/authentication/LoginUrlAuthenticationEntryPoint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="728">
-          <caret line="64" column="13" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/5.1.6.RELEASE/spring-security-config-5.1.6.RELEASE-sources.jar!/org/springframework/security/config/annotation/web/configuration/WebSecurityConfigurerAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="754">
-          <caret line="92" column="22" selection-start-line="92" selection-start-column="22" selection-end-line="92" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boot_oauth2/oauth_server/src/main/java/com/henu/oauth/config/WebSecurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="508">
-          <caret line="35" column="29" selection-start-line="35" selection-start-column="29" selection-end-line="35" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/boot_security_distribute/boot_auth_server/src/main/java/com/henu/auth/config/WebSecurityConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
@@ -1052,19 +828,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/boot_kafka_mongo_mybatis/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
           <caret line="14" column="38" lean-forward="true" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mybatis/src/main/java/com/henu/mybat/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="820">
-          <caret line="55" column="53" lean-forward="true" selection-start-line="55" selection-start-column="53" selection-end-line="55" selection-end-column="53" />
-        </state>
-      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mybatis/src/main/resources/application-druid.yml">
       <provider selected="true" editor-type-id="text-editor">
@@ -1087,75 +856,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mybatis/src/main/java/com/henu/mybat/controller/SeckillController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="11" column="30" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boot_netty/src/main/java/com/henu/boot_netty/BIOClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-123">
-          <caret line="14" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="39" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boot_netty/src/main/java/com/henu/boot_netty/BIOServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="48" column="13" selection-start-line="48" selection-start-column="13" selection-end-line="48" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/boot_netty/src/main/java/com/henu/boot_netty/BIOClient.java" />
+    <entry file="file://$PROJECT_DIR$/boot_netty/src/main/java/com/henu/boot_netty/BIOServer.java" />
     <entry file="file://$PROJECT_DIR$/boot_netty/BIO/src/main/java/co/henu/boot_bio/BIOServer.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/boot_netty/BIO/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/boot_netty/pom.xml">
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="222">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boot_netty/BIO/src/main/java/co/henu/boot_bio/BIOClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="8" column="39" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mybatis/src/main/java/com/henu/mybat/BootMybatisApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
-          <folding>
-            <element signature="e#619#620#0" expanded="true" />
-            <element signature="e#692#693#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mybatis/src/main/java/com/henu/mybat/service/SeckillServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="17" column="48" lean-forward="true" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
-        </state>
-      </provider>
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="jar://D:/DevTools/java/jdk1.8.0_191/src.zip!/java/util/AbstractCollection.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1178,21 +894,198 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mybatis/src/main/java/com/henu/mybat/BootMybatisApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+          <folding>
+            <element signature="e#619#620#0" expanded="true" />
+            <element signature="e#692#693#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot_netty/NIO/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://D:/DevTools/java/jdk1.8.0_191/src.zip!/java/nio/IntBuffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-11506">
+          <caret line="261" column="22" selection-start-line="261" selection-start-column="22" selection-end-line="261" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/DevTools/java/jdk1.8.0_191/src.zip!/java/nio/Buffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="187" column="25" lean-forward="true" selection-start-line="187" selection-start-column="25" selection-end-line="187" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/DevTools/java/jdk1.8.0_191/jre/lib/deploy.jar!/com/sun/deploy/cache/DeployFileOutputStream.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/DevTools/java/jdk1.8.0_191/jre/lib/rt.jar!/sun/nio/ch/FileChannelImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3302">
+          <caret line="55" column="12" selection-start-line="55" selection-start-column="12" selection-end-line="55" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot_netty/NIO/src/main/java/com/henu/nio/MyFileChannel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot_netty/NIO/src/main/java/com/henu/nio/MyFileChannel02.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="32" lean-forward="true" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot_netty/NIO/src/main/java/com/henu/nio/MyBuffer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/DevTools/java/jdk1.8.0_191/src.zip!/java/util/Properties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1002">
+          <caret line="121" column="6" selection-start-line="121" selection-start-column="6" selection-end-line="121" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mybatis/src/main/java/com/henu/mybat/util/PropertiesUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/java.util.concurrent.locks.AbstractQueuedSynchronizer">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>java.util.concurrent.locks.AbstractQueuedSynchronizer</OriginalElement>
+          <nodes>
+            <node x="" y="">java.util.concurrent.locks.AbstractQueuedSynchronizer</node>
+            <node x="" y="">java.util.concurrent.locks.AbstractOwnableSynchronizer</node>
+            <node x="" y="">java.io.Serializable</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="181.0" y="104.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/DevTools/java/jdk1.8.0_191/src.zip!/java/util/concurrent/Semaphore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="310" column="24" selection-start-line="310" selection-start-column="16" selection-end-line="310" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/DevTools/java/jdk1.8.0_191/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1130">
+          <caret line="594" column="24" selection-start-line="594" selection-start-column="24" selection-end-line="594" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/DevTools/java/jdk1.8.0_191/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-188">
+          <caret line="223" column="20" selection-start-line="223" selection-start-column="12" selection-end-line="223" selection-end-column="20" />
+          <folding>
+            <element signature="e#7116#7117#0" expanded="true" />
+            <element signature="e#7150#7151#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/java.util.concurrent.CountDownLatch">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>java.util.concurrent.CountDownLatch</OriginalElement>
+          <nodes>
+            <node x="" y="">java.util.concurrent.CountDownLatch</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="-32.0" y="-21.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/java.util.concurrent.CountDownLatch.Sync">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>java.util.concurrent.CountDownLatch.Sync</OriginalElement>
+          <nodes>
+            <node x="" y="">java.util.concurrent.locks.AbstractQueuedSynchronizer</node>
+            <node x="" y="">java.util.concurrent.CountDownLatch.Sync</node>
+            <node x="" y="">java.util.concurrent.locks.AbstractOwnableSynchronizer</node>
+            <node x="" y="">java.io.Serializable</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="63.0" y="108.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/DevTools/java/jdk1.8.0_191/src.zip!/java/util/concurrent/CountDownLatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3166">
+          <caret line="176" column="43" selection-start-line="176" selection-start-column="43" selection-end-line="176" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/DevTools/java/jdk1.8.0_191/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="288" column="44" lean-forward="true" selection-start-line="288" selection-start-column="22" selection-end-line="288" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mybatis/src/main/java/com/henu/mybat/service/SeckillServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mybatis/src/main/java/com/henu/mybat/current/MyLock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="72" column="23" lean-forward="true" selection-start-line="72" selection-start-column="12" selection-end-line="72" selection-end-column="23" />
+        <state relative-caret-position="208">
+          <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="docComment;field#lockHolder#0;class#MyLock#0" />
-            <element signature="e#326#327#0" expanded="true" />
-            <element signature="e#354#355#0" expanded="true" />
-            <element signature="e#393#394#0" expanded="true" />
-            <element signature="e#427#428#0" expanded="true" />
-            <element signature="e#464#465#0" expanded="true" />
-            <element signature="e#497#498#0" expanded="true" />
-            <element signature="e#549#550#0" expanded="true" />
-            <element signature="e#593#594#0" expanded="true" />
             <element signature="docComment;method#lock#0;class#MyLock#0" />
             <element signature="docComment;method#unlock#0;class#MyLock#0" />
             <element signature="method#compareAndSwapState#0;class#MyLock#0" />
@@ -1200,6 +1093,70 @@
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot_netty/NIO/src/main/java/com/henu/nio/MyFileChannel05.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="37" column="50" lean-forward="true" selection-start-line="37" selection-start-column="50" selection-end-line="37" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot_netty/NIO/src/main/java/com/henu/nio/MyFileChannel04.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot_netty/NIO/src/main/java/com/henu/nio/MyFileChannel03.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot_netty/NIO/target/classes/com/henu/nio/MyBuffer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-378">
+          <folding>
+            <element signature="e#0#580#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mybatis/src/main/java/com/henu/mybat/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="870">
+          <caret line="48" column="25" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot_netty/BIO/src/main/java/co/henu/boot_bio/BIOClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mybatis/src/main/java/com/henu/mybat/controller/SeckillController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="10" column="34" lean-forward="true" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mybatis/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
   </component>
   <component name="masterDetails">

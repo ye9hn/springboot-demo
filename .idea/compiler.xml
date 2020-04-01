@@ -8,13 +8,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="boot-kafka" />
         <module name="boot-mybatis" />
-        <module name="boot_source" />
+        <module name="BIO" />
         <module name="boot-mongo" />
         <module name="boot_auth_server" />
         <module name="oauth_source" />
+        <module name="NIO" />
         <module name="boot-common" />
-        <module name="BIO" />
         <module name="oauth_server" />
+        <module name="boot_source" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -30,6 +31,7 @@
       <module name="boot_oauth2" target="1.8" />
       <module name="boot_security_distribute" target="1.8" />
       <module name="boot_source" target="1.8" />
+      <module name="NIO" target="1.8" />
       <module name="oauth_common" target="1.8" />
       <module name="oauth_server" target="1.8" />
       <module name="oauth_source" target="1.8" />
@@ -39,6 +41,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="BIO" options="-parameters" />
+      <module name="NIO" options="-parameters" />
       <module name="boot-common" options="-parameters" />
       <module name="boot-kafka" options="-parameters" />
       <module name="boot-mongo" options="-parameters" />
