@@ -19,6 +19,17 @@ public class Area implements Serializable {
 
     private  Date lastEditTime;
 
+    public Area() {
+    }
+
+    public Area(Integer areaId, String areaName, Integer priority, Date createTime, Date lastEditTime) {
+        this.areaId = areaId;
+        this.areaName = areaName;
+        this.priority = priority;
+        this.createTime = createTime;
+        this.lastEditTime = lastEditTime;
+    }
+
     public String getAreaName() {
         return areaName;
     }

@@ -11,7 +11,7 @@ import java.util.Arrays;
  * scattering:将数据写入到buffer时，可以采用buffer数组，分散依次写入
  * Gathering：从buffer读取数据，可以采用buffer数组依次读入数据
  */
-public class MyFileChannel05 {
+public class ScatteringAndGatheringTest {
     public static void main(String[] args) throws Exception {
 
 

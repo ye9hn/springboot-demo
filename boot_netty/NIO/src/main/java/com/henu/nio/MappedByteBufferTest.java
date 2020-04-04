@@ -11,7 +11,7 @@ import java.nio.channels.FileChannel;
 /**
  * 直接让文件在内存（堆外内存）中修改数据
  */
-public class MyFileChannel04 {
+public class MappedByteBufferTest {
     public static void main(String[] args) throws Exception {
         RandomAccessFile accessFile =
                 new RandomAccessFile("d:" + File.separator + "file01.txt", "rw");
