@@ -1,8 +1,11 @@
 package com.henu.mybat;
 
+import com.henu.mybat.service.SeckillService;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
+import org.springframework.context.ConfigurableApplicationContext;
+
 @SpringBootApplication
 public class BootMybatisApplication        // extends SpringBootServletInitializer
 {
@@ -13,6 +16,12 @@ public class BootMybatisApplication        // extends SpringBootServletInitializ
     }
 
     public static void main(String[] args) {
-        SpringApplication.run(BootMybatisApplication.class, args);
+       SpringApplicationBuilder builder=new SpringApplicationBuilder(BootMybatisApplication.class);
+        builder.run(args);
+        ConfigurableApplicationContext context= builder.context();
+        SeckillService seckillService = context.getBean(SeckillService.class);
+        System.out.println(seckillService);
+
+        //SpringApplication.run(BootMybatisApplication.class, args);
     }
 }
