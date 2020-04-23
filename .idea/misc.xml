@@ -15,6 +15,7 @@
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/boot-mongodb/pom.xml" />
+        <option value="$PROJECT_DIR$/boot_javase/pom.xml" />
         <option value="$PROJECT_DIR$/boot_oauth2/oauth_common/pom.xml" />
       </set>
     </option>
