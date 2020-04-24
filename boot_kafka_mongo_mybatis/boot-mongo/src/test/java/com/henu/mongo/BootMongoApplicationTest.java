@@ -92,7 +92,7 @@ public class BootMongoApplicationTest {
         message.setId(UUID.randomUUID().toString().replaceAll("-",""));
         message.setMsg(areaList);
         message.setSendTime(new Date());
-        mongoTemplate.insert(message);
+        System.out.println(mongoTemplate.insert(message));
     }
 
     @Test
@@ -106,5 +106,28 @@ public class BootMongoApplicationTest {
         message.setMsg(areaList);
         message.setSendTime(new Date());
         mongoTemplate.insert(message,"message");
+    }
+
+    @Test
+    public void test05() {
+        List<Area> areaList = new ArrayList<>();
+        Query query = new Query(Criteria.where("areaId").lt(2210).andOperator(Criteria.where("areaId").gt(2195)));
+        //这里使用fields实现查询某些字段
+        query.fields().include("areaId");
+        query.fields().include("areaName");
+        areaList = mongoTemplate.find(query, Area.class, "area");
+        for (Object area : areaList) {
+            System.out.println(area.toString());
+        }
+    }
+
+    @Test
+    public void test06() {
+        List<Area> areaList = new ArrayList<>();
+        //使用基础查询可以直接使用mongo的语句,实现test05中的功能，实现投影功能
+        //这个查询在区间为小于5和大于995的文档，如果出现java语句不能表述，可以使用基本查询
+        BasicQuery query = new BasicQuery("{$or:[{\"areaId\":{$lt:5}},{\"areaId\":{$gt:995}}]}","{_id:0,areaId:1,areaName:1}");
+        areaList = mongoTemplate.find(query,Area.class,"area");
+        System.out.println(areaList.toString());
     }
 }
