@@ -7,22 +7,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f15c308-8065-45a2-b182-f557d0f640f9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mongo/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mongo/target/classes/banner.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mongo/target/classes/com/henu/mongo/BootMongoApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mongo/target/classes/com/henu/mongo/config/MongoDBConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mongo/target/classes/com/henu/mongo/controller/MongoController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mongo/target/classes/com/henu/mongo/entity/Area.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mongo/target/classes/com/henu/mongo/entity/Message.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mongo/target/classes/com/henu/mongo/service/MongoService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mongo/target/classes/com/henu/mongo/service/impl/MongoServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mongo/target/test-classes/com/henu/mongo/BootMongoApplicationTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -459,8 +444,16 @@
       <workItem from="1589098831872" duration="30000" />
       <workItem from="1589121424825" duration="46000" />
       <workItem from="1589121512907" duration="31000" />
-      <workItem from="1589199579616" duration="10931000" />
+      <workItem from="1589199579616" duration="11330000" />
     </task>
+    <task id="LOCAL-00001" summary="add mybatis 二级缓存">
+      <created>1589210625451</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1589210625451</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -498,6 +491,10 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add mybatis 二级缓存" />
+    <option name="LAST_COMMIT_MESSAGE" value="add mybatis 二级缓存" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589202444512">
       <screen x="0" y="0" width="1366" height="728" />
@@ -507,46 +504,46 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1589207047732" />
-    <state x="147" y="0" key="CommitChangelistDialog2" timestamp="1589210504144">
+    <state x="147" y="0" key="CommitChangelistDialog2" timestamp="1589210623329">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="147" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1589210504144" />
+    <state x="147" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1589210623329" />
     <state x="484" y="118" key="FileChooserDialogImpl" timestamp="1589205781118">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="484" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1589205781118" />
-    <state width="1323" height="430" key="GridCell.Tab.0.bottom" timestamp="1589210428756">
+    <state width="1323" height="430" key="GridCell.Tab.0.bottom" timestamp="1589210959577">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="430" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1589210428756" />
-    <state width="1323" height="430" key="GridCell.Tab.0.center" timestamp="1589210428756">
+    <state width="1323" height="430" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1589210959577" />
+    <state width="1323" height="430" key="GridCell.Tab.0.center" timestamp="1589210959577">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="430" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1589210428756" />
-    <state width="1323" height="430" key="GridCell.Tab.0.left" timestamp="1589210428756">
+    <state width="1323" height="430" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1589210959577" />
+    <state width="1323" height="430" key="GridCell.Tab.0.left" timestamp="1589210959577">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="430" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1589210428756" />
-    <state width="1323" height="430" key="GridCell.Tab.0.right" timestamp="1589210428756">
+    <state width="1323" height="430" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1589210959577" />
+    <state width="1323" height="430" key="GridCell.Tab.0.right" timestamp="1589210959577">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="430" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1589210428756" />
-    <state width="1323" height="430" key="GridCell.Tab.1.bottom" timestamp="1589210428756">
+    <state width="1323" height="430" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1589210959577" />
+    <state width="1323" height="430" key="GridCell.Tab.1.bottom" timestamp="1589210959578">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="430" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1589210428756" />
-    <state width="1323" height="430" key="GridCell.Tab.1.center" timestamp="1589210428756">
+    <state width="1323" height="430" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1589210959578" />
+    <state width="1323" height="430" key="GridCell.Tab.1.center" timestamp="1589210959577">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="430" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1589210428756" />
-    <state width="1323" height="430" key="GridCell.Tab.1.left" timestamp="1589210428756">
+    <state width="1323" height="430" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1589210959577" />
+    <state width="1323" height="430" key="GridCell.Tab.1.left" timestamp="1589210959577">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="430" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1589210428756" />
-    <state width="1323" height="430" key="GridCell.Tab.1.right" timestamp="1589210428756">
+    <state width="1323" height="430" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1589210959577" />
+    <state width="1323" height="430" key="GridCell.Tab.1.right" timestamp="1589210959577">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="430" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1589210428756" />
+    <state width="1323" height="430" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1589210959577" />
     <state x="60" y="11" key="SettingsEditor" timestamp="1589034476949">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
