@@ -2,20 +2,32 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/boot_javase" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/boot_kafka_mongo_mybatis" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-kafka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-kafka/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mongo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mongo/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mybatis" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mybatis/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/boot_netty" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/boot_netty/BIO" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/boot_netty/BIO/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/boot_netty/NIO" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/boot_netty/NIO/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/boot_oauth2" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/boot_oauth2/oauth_server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/boot_oauth2/oauth_server/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/boot_oauth2/oauth_source" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/boot_oauth2/oauth_source/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/boot_rabbitmq" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/boot_rabbitmq/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/boot_redis/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/boot_security_distribute" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/boot_security_distribute/boot-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/boot_security_distribute/boot-common/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/boot_security_distribute/boot_auth_server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/boot_security_distribute/boot_auth_server/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/boot_security_distribute/boot_source" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/boot_security_distribute/boot_source/src/main/java" charset="UTF-8" />
   </component>
 </project>

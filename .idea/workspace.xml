@@ -7,38 +7,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f15c308-8065-45a2-b182-f557d0f640f9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mongo/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mongo/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mongo/src/test/java/com/henu/mongo/BootMongoApplicationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mongo/src/test/java/com/henu/mongo/BootMongoApplicationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mongo/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mongo/target/classes/banner.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mongo/target/classes/com/henu/mongo/BootMongoApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mongo/target/classes/com/henu/mongo/config/MongoDBConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mongo/target/classes/com/henu/mongo/controller/MongoController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mongo/target/classes/com/henu/mongo/entity/Area.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mongo/target/classes/com/henu/mongo/entity/Message.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mongo/target/classes/com/henu/mongo/service/MongoService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mongo/target/classes/com/henu/mongo/service/impl/MongoServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mongo/target/test-classes/com/henu/mongo/BootMongoApplicationTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <ignored path="$PROJECT_DIR$/boot-mongodb/target/" />
-    <ignored path="$PROJECT_DIR$/boot-mongo/target/" />
-    <ignored path="$PROJECT_DIR$/boot-mybatis/target/" />
-    <ignored path="$PROJECT_DIR$/boot-kafka/target/" />
-    <ignored path="$PROJECT_DIR$/boot-common/target/" />
-    <ignored path="$PROJECT_DIR$/auth_server/target/" />
-    <ignored path="$PROJECT_DIR$/boot_auth_server/target/" />
-    <ignored path="$PROJECT_DIR$/boot_source/target/" />
-    <ignored path="$PROJECT_DIR$/boot_oauth2/target/" />
-    <ignored path="$PROJECT_DIR$/boot_oauth2/oauth_source/target/" />
-    <ignored path="$PROJECT_DIR$/boot_kafka_mongo_mybatis/target/" />
-    <ignored path="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mybatis/target/" />
-    <ignored path="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mongo/target/" />
-    <ignored path="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-kafka/target/" />
-    <ignored path="$PROJECT_DIR$/boot_security_distribute/target/" />
-    <ignored path="$PROJECT_DIR$/boot_security_distribute/boot_source/target/" />
-    <ignored path="$PROJECT_DIR$/boot_security_distribute/boot-common/target/" />
-    <ignored path="$PROJECT_DIR$/boot_security_distribute/boot_auth_server/target/" />
-    <ignored path="$PROJECT_DIR$/boot_oauth2/oauth_server/target/" />
-    <ignored path="$PROJECT_DIR$/boot_oauth2/oauth_common/target/" />
-    <ignored path="$PROJECT_DIR$/boot_oauth2/boot_common/target/" />
-    <ignored path="$PROJECT_DIR$/boot_netty/target/" />
-    <ignored path="$PROJECT_DIR$/boot_netty/BIO/target/" />
-    <ignored path="$PROJECT_DIR$/boot_netty/NIO/target/" />
-    <ignored path="$PROJECT_DIR$/boot_javase/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,28 +52,6 @@
   <component name="FavoritesManager">
     <favorites_list name="springboot-mybatis" />
   </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mongo/src/test/java/com/henu/mongo/BootMongoApplicationTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="122" lean-forward="true" selection-start-line="122" selection-end-line="122" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mongo/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="12" column="55" selection-start-line="12" selection-start-column="55" selection-end-line="12" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -98,105 +61,12 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>pro</find>
-      <find>md5</find>
-      <find>是什么</find>
-      <find>selector</find>
-      <find>loadFa</find>
-      <find>selectIm</find>
-      <find>ka</find>
-      <find>Autoconfigure</find>
-      <find>spring</find>
-      <find>selectImports</find>
-      <find>isEnabled</find>
-      <find>In</find>
-      <find>DEFAULT_URI</find>
-      <find>find(</find>
-      <find>druid</find>
-      <find>application</find>
-      <find>boot-mo</find>
-      <find>demo</find>
-      <find>springboot-mybatis</find>
-      <find>/</find>
-      <find>当前商品</find>
-      <find>当前商品库存为</find>
-      <find>acquire(</find>
-      <find>registra</find>
-      <find>register</find>
-      <find>run</find>
-      <find>run(</find>
-      <find>f</find>
-      <find>fieldSpec</find>
-      <find>setAppl</find>
-    </findStrings>
-    <dirStrings>
-      <dir>D:\DataSpace\IdeaSpace\springboot-mybatis\src\main\java\com\henu\demo\dao</dir>
-    </dirStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="HierarchyBrowserManager">
     <option name="SCOPE" value="All" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/boot_oauth2/oauth_source/pom.xml" />
-        <option value="$PROJECT_DIR$/boot_oauth2/oauth_common/src/main/java/com/henu/common/domain/SysUser.java" />
-        <option value="$PROJECT_DIR$/boot_oauth2/oauth_common/pom.xml" />
-        <option value="$PROJECT_DIR$/boot_oauth2/oauth_server/src/main/java/com/henu/oauth/domain/SysRole.java" />
-        <option value="$PROJECT_DIR$/boot_oauth2/oauth_server/src/main/java/com/henu/oauth/mapper/RoleMapper.java" />
-        <option value="$PROJECT_DIR$/boot_oauth2/oauth_server/src/main/java/com/henu/oauth/mapper/UserMapper.java" />
-        <option value="$PROJECT_DIR$/boot_oauth2/pom.xml" />
-        <option value="$PROJECT_DIR$/boot_oauth2/oauth_server/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/boot_oauth2/oauth_source/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/boot_oauth2/oauth_server/pom.xml" />
-        <option value="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mongo/src/main/java/com/henu/mongo/service/impl/MongoService.java" />
-        <option value="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mongo/src/main/java/com/henu/mongo/service/MongoService.java" />
-        <option value="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mongo/src/main/java/com/henu/mongo/service/impl/MongoServiceImpl.java" />
-        <option value="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mongo/src/main/java/com/henu/mongo/controller/MongoController.java" />
-        <option value="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mybatis/src/main/java/com/henu/mybat/entity/Phone.java" />
-        <option value="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mybatis/src/main/java/com/henu/mybat/controller/SeckillController.java" />
-        <option value="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mybatis/src/main/java/com/henu/mybat/service/SeckillService.java" />
-        <option value="$PROJECT_DIR$/boot_kafka_mongo_mybatis/pom.xml" />
-        <option value="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mybatis/src/main/java/com/henu/mybat/dao/PhoneMapper.java" />
-        <option value="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mybatis/src/main/resources/application-druid.yml" />
-        <option value="$PROJECT_DIR$/boot_netty/src/main/java/com/henu/boot_netty/BIOServer.java" />
-        <option value="$PROJECT_DIR$/boot_netty/src/main/java/com/henu/boot_netty/BIOClient.java" />
-        <option value="$PROJECT_DIR$/boot_netty/BIO/src/main/java/boot_netty/BIOClient.java" />
-        <option value="$PROJECT_DIR$/boot_netty/NIO/src/main/java/com/henu/nio/MyBuffer.java" />
-        <option value="$PROJECT_DIR$/boot_netty/NIO/src/main/java/com/henu/nio/MyFileChannel.java" />
-        <option value="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mybatis/src/main/java/com/henu/mybat/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/boot_netty/NIO/src/main/java/com/henu/nio/MyFileChannel02.java" />
-        <option value="$PROJECT_DIR$/boot_netty/NIO/src/main/java/com/henu/nio/MyFileChannel03.java" />
-        <option value="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mybatis/src/main/java/com/henu/mybat/service/SeckillServiceImpl.java" />
-        <option value="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mybatis/src/main/java/com/henu/mybat/current/MyLock.java" />
-        <option value="$PROJECT_DIR$/boot_netty/NIO/src/main/java/com/henu/nio/MyFileChannel04.java" />
-        <option value="$PROJECT_DIR$/boot_netty/NIO/src/main/java/com/henu/nio/MyFileChannel05.java" />
-        <option value="$PROJECT_DIR$/boot_netty/BIO/src/main/java/co/henu/boot_bio/BIOClient.java" />
-        <option value="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mybatis/src/test/java/com/henu/mybat/TestApplication.java" />
-        <option value="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mybatis/pom.xml" />
-        <option value="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mybatis/src/main/java/com/henu/mybat/entity/Person.java" />
-        <option value="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mybatis/src/main/java/com/henu/mybat/entity/Area.java" />
-        <option value="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mybatis/src/test/java/com/henu/mybat/FastJsonTest.java" />
-        <option value="$PROJECT_DIR$/boot_netty/NIO/src/main/java/com/henu/nio/MyFileChannel07.java" />
-        <option value="$PROJECT_DIR$/boot_netty/NIO/src/main/java/com/henu/nio/MyFileChannel06.java" />
-        <option value="$PROJECT_DIR$/boot_netty/NIO/src/main/java/com/henu/nio/MappedByteBufferTest.java" />
-        <option value="$PROJECT_DIR$/boot_netty/NIO/src/main/java/com/henu/nio/ScatteringAndGatheringTest.java" />
-        <option value="$PROJECT_DIR$/boot_netty/NIO/src/main/java/com/henu/nio/NIOClient.java" />
-        <option value="$PROJECT_DIR$/boot_netty/NIO/src/main/java/com/henu/nio/NIOServer.java" />
-        <option value="$PROJECT_DIR$/boot_netty/NIO/src/main/java/com/henu/nio/GroupChatServer.java" />
-        <option value="$PROJECT_DIR$/boot_netty/NIO/src/main/java/com/henu/nio/GroupChatClient.java" />
-        <option value="$PROJECT_DIR$/boot_netty/NIO/src/main/java/com/henu/nio/groupchat/GroupChatServer.java" />
-        <option value="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mybatis/src/main/java/com/henu/mybat/BootMybatisApplication.java" />
-        <option value="$PROJECT_DIR$/boot_javase/pom.xml" />
-        <option value="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mongo/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mongo/src/test/java/com/henu/mongo/BootMongoApplicationTest.java" />
-      </list>
-    </option>
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -218,55 +88,11 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="boot-mybatis" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="boot-mybatis" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="oauth_server" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="oauth_server" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
-      </expand>
-      <select />
-    </treeState>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="670" />
-    <option name="width" value="715" />
-    <option name="height" value="735" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="springboot-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot-demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-    </panes>
+  <component name="ProjectId" id="1bd5HVJ7SVsMNv4RLBrE2LK5ydy" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
@@ -275,34 +101,27 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/boot_redis/src/main/resources" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="com.henu.mongo" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\DataSpace\IdeaSpace\springboot-demo\boot_netty\BIO\src\main\java" />
-      <recent name="D:\DataSpace\IdeaSpace\springboot-demo\boot_oauth2\oauth_source\src\main\java\com\henu\oauth" />
-      <recent name="D:\DataSpace\IdeaSpace\springboot-demo\boot_oauth2\oauth_server\src\main\java\com\henu\oauth\domain" />
-      <recent name="D:\DataSpace\IdeaSpace\springboot-demo\boot_oauth2\oauth_common\src\main\java\com\henu\common\domain" />
-      <recent name="D:\DataSpace\IdeaSpace\springboot-demo\boot_oauth2\oauth_common\src\main\java\com\henu\common" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.henu.nio" />
-      <recent name="com.henu.source.controller" />
-      <recent name="com.henu.source.config" />
-      <recent name="com.henu.demo.config" />
-      <recent name="com.henu.demo.handler" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\DataSpace\IdeaSpace\springboot-demo\boot_security_distribute" />
       <recent name="D:\DataSpace\IdeaSpace\springboot-demo\boot_kafka_mongo_mybatis" />
@@ -310,41 +129,35 @@
       <recent name="D:\DataSpace\IdeaSpace\springboot-demo" />
       <recent name="D:\DataSpace\IdeaSpace\springboot-mybatis\src\main\resources\mapper" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.henu.mongo" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.henuer.redis.entity" />
+      <recent name="cn.henuer.redis.dao" />
+      <recent name="cn.henuer.redis.config" />
+      <recent name="com.henu.nio" />
+      <recent name="com.henu.source.controller" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\DataSpace\IdeaSpace\springboot-demo\boot_redis\src\main\resources" />
+      <recent name="D:\DataSpace\IdeaSpace\springboot-demo\boot_netty\BIO\src\main\java" />
+      <recent name="D:\DataSpace\IdeaSpace\springboot-demo\boot_oauth2\oauth_source\src\main\java\com\henu\oauth" />
+      <recent name="D:\DataSpace\IdeaSpace\springboot-demo\boot_oauth2\oauth_server\src\main\java\com\henu\oauth\domain" />
+      <recent name="D:\DataSpace\IdeaSpace\springboot-demo\boot_oauth2\oauth_common\src\main\java\com\henu\common\domain" />
+    </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BootMongoApplicationTest.test06">
+  <component name="RunManager" selected="Spring Boot.RedisMain">
     <configuration name="GroupChatClient1" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="com.henu.nio.groupchat.GroupChatClient" />
       <module name="NIO" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BootMongoApplicationTest.test02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="boot-mongo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.henu.mongo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.henu.mongo" />
-      <option name="MAIN_CLASS_NAME" value="com.henu.mongo.BootMongoApplicationTest" />
-      <option name="METHOD_NAME" value="test02" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -360,22 +173,6 @@
       <option name="PACKAGE_NAME" value="com.henu.mongo" />
       <option name="MAIN_CLASS_NAME" value="com.henu.mongo.BootMongoApplicationTest" />
       <option name="METHOD_NAME" value="test03" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BootMongoApplicationTest.test04" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="boot-mongo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.henu.mongo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.henu.mongo" />
-      <option name="MAIN_CLASS_NAME" value="com.henu.mongo.BootMongoApplicationTest" />
-      <option name="METHOD_NAME" value="test04" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -439,6 +236,33 @@
     <configuration name="ConcurrencyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="boot_javase" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.henu.concurrency.ConcurrencyApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RabbitMQMain8021" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="boot_rabbitmq" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.henu.mq.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.henu.mq.RabbitMQMain8021" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RedisMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false" temporary="true" nameIsGenerated="true">
+      <module name="boot_redis" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.henuer.redis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="cn.henuer.redis.RedisMain" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -519,24 +343,24 @@
     </configuration>
     <list>
       <item itemvalue="Application.GroupChatClient1" />
+      <item itemvalue="JUnit.BootMongoApplicationTest.test05" />
+      <item itemvalue="JUnit.BootMongoApplicationTest.test03" />
+      <item itemvalue="JUnit.BootMongoApplicationTest.test06" />
       <item itemvalue="Spring Boot.BootMongoApplication" />
       <item itemvalue="Spring Boot.BootKafkaApplication" />
       <item itemvalue="Spring Boot.BootMybatisApplication" />
       <item itemvalue="Spring Boot.ConcurrencyApplication" />
+      <item itemvalue="Spring Boot.RabbitMQMain8021" />
+      <item itemvalue="Spring Boot.RedisMain" />
       <item itemvalue="Tomcat Server.Idea Tomcat 8.5.33" />
-      <item itemvalue="JUnit.BootMongoApplicationTest.test04" />
-      <item itemvalue="JUnit.BootMongoApplicationTest.test02" />
-      <item itemvalue="JUnit.BootMongoApplicationTest.test05" />
-      <item itemvalue="JUnit.BootMongoApplicationTest.test03" />
-      <item itemvalue="JUnit.BootMongoApplicationTest.test06" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.RedisMain" />
+        <item itemvalue="Spring Boot.RabbitMQMain8021" />
         <item itemvalue="JUnit.BootMongoApplicationTest.test06" />
         <item itemvalue="JUnit.BootMongoApplicationTest.test03" />
         <item itemvalue="JUnit.BootMongoApplicationTest.test05" />
-        <item itemvalue="JUnit.BootMongoApplicationTest.test02" />
-        <item itemvalue="JUnit.BootMongoApplicationTest.test04" />
       </list>
     </recent_temporary>
   </component>
@@ -613,7 +437,29 @@
       <workItem from="1586093457211" duration="218000" />
       <workItem from="1587641944977" duration="195000" />
       <workItem from="1587651287371" duration="2522000" />
-      <workItem from="1587728068227" duration="7511000" />
+      <workItem from="1587728068227" duration="7635000" />
+      <workItem from="1587808956100" duration="106000" />
+      <workItem from="1588073446603" duration="12326000" />
+      <workItem from="1588172485638" duration="4063000" />
+      <workItem from="1588689074471" duration="1687000" />
+      <workItem from="1588861969197" duration="3823000" />
+      <workItem from="1588939957359" duration="3440000" />
+      <workItem from="1588944284096" duration="97000" />
+      <workItem from="1588945289911" duration="1278000" />
+      <workItem from="1588946655479" duration="1000" />
+      <workItem from="1588949073440" duration="227000" />
+      <workItem from="1588949430164" duration="602000" />
+      <workItem from="1588950070037" duration="132000" />
+      <workItem from="1588950231296" duration="1556000" />
+      <workItem from="1589025909950" duration="476000" />
+      <workItem from="1589027042777" duration="3952000" />
+      <workItem from="1589031214691" duration="496000" />
+      <workItem from="1589032211104" duration="5394000" />
+      <workItem from="1589037764398" duration="143000" />
+      <workItem from="1589098831872" duration="30000" />
+      <workItem from="1589121424825" duration="46000" />
+      <workItem from="1589121512907" duration="31000" />
+      <workItem from="1589199579616" duration="10931000" />
     </task>
     <servers />
   </component>
@@ -649,81 +495,86 @@
       <configuration name="BootMongoApplicationTest.test06" configurationId="JUnit" />
     </history-entry>
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="343052000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="true" />
-    <layout>
-      <window_info id="Web" order="0" sideWeight="0.5032787" side_tool="true" weight="0.22239032" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49468085" visible="true" weight="0.2344932" />
-      <window_info id="Structure" order="2" sideWeight="0.5053192" side_tool="true" weight="0.15355521" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Favorites" order="5" sideWeight="0.5053192" side_tool="true" weight="0.15355521" />
-      <window_info anchor="bottom" id="Java Enterprise" order="0" />
-      <window_info anchor="bottom" id="Spring" order="1" weight="0.3295082" />
-      <window_info anchor="bottom" id="Message" order="2" />
-      <window_info anchor="bottom" id="Find" order="3" weight="0.32786885" />
-      <window_info anchor="bottom" id="Messages" order="4" weight="0.26455906" />
-      <window_info anchor="bottom" id="Run" order="5" weight="0.44590163" />
-      <window_info anchor="bottom" id="Debug" order="6" weight="0.57213116" />
-      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="9" />
-      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="11" weight="0.3295082" />
-      <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Terminal" order="13" weight="0.32786885" />
-      <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" weight="0.3295082" />
-      <window_info anchor="bottom" id="Application Servers" order="15" weight="0.3295082" />
-      <window_info anchor="right" id="Bean Validation" order="0" weight="0.32980332" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="2" weight="0.24962178" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.15733737" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Maven" order="5" weight="0.48108926" />
-      <window_info anchor="right" id="Database" order="6" weight="0.32980332" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.32980332" />
-    </layout>
-    <layout-to-restore>
-      <window_info id="Web" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49863762" visible="true" weight="0.08774584" />
-      <window_info id="Structure" order="2" sideWeight="0.5013624" side_tool="true" weight="0.290469" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Favorites" order="5" sideWeight="0.50163937" side_tool="true" weight="0.21558245" />
-      <window_info anchor="bottom" id="Java Enterprise" order="0" />
-      <window_info anchor="bottom" id="Spring" order="1" weight="0.3295082" />
-      <window_info anchor="bottom" id="Message" order="2" />
-      <window_info anchor="bottom" id="Find" order="3" weight="0.32786885" />
-      <window_info anchor="bottom" id="Messages" order="4" weight="0.26557377" />
-      <window_info active="true" anchor="bottom" id="Run" order="5" visible="true" weight="0.30819672" />
-      <window_info anchor="bottom" id="Debug" order="6" weight="0.5180328" />
-      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="9" />
-      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="11" weight="0.3295082" />
-      <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Terminal" order="13" weight="0.32786885" />
-      <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" weight="0.3295082" />
-      <window_info anchor="bottom" id="Application Servers" order="15" weight="0.3295082" />
-      <window_info anchor="right" id="Coverage" order="0" side_tool="true" weight="0.32980332" />
-      <window_info anchor="right" id="Bean Validation" order="1" weight="0.32980332" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="3" weight="0.24962178" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.15733737" />
-      <window_info anchor="right" id="Palette" order="5" />
-      <window_info anchor="right" id="Maven" order="6" weight="0.48108926" />
-      <window_info anchor="right" id="Database" order="7" weight="0.32980332" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-    </layout-to-restore>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589202444512">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1589202444512" />
+    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser" timestamp="1589207047732">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1589207047732" />
+    <state x="147" y="0" key="CommitChangelistDialog2" timestamp="1589210504144">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="147" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1589210504144" />
+    <state x="484" y="118" key="FileChooserDialogImpl" timestamp="1589205781118">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="484" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1589205781118" />
+    <state width="1323" height="430" key="GridCell.Tab.0.bottom" timestamp="1589210428756">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="430" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1589210428756" />
+    <state width="1323" height="430" key="GridCell.Tab.0.center" timestamp="1589210428756">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="430" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1589210428756" />
+    <state width="1323" height="430" key="GridCell.Tab.0.left" timestamp="1589210428756">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="430" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1589210428756" />
+    <state width="1323" height="430" key="GridCell.Tab.0.right" timestamp="1589210428756">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="430" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1589210428756" />
+    <state width="1323" height="430" key="GridCell.Tab.1.bottom" timestamp="1589210428756">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="430" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1589210428756" />
+    <state width="1323" height="430" key="GridCell.Tab.1.center" timestamp="1589210428756">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="430" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1589210428756" />
+    <state width="1323" height="430" key="GridCell.Tab.1.left" timestamp="1589210428756">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="430" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1589210428756" />
+    <state width="1323" height="430" key="GridCell.Tab.1.right" timestamp="1589210428756">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="430" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1589210428756" />
+    <state x="60" y="11" key="SettingsEditor" timestamp="1589034476949">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="60" y="11" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1589034476949" />
+    <state x="465" y="122" key="com.intellij.ide.util.TipDialog" timestamp="1589025923949">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="465" y="122" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1589025923949" />
+    <state x="475" y="280" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1589210512255">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="475" y="280" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1589210512255" />
+    <state x="57" y="0" key="new project wizard" timestamp="1589199631342">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="57" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1589199631342" />
+    <state x="376" y="75" width="716" height="653" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1589037896906">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="376" y="75" width="716" height="653" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1366.728@0.0.1366.728" timestamp="1589037896906" />
+    <state x="339" y="162" width="672" height="677" key="run.anything.popup" timestamp="1589201625879">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1589201625879" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1589037879470">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1589037879470" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -731,67 +582,56 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/henu/demo/entity/Area.java</url>
           <line>50</line>
-          <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/henu/demo/dao/AreaMapper.java</url>
           <line>2</line>
-          <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/henu/demo/SpringbootMybatisApplication.java</url>
           <line>18</line>
-          <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/boot_security_distribute/boot_auth_server/src/main/java/com/henu/auth/filter/JwtLoginFilter.java</url>
           <line>35</line>
-          <properties />
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/boot_security_distribute/boot_auth_server/src/main/java/com/henu/auth/service/impl/UserServiceImpl.java</url>
           <line>20</line>
-          <properties />
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/boot_netty/NIO/src/main/java/com/henu/nio/MyFileChannel.java</url>
           <line>15</line>
-          <properties />
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/boot_netty/NIO/src/main/java/com/henu/nio/ScatteringAndGatheringTest.java</url>
           <line>36</line>
-          <properties />
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/boot_netty/NIO/src/main/java/com/henu/nio/NIOServer.java</url>
           <line>63</line>
-          <properties />
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/boot_netty/NIO/src/main/java/com/henu/nio/NIOServer.java</url>
           <line>70</line>
-          <properties />
           <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mongo/src/test/java/com/henu/mongo/BootMongoApplicationTest.java</url>
           <line>117</line>
-          <properties />
           <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mongo/src/test/java/com/henu/mongo/BootMongoApplicationTest.java</url>
           <line>113</line>
-          <properties />
           <option name="timeStamp" value="25" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
@@ -811,432 +651,6 @@
     <SUITE FILE_PATH="coverage/springboot_demo$MyFileChannel07.ic" NAME="MyFileChannel07 Coverage Results" MODIFIED="1585918568147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.henu.nio.*</FILTER>
     </SUITE>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="uml://JAVA/java.util.concurrent.CountDownLatch">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>java.util.concurrent.CountDownLatch</OriginalElement>
-          <nodes>
-            <node x="" y="">java.util.concurrent.CountDownLatch</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="-32.0" y="-21.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/java.util.concurrent.CountDownLatch.Sync">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>java.util.concurrent.CountDownLatch.Sync</OriginalElement>
-          <nodes>
-            <node x="" y="">java.util.concurrent.locks.AbstractQueuedSynchronizer</node>
-            <node x="" y="">java.util.concurrent.CountDownLatch.Sync</node>
-            <node x="" y="">java.util.concurrent.locks.AbstractOwnableSynchronizer</node>
-            <node x="" y="">java.io.Serializable</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="63.0" y="108.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/DevTools/java/jdk1.8.0_191/src.zip!/java/util/concurrent/CountDownLatch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3166">
-          <caret line="176" column="43" selection-start-line="176" selection-start-column="43" selection-end-line="176" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/DevTools/java/jdk1.8.0_191/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="288" column="44" lean-forward="true" selection-start-line="288" selection-start-column="22" selection-end-line="288" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mybatis/src/main/java/com/henu/mybat/service/SeckillServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="702">
-          <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mybatis/src/main/java/com/henu/mybat/current/MyLock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="docComment;field#lockHolder#0;class#MyLock#0" />
-            <element signature="docComment;method#lock#0;class#MyLock#0" />
-            <element signature="docComment;method#unlock#0;class#MyLock#0" />
-            <element signature="method#compareAndSwapState#0;class#MyLock#0" />
-            <element signature="class#UnsafeInstance#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boot_netty/NIO/target/classes/com/henu/nio/MyBuffer.class" />
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar!/META-INF/maven/com.google.code.gson/gson/pom.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.6/gson-2.8.6-sources.jar!/com/google/gson/reflect/TypeToken.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-586">
-          <caret line="46" column="13" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mybatis/src/test/java/com/henu/mybat/TestApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="9" selection-start-line="9" selection-end-line="10" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mybatis/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
-          <caret line="59" column="21" selection-start-line="59" selection-start-column="21" selection-end-line="59" selection-end-column="21" />
-        </state>
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/fastjson/1.2.31/fastjson-1.2.31.jar!/com/alibaba/fastjson/JSON.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="304" column="24" selection-start-line="304" selection-start-column="24" selection-end-line="304" selection-end-column="24" />
-          <folding>
-            <element signature="e#12137#12138#0" expanded="true" />
-            <element signature="e#12184#12185#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mybatis/src/test/java/com/henu/mybat/FastJsonTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="27" column="39" lean-forward="true" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mybatis/src/main/java/com/henu/mybat/entity/Area.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="21" column="19" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mybatis/src/main/java/com/henu/mybat/entity/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="16" column="27" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/DevTools/java/jdk1.8.0_191/src.zip!/java/nio/channels/Selector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="274" column="38" selection-start-line="274" selection-start-column="38" selection-end-line="274" selection-end-column="38" />
-          <folding>
-            <element signature="docComment;method#open#0;class#Selector#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.7.RELEASE/spring-boot-autoconfigure-2.1.7.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/mongo/MongoProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="51" selection-start-line="51" selection-end-line="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boot_netty/BIO/src/main/java/co/henu/boot_bio/BIOServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/DevTools/java/jdk1.8.0_191/src.zip!/java/nio/ByteBuffer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="261" column="22" selection-start-line="261" selection-start-column="22" selection-end-line="261" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/DevTools/java/jdk1.8.0_191/src.zip!/java/nio/channels/spi/AbstractSelectableChannel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="190" column="38" selection-start-line="190" selection-start-column="30" selection-end-line="190" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boot_netty/NIO/src/main/java/com/henu/nio/MyFileChannel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="36" column="34" selection-start-line="36" selection-start-column="34" selection-end-line="36" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/DevTools/java/jdk1.8.0_191/src.zip!/java/nio/channels/SocketChannel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-40">
-          <caret line="466" column="24" selection-start-line="466" selection-start-column="24" selection-end-line="466" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boot_netty/NIO/src/main/java/com/henu/nio/MyFileChannel02.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-38">
-          <caret line="26" column="30" lean-forward="true" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boot_netty/BIO/src/main/java/co/henu/boot_bio/BIOClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boot_netty/NIO/src/main/java/com/henu/nio/MappedByteBufferTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="8" column="20" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boot_netty/NIO/src/main/java/com/henu/nio/MyFileChannel03.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boot_netty/NIO/src/main/java/com/henu/nio/MyBuffer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boot_netty/NIO/src/main/java/com/henu/nio/ScatteringAndGatheringTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="832">
-          <caret line="36" column="10" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boot_netty/NIO/src/main/java/com/henu/nio/NIOClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boot_netty/NIO/src/main/java/com/henu/nio/NIOServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="63" column="8" selection-start-line="69" selection-start-column="14" selection-end-line="69" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boot_netty/NIO/src/main/java/com/henu/nio/groupchat/GroupChatClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="63" column="14" lean-forward="true" selection-start-line="63" selection-start-column="14" selection-end-line="63" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boot_netty/NIO/src/main/java/com/henu/nio/groupchat/GroupChatServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3250">
-          <caret line="129" lean-forward="true" selection-start-line="129" selection-end-line="129" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mybatis/src/main/java/com/henu/mybat/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="846">
-          <caret line="48" column="25" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mybatis/src/main/java/com/henu/mybat/BootMybatisApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.1.7.RELEASE/spring-boot-2.1.7.RELEASE-sources.jar!/org/springframework/boot/SpringApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2106">
-          <caret line="159" column="13" selection-start-line="159" selection-start-column="13" selection-end-line="159" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.1.7.RELEASE/spring-boot-2.1.7.RELEASE-sources.jar!/org/springframework/boot/builder/SpringApplicationBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2210">
-          <caret line="130" column="46" selection-start-line="130" selection-start-column="42" selection-end-line="130" selection-end-column="46" />
-          <folding>
-            <element signature="e#3172#3173#0" expanded="true" />
-            <element signature="e#3230#3231#0" expanded="true" />
-            <element signature="e#4067#4068#0" expanded="true" />
-            <element signature="e#4097#4098#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mybatis/src/main/java/com/henu/mybat/controller/SeckillController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="11" column="30" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boot_javase/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/boot_javase/src/main/resources/application.properties" />
-    <entry file="file://$PROJECT_DIR$/boot_javase/src/main/java/com/henu/concurrency/example/aqs/FutureExample.java" />
-    <entry file="file://$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mongo/src/main/java/com/henu/mongo/service/impl/MongoServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mongo/src/main/java/com/henu/mongo/config/MongoDBConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-78">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-mongodb/2.1.10.RELEASE/spring-data-mongodb-2.1.10.RELEASE.jar!/org/springframework/data/mongodb/core/query/Field.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-208">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-mongodb/2.1.10.RELEASE/spring-data-mongodb-2.1.10.RELEASE.jar!/org/springframework/data/mongodb/core/query/Query.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="33" column="15" selection-start-line="33" selection-start-column="15" selection-end-line="33" selection-end-column="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.9.RELEASE/spring-context-5.1.9.RELEASE-sources.jar!/org/springframework/context/ApplicationContextAware.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="64" column="37" selection-start-line="64" selection-start-column="37" selection-end-line="64" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-mongodb/2.1.10.RELEASE/spring-data-mongodb-2.1.10.RELEASE.jar!/org/springframework/data/mongodb/core/MongoTemplate.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-49187">
-          <caret line="208" column="77" selection-start-line="208" selection-start-column="70" selection-end-line="208" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mongo/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="12" column="55" selection-start-line="12" selection-start-column="55" selection-end-line="12" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mongo/src/main/java/com/henu/mongo/entity/Message.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-350">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mongo/src/main/java/com/henu/mongo/entity/Area.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mongo/src/main/java/com/henu/mongo/controller/MongoController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-168">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mongo/src/test/java/com/henu/mongo/BootMongoApplicationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="122" lean-forward="true" selection-start-line="122" selection-end-line="122" />
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ProjectJDKs.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
   <component name="mavenExecuteGoalHistory">
     <option value="" />

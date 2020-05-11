@@ -6,34 +6,35 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="boot_redis" />
         <module name="boot-kafka" />
+        <module name="boot_rabbitmq" />
         <module name="boot-mybatis" />
-        <module name="BIO" />
         <module name="boot-mongo" />
         <module name="boot_auth_server" />
         <module name="oauth_source" />
-        <module name="NIO" />
-        <module name="boot-common" />
         <module name="oauth_server" />
+        <module name="boot-common" />
+        <module name="BIO" />
+        <module name="NIO" />
         <module name="boot_source" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
+    <bytecodeTargetLevel target="8">
       <module name="BIO" target="1.8" />
       <module name="boot-common" target="1.8" />
       <module name="boot-kafka" target="1.8" />
       <module name="boot-mongo" target="1.8" />
-      <module name="boot-mongodb" target="1.8" />
       <module name="boot-mybatis" target="1.8" />
       <module name="boot_auth_server" target="1.8" />
-      <module name="boot_javase" target="1.8" />
       <module name="boot_kafka_mongo_mybatis" target="1.8" />
       <module name="boot_netty" target="1.8" />
       <module name="boot_oauth2" target="1.8" />
+      <module name="boot_rabbitmq" target="1.8" />
+      <module name="boot_redis" target="1.8" />
       <module name="boot_security_distribute" target="1.8" />
       <module name="boot_source" target="1.8" />
       <module name="NIO" target="1.8" />
-      <module name="oauth_common" target="1.8" />
       <module name="oauth_server" target="1.8" />
       <module name="oauth_source" target="1.8" />
       <module name="springboot-demo" target="1.8" />
@@ -46,16 +47,15 @@
       <module name="boot-common" options="-parameters" />
       <module name="boot-kafka" options="-parameters" />
       <module name="boot-mongo" options="-parameters" />
-      <module name="boot-mongodb" options="-parameters" />
       <module name="boot-mybatis" options="-parameters" />
       <module name="boot_auth_server" options="-parameters" />
-      <module name="boot_javase" options="-parameters" />
       <module name="boot_kafka_mongo_mybatis" options="-parameters" />
       <module name="boot_netty" options="-parameters" />
       <module name="boot_oauth2" options="-parameters" />
+      <module name="boot_rabbitmq" options="-parameters" />
+      <module name="boot_redis" options="-parameters" />
       <module name="boot_security_distribute" options="-parameters" />
       <module name="boot_source" options="-parameters" />
-      <module name="oauth_common" options="-parameters" />
       <module name="oauth_server" options="-parameters" />
       <module name="oauth_source" options="-parameters" />
       <module name="springboot-demo" options="-parameters" />

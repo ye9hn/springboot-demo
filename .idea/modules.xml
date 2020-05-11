@@ -12,6 +12,8 @@
       <module fileurl="file://$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot_kafka_mongo_mybatis.iml" filepath="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot_kafka_mongo_mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/boot_netty/boot_netty.iml" filepath="$PROJECT_DIR$/boot_netty/boot_netty.iml" />
       <module fileurl="file://$PROJECT_DIR$/boot_oauth2/boot_oauth2.iml" filepath="$PROJECT_DIR$/boot_oauth2/boot_oauth2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boot_rabbitmq/boot_rabbitmq.iml" filepath="$PROJECT_DIR$/boot_rabbitmq/boot_rabbitmq.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boot_redis/boot_redis.iml" filepath="$PROJECT_DIR$/boot_redis/boot_redis.iml" />
       <module fileurl="file://$PROJECT_DIR$/boot_security_distribute/boot_security_distribute.iml" filepath="$PROJECT_DIR$/boot_security_distribute/boot_security_distribute.iml" />
       <module fileurl="file://$PROJECT_DIR$/boot_security_distribute/boot_source/boot_source.iml" filepath="$PROJECT_DIR$/boot_security_distribute/boot_source/boot_source.iml" />
       <module fileurl="file://$PROJECT_DIR$/boot_oauth2/oauth_server/oauth_server.iml" filepath="$PROJECT_DIR$/boot_oauth2/oauth_server/oauth_server.iml" />
