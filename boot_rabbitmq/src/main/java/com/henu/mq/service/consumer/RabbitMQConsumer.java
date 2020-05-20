@@ -7,23 +7,45 @@ import org.springframework.amqp.rabbit.annotation.QueueBinding;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
 import org.springframework.stereotype.Service;
 
+import java.util.concurrent.*;
+
 @Service
 @Slf4j
 public class RabbitMQConsumer {
+    static ExecutorService service = new ThreadPoolExecutor(5,
+            10,
+            1L,
+            TimeUnit.SECONDS,
+            new LinkedBlockingQueue<>(10),
+            Executors.defaultThreadFactory(),
+            new ThreadPoolExecutor.AbortPolicy());
+
+    /**
+     *work使用线程池消费
+     *
+     * @param message
+     */
+    @RabbitListener(queuesToDeclare = @Queue("work"))
+    public void receivePool(String message) {
+        service.execute(() -> {
+            log.info("{}={} ", Thread.currentThread().getName(), message);
+        });
+    }
+
     /**
      * work工作模型
      *
      * @param message
      */
-    @RabbitListener(queuesToDeclare = @Queue("work"))
-    public void receive1(String message) {
-        log.info("message1 ={} ", message);
-    }
-
-    @RabbitListener(queuesToDeclare = @Queue("work"))
-    public void receive2(String message) {
-        log.info("message2 ={} ", message);
-    }
+//    @RabbitListener(queuesToDeclare = @Queue("work"))
+//    public void receive1(String message) {
+//        log.info("message1 ={} ", message);
+//    }
+//
+//    @RabbitListener(queuesToDeclare = @Queue("work"))
+//    public void receive2(String message) {
+//        log.info("message2 ={} ", message);
+//    }
 
     /**
      * fanout工作模型
@@ -68,6 +90,7 @@ public class RabbitMQConsumer {
     public void receiveError(String message) {
         log.info("message error={} ", message);
     }
+
     /**
      * 基于topic动态路由
      *
@@ -87,7 +110,7 @@ public class RabbitMQConsumer {
             @QueueBinding(
                     value = @Queue,
                     exchange = @Exchange(value = "topics", type = "topic"),
-                    key = {"order.#", "product.#","user.#"}
+                    key = {"order.#", "product.#", "user.#"}
             )})
     public void receiveTopic2(String message) {
         log.info("message2 ={} ", message);
