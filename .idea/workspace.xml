@@ -6,7 +6,15 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7f15c308-8065-45a2-b182-f557d0f640f9" name="Default Changelist" comment="" />
+    <list default="true" id="7f15c308-8065-45a2-b182-f557d0f640f9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot_rabbitmq/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/boot_rabbitmq/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot_rabbitmq/src/main/java/com/henu/mq/config/RabbitMQConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot_rabbitmq/src/main/java/com/henu/mq/config/RabbitMQConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot_rabbitmq/src/main/java/com/henu/mq/service/consumer/HelloWorldConsumer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot_rabbitmq/src/main/java/com/henu/mq/service/consumer/RabbitMQConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot_rabbitmq/src/main/java/com/henu/mq/service/consumer/RabbitMQConsumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot_rabbitmq/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/boot_rabbitmq/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot_redis/src/main/java/cn/henuer/redis/service/RedisOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot_redis/src/main/java/cn/henuer/redis/service/RedisOperation.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -138,44 +146,12 @@
       <command value="mvn clean" />
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.RabbitMQMain8021">
+  <component name="RunManager" selected="JUnit.TestDemo.test">
     <configuration name="GroupChatClient1" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="com.henu.nio.groupchat.GroupChatClient" />
       <module name="NIO" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BootMongoApplicationTest.test06" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="boot-mongo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.henu.mongo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.henu.mongo" />
-      <option name="MAIN_CLASS_NAME" value="com.henu.mongo.BootMongoApplicationTest" />
-      <option name="METHOD_NAME" value="test06" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RedisTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="boot_redis" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.henuer.redis.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.henuer.redis" />
-      <option name="MAIN_CLASS_NAME" value="cn.henuer.redis.RedisTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -191,6 +167,37 @@
       <option name="PACKAGE_NAME" value="cn.henuer.redis" />
       <option name="MAIN_CLASS_NAME" value="cn.henuer.redis.RedisTest" />
       <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestDemo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="boot_rabbitmq" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.henu.mq.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.henu.mq" />
+      <option name="MAIN_CLASS_NAME" value="com.henu.mq.TestDemo" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestDemo.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="boot_rabbitmq" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.henu.mq.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.henu.mq" />
+      <option name="MAIN_CLASS_NAME" value="com.henu.mq.TestDemo" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -235,6 +242,7 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.henu.mq.RabbitMQMain8021" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -329,9 +337,9 @@
     </configuration>
     <list>
       <item itemvalue="Application.GroupChatClient1" />
-      <item itemvalue="JUnit.BootMongoApplicationTest.test06" />
-      <item itemvalue="JUnit.RedisTest.test" />
       <item itemvalue="JUnit.RedisTest.test01" />
+      <item itemvalue="JUnit.TestDemo.test" />
+      <item itemvalue="JUnit.TestDemo" />
       <item itemvalue="Spring Boot.BootMongoApplication" />
       <item itemvalue="Spring Boot.BootKafkaApplication" />
       <item itemvalue="Spring Boot.BootMybatisApplication" />
@@ -342,11 +350,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestDemo.test" />
         <item itemvalue="Spring Boot.RabbitMQMain8021" />
+        <item itemvalue="JUnit.TestDemo" />
         <item itemvalue="Spring Boot.RedisMain" />
         <item itemvalue="JUnit.RedisTest.test01" />
-        <item itemvalue="JUnit.RedisTest.test" />
-        <item itemvalue="JUnit.BootMongoApplicationTest.test06" />
       </list>
     </recent_temporary>
   </component>
@@ -453,7 +461,9 @@
       <workItem from="1589639071165" duration="617000" />
       <workItem from="1589804038448" duration="11754000" />
       <workItem from="1589891913441" duration="7201000" />
-      <workItem from="1589977968836" duration="6802000" />
+      <workItem from="1589977968836" duration="9463000" />
+      <workItem from="1590064221616" duration="9463000" />
+      <workItem from="1590150781509" duration="8813000" />
     </task>
     <task id="LOCAL-00001" summary="add mybatis 二级缓存">
       <created>1589210625451</created>
@@ -477,14 +487,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="22" key="#File_and_Code_Templates/0.0.1366.728@0.0.1366.728" timestamp="1589375835770" />
-    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589202444512">
+    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590075281541">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1589202444512" />
-    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser" timestamp="1589639474348">
+    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1590075281541" />
+    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser" timestamp="1590151226885">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1589639474348" />
+    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1590151226885" />
     <state x="147" y="0" key="CommitChangelistDialog2" timestamp="1589210623329">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -493,38 +503,38 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="484" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1589639693228" />
-    <state width="1323" height="292" key="GridCell.Tab.0.bottom" timestamp="1589984745888">
+    <state width="1323" height="241" key="GridCell.Tab.0.bottom" timestamp="1590160971868">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="292" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1589984745888" />
-    <state width="1323" height="292" key="GridCell.Tab.0.center" timestamp="1589984745887">
+    <state width="1323" height="241" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590160971868" />
+    <state width="1323" height="241" key="GridCell.Tab.0.center" timestamp="1590160971867">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="292" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1589984745887" />
-    <state width="1323" height="292" key="GridCell.Tab.0.left" timestamp="1589984745887">
+    <state width="1323" height="241" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1590160971867" />
+    <state width="1323" height="241" key="GridCell.Tab.0.left" timestamp="1590160971867">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="292" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1589984745887" />
-    <state width="1323" height="292" key="GridCell.Tab.0.right" timestamp="1589984745887">
+    <state width="1323" height="241" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1590160971867" />
+    <state width="1323" height="241" key="GridCell.Tab.0.right" timestamp="1590160971867">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="292" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1589984745887" />
-    <state width="1323" height="292" key="GridCell.Tab.1.bottom" timestamp="1589984745888">
+    <state width="1323" height="241" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1590160971867" />
+    <state width="1323" height="241" key="GridCell.Tab.1.bottom" timestamp="1590160971868">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="292" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1589984745888" />
-    <state width="1323" height="292" key="GridCell.Tab.1.center" timestamp="1589984745888">
+    <state width="1323" height="241" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590160971868" />
+    <state width="1323" height="241" key="GridCell.Tab.1.center" timestamp="1590160971868">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="292" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1589984745888" />
-    <state width="1323" height="292" key="GridCell.Tab.1.left" timestamp="1589984745888">
+    <state width="1323" height="241" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1590160971868" />
+    <state width="1323" height="241" key="GridCell.Tab.1.left" timestamp="1590160971868">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="292" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1589984745888" />
-    <state width="1323" height="292" key="GridCell.Tab.1.right" timestamp="1589984745888">
+    <state width="1323" height="241" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1590160971868" />
+    <state width="1323" height="241" key="GridCell.Tab.1.right" timestamp="1590160971868">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="292" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1589984745888" />
+    <state width="1323" height="241" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1590160971868" />
     <state width="1323" height="218" key="GridCell.Tab.2.bottom" timestamp="1589901201325">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -565,10 +575,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="339" y="162" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1589201625879" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1589898736807">
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1590154949810">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1589898736807" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1590154949810" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

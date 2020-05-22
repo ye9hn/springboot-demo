@@ -1,0 +1,59 @@
+package com.henu.mq.config;
+
+import lombok.extern.slf4j.Slf4j;
+import org.springframework.amqp.core.Message;
+import org.springframework.amqp.rabbit.connection.CorrelationData;
+import org.springframework.amqp.rabbit.core.RabbitTemplate;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Configuration;
+
+import javax.annotation.PostConstruct;
+
+/**
+ * RabbitTemplate.ConfirmCallback
+ * RabbitTemplate.ReturnCallback
+ */
+@Configuration
+@Slf4j
+public class RabbitMQConfirmAndReturnConfig implements RabbitTemplate.ConfirmCallback, RabbitTemplate.ReturnCallback {
+    @Autowired
+    private RabbitTemplate rabbitTemplate;
+
+    @PostConstruct
+    public void initMethod() {
+        rabbitTemplate.setConfirmCallback(this);
+        rabbitTemplate.setReturnCallback(this);
+    }
+
+    /**
+     *如果消息没有到exchange,则confirm回调,ack=false
+     *
+     * 如果消息到达exchange,则confirm回调,ack=true
+     *
+     * @param correlationData
+     * @param ack
+     * @param cause
+     */
+    @Override
+    public void confirm(CorrelationData correlationData, boolean ack, String cause) {
+        if (ack) {
+            log.info("消息已经到达Exchange");
+        }else {
+            log.info("消息没有到达Exchange");
+        }
+    }
+
+    /**
+     *exchange到queue成功,则不回调return
+     * exchange到queue失败,则回调return(需设置mandatory=true,否则不回回调,消息就丢了)
+     * @param message
+     * @param i
+     * @param s
+     * @param s1
+     * @param s2
+     */
+    @Override
+    public void returnedMessage(Message message, int i, String s, String s1, String s2) {
+        log.info("消息没有到达queue");
+    }
+}

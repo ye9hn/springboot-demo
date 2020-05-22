@@ -12,3 +12,12 @@ spring:
     password: 123456
 #虚拟host 可以不设置,使用server默认host
     virtual-host: test
+    listener:
+      simple:
+        acknowledge-mode: manual  #消费者手动执行ack确认
+#RabbitTemplate.ConfirmCallback, RabbitTemplate.ReturnCallback
+    publisher-confirms: true
+    publisher-returns: true
+  redis:
+    host: 192.168.0.124
+    port: 6379

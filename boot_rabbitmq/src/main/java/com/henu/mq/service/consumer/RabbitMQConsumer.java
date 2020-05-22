@@ -1,12 +1,18 @@
 package com.henu.mq.service.consumer;
 
+import com.rabbitmq.client.Channel;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.amqp.core.Message;
 import org.springframework.amqp.rabbit.annotation.Exchange;
 import org.springframework.amqp.rabbit.annotation.Queue;
 import org.springframework.amqp.rabbit.annotation.QueueBinding;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Service;
 
+import java.io.IOException;
+import java.util.Map;
 import java.util.concurrent.*;
 
 @Service
@@ -21,7 +27,7 @@ public class RabbitMQConsumer {
             new ThreadPoolExecutor.AbortPolicy());
 
     /**
-     *work使用线程池消费
+     * work使用线程池消费
      *
      * @param message
      */
@@ -114,5 +120,68 @@ public class RabbitMQConsumer {
             )})
     public void receiveTopic2(String message) {
         log.info("message2 ={} ", message);
+    }
+
+    /**
+     * 手动确认消息 ack
+     *
+     * @param meg
+     * @param channel
+     * @param message
+     */
+//    @RabbitListener(bindings = {
+//            @QueueBinding(
+//                    value = @Queue(value = "boot-queue"),
+//                    exchange = @Exchange(value = "boot-topic-exchange", type = "topic"),
+//                    key = {"*.red.*"}
+//            )})
+    public void getMsg(String meg, Channel channel, Message message) {
+        log.info("boot-queue receive msg:{} ", message);
+        try {
+            channel.basicAck(message.getMessageProperties().getDeliveryTag(), false);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    @Autowired
+    private RedisTemplate redisTemplate;
+
+    @RabbitListener(bindings = {
+            @QueueBinding(
+                    value = @Queue(value = "boot-queue"),
+                    exchange = @Exchange(value = "boot-topic-exchange", type = "topic"),
+                    key = {"*.red.*"}
+            )})
+    public void getMsgRedis(String meg, Channel channel, Message message) {
+        //0、获取MessageId
+        Map<String, Object> headers = message.getMessageProperties().getHeaders();
+        String messageId = (String) headers.get("spring_returned_message_correlation");
+        log.info(messageId);
+        //1、设置key到redis
+        if (redisTemplate.opsForValue().setIfAbsent(messageId, "0", 10L, TimeUnit.SECONDS)) {
+            log.info(String.valueOf(redisTemplate.getExpire(messageId)));
+            try {
+                //2、消费消息
+                log.info("boot-queue receive msg:{} ", message);
+                //3、设置key的value为1
+                //这里必须要设置上过期时间，因为不设置，这里相当于更新操作，会造成过期时间为-1，及其隐蔽的bug
+                redisTemplate.opsForValue().set(messageId, "1", 10L, TimeUnit.SECONDS);
+                //4、手动ack
+                channel.basicAck(message.getMessageProperties().getDeliveryTag(), false);
+                log.info(String.valueOf(redisTemplate.getExpire(messageId)));
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+        } else {
+            //5、获取redis中的value即可，手动ack,1手动ack，0的话说明消费异常什么都不做
+            if ("1".equalsIgnoreCase((String) redisTemplate.opsForValue().get(messageId))) {
+                try {
+                    channel.basicAck(message.getMessageProperties().getDeliveryTag(), false);
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
     }
 }

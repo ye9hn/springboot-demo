@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 import javax.annotation.PostConstruct;
 import java.util.UUID;
 
-@Component
+//@Component
 public class RedisOperation {
     @Autowired
     private RedisTemplate redisTemplate;
