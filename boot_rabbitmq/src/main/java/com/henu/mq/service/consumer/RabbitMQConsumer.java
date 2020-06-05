@@ -157,10 +157,8 @@ public class RabbitMQConsumer {
         //0、获取MessageId
         Map<String, Object> headers = message.getMessageProperties().getHeaders();
         String messageId = (String) headers.get("spring_returned_message_correlation");
-        log.info(messageId);
         //1、设置key到redis
         if (redisTemplate.opsForValue().setIfAbsent(messageId, "0", 10L, TimeUnit.SECONDS)) {
-            log.info(String.valueOf(redisTemplate.getExpire(messageId)));
             try {
                 //2、消费消息
                 log.info("boot-queue receive msg:{} ", message);
@@ -169,7 +167,6 @@ public class RabbitMQConsumer {
                 redisTemplate.opsForValue().set(messageId, "1", 10L, TimeUnit.SECONDS);
                 //4、手动ack
                 channel.basicAck(message.getMessageProperties().getDeliveryTag(), false);
-                log.info(String.valueOf(redisTemplate.getExpire(messageId)));
             } catch (IOException e) {
                 e.printStackTrace();
             }

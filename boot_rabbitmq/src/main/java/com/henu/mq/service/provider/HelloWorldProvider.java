@@ -11,5 +11,6 @@ public class HelloWorldProvider {
 
     public void test(){
         rabbitTemplate.convertAndSend("hello","helloworld");
+
     }
 }

@@ -8,12 +8,10 @@
   <component name="ChangeListManager">
     <list default="true" id="7f15c308-8065-45a2-b182-f557d0f640f9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot_rabbitmq/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/boot_rabbitmq/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot_rabbitmq/src/main/java/com/henu/mq/config/RabbitMQConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot_rabbitmq/src/main/java/com/henu/mq/config/RabbitMQConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot_rabbitmq/src/main/java/com/henu/mq/service/consumer/HelloWorldConsumer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot_rabbitmq/src/main/java/com/henu/mq/controller/ProviderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot_rabbitmq/src/main/java/com/henu/mq/controller/ProviderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot_rabbitmq/src/main/java/com/henu/mq/service/ProviderService.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/boot_rabbitmq/src/main/java/com/henu/mq/service/consumer/RabbitMQConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot_rabbitmq/src/main/java/com/henu/mq/service/consumer/RabbitMQConsumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot_rabbitmq/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/boot_rabbitmq/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot_redis/src/main/java/cn/henuer/redis/service/RedisOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot_redis/src/main/java/cn/henuer/redis/service/RedisOperation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot_rabbitmq/src/main/java/com/henu/mq/service/provider/HelloWorldProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot_rabbitmq/src/main/java/com/henu/mq/service/provider/HelloWorldProvider.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,8 +88,8 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
-    <property name="RequestMappingsPanelWidth0" value="75" />
-    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth0" value="15" />
+    <property name="RequestMappingsPanelWidth1" value="15" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -146,7 +144,7 @@
       <command value="mvn clean" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestDemo.test">
+  <component name="RunManager" selected="Spring Boot.RabbitMQMain8021">
     <configuration name="GroupChatClient1" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -350,10 +348,10 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestDemo.test" />
         <item itemvalue="Spring Boot.RabbitMQMain8021" />
-        <item itemvalue="JUnit.TestDemo" />
         <item itemvalue="Spring Boot.RedisMain" />
+        <item itemvalue="JUnit.TestDemo.test" />
+        <item itemvalue="JUnit.TestDemo" />
         <item itemvalue="JUnit.RedisTest.test01" />
       </list>
     </recent_temporary>
@@ -463,7 +461,13 @@
       <workItem from="1589891913441" duration="7201000" />
       <workItem from="1589977968836" duration="9463000" />
       <workItem from="1590064221616" duration="9463000" />
-      <workItem from="1590150781509" duration="8813000" />
+      <workItem from="1590150781509" duration="9385000" />
+      <workItem from="1590236636110" duration="5675000" />
+      <workItem from="1590322214552" duration="7433000" />
+      <workItem from="1590410300211" duration="4055000" />
+      <workItem from="1590755925228" duration="846000" />
+      <workItem from="1591107557069" duration="28000" />
+      <workItem from="1591359350017" duration="625000" />
     </task>
     <task id="LOCAL-00001" summary="add mybatis 二级缓存">
       <created>1589210625451</created>
@@ -499,42 +503,42 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="147" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1589210623329" />
-    <state x="484" y="118" key="FileChooserDialogImpl" timestamp="1589639693228">
+    <state x="484" y="118" key="FileChooserDialogImpl" timestamp="1590758909846">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="484" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1589639693228" />
-    <state width="1323" height="241" key="GridCell.Tab.0.bottom" timestamp="1590160971868">
+    <state x="484" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1590758909846" />
+    <state width="1323" height="244" key="GridCell.Tab.0.bottom" timestamp="1590419286161">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="241" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590160971868" />
-    <state width="1323" height="241" key="GridCell.Tab.0.center" timestamp="1590160971867">
+    <state width="1323" height="244" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590419286161" />
+    <state width="1323" height="244" key="GridCell.Tab.0.center" timestamp="1590419286161">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="241" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1590160971867" />
-    <state width="1323" height="241" key="GridCell.Tab.0.left" timestamp="1590160971867">
+    <state width="1323" height="244" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1590419286161" />
+    <state width="1323" height="244" key="GridCell.Tab.0.left" timestamp="1590419286161">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="241" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1590160971867" />
-    <state width="1323" height="241" key="GridCell.Tab.0.right" timestamp="1590160971867">
+    <state width="1323" height="244" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1590419286161" />
+    <state width="1323" height="244" key="GridCell.Tab.0.right" timestamp="1590419286161">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="241" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1590160971867" />
-    <state width="1323" height="241" key="GridCell.Tab.1.bottom" timestamp="1590160971868">
+    <state width="1323" height="244" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1590419286161" />
+    <state width="1323" height="244" key="GridCell.Tab.1.bottom" timestamp="1590419286162">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="241" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590160971868" />
-    <state width="1323" height="241" key="GridCell.Tab.1.center" timestamp="1590160971868">
+    <state width="1323" height="244" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590419286162" />
+    <state width="1323" height="244" key="GridCell.Tab.1.center" timestamp="1590419286161">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="241" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1590160971868" />
-    <state width="1323" height="241" key="GridCell.Tab.1.left" timestamp="1590160971868">
+    <state width="1323" height="244" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1590419286161" />
+    <state width="1323" height="244" key="GridCell.Tab.1.left" timestamp="1590419286161">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="241" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1590160971868" />
-    <state width="1323" height="241" key="GridCell.Tab.1.right" timestamp="1590160971868">
+    <state width="1323" height="244" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1590419286161" />
+    <state width="1323" height="244" key="GridCell.Tab.1.right" timestamp="1590419286162">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="241" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1590160971868" />
+    <state width="1323" height="244" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1590419286162" />
     <state width="1323" height="218" key="GridCell.Tab.2.bottom" timestamp="1589901201325">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
