@@ -8,6 +8,7 @@
       <module fileurl="file://$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-kafka/boot-kafka.iml" filepath="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-kafka/boot-kafka.iml" />
       <module fileurl="file://$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mongo/boot-mongo.iml" filepath="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mongo/boot-mongo.iml" />
       <module fileurl="file://$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mybatis/boot-mybatis.iml" filepath="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mybatis/boot-mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boot_aliyun_sms/boot_aliyun_sms.iml" filepath="$PROJECT_DIR$/boot_aliyun_sms/boot_aliyun_sms.iml" />
       <module fileurl="file://$PROJECT_DIR$/boot_security_distribute/boot_auth_server/boot_auth_server.iml" filepath="$PROJECT_DIR$/boot_security_distribute/boot_auth_server/boot_auth_server.iml" />
       <module fileurl="file://$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot_kafka_mongo_mybatis.iml" filepath="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot_kafka_mongo_mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/boot_netty/boot_netty.iml" filepath="$PROJECT_DIR$/boot_netty/boot_netty.iml" />

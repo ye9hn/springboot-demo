@@ -7,11 +7,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f15c308-8065-45a2-b182-f557d0f640f9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot_rabbitmq/src/main/java/com/henu/mq/controller/ProviderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot_rabbitmq/src/main/java/com/henu/mq/controller/ProviderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot_rabbitmq/src/main/java/com/henu/mq/service/ProviderService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot_rabbitmq/src/main/java/com/henu/mq/service/consumer/RabbitMQConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot_rabbitmq/src/main/java/com/henu/mq/service/consumer/RabbitMQConsumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot_rabbitmq/src/main/java/com/henu/mq/service/provider/HelloWorldProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot_rabbitmq/src/main/java/com/henu/mq/service/provider/HelloWorldProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot_redis/src/main/java/cn/henuer/redis/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot_redis/src/main/java/cn/henuer/redis/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot_redis/src/main/java/cn/henuer/redis/intercept/AuthenticationInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot_redis/src/main/java/cn/henuer/redis/intercept/AuthenticationInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,28 +146,12 @@
       <command value="mvn clean" />
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.RabbitMQMain8021">
+  <component name="RunManager" selected="Tomcat Server.Idea Tomcat 8.5.33">
     <configuration name="GroupChatClient1" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="com.henu.nio.groupchat.GroupChatClient" />
       <module name="NIO" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RedisTest.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="boot_redis" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.henuer.redis.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.henuer.redis" />
-      <option name="MAIN_CLASS_NAME" value="cn.henuer.redis.RedisTest" />
-      <option name="METHOD_NAME" value="test01" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -220,13 +206,6 @@
       <module name="boot-mybatis" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.henu.mybat.BootMybatisApplication" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ConcurrencyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="boot_javase" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.henu.concurrency.ConcurrencyApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -335,13 +314,11 @@
     </configuration>
     <list>
       <item itemvalue="Application.GroupChatClient1" />
-      <item itemvalue="JUnit.RedisTest.test01" />
       <item itemvalue="JUnit.TestDemo.test" />
       <item itemvalue="JUnit.TestDemo" />
       <item itemvalue="Spring Boot.BootMongoApplication" />
       <item itemvalue="Spring Boot.BootKafkaApplication" />
       <item itemvalue="Spring Boot.BootMybatisApplication" />
-      <item itemvalue="Spring Boot.ConcurrencyApplication" />
       <item itemvalue="Spring Boot.RabbitMQMain8021" />
       <item itemvalue="Spring Boot.RedisMain" />
       <item itemvalue="Tomcat Server.Idea Tomcat 8.5.33" />
@@ -352,7 +329,6 @@
         <item itemvalue="Spring Boot.RedisMain" />
         <item itemvalue="JUnit.TestDemo.test" />
         <item itemvalue="JUnit.TestDemo" />
-        <item itemvalue="JUnit.RedisTest.test01" />
       </list>
     </recent_temporary>
   </component>
@@ -467,7 +443,7 @@
       <workItem from="1590410300211" duration="4055000" />
       <workItem from="1590755925228" duration="846000" />
       <workItem from="1591107557069" duration="28000" />
-      <workItem from="1591359350017" duration="625000" />
+      <workItem from="1591359350017" duration="5065000" />
     </task>
     <task id="LOCAL-00001" summary="add mybatis 二级缓存">
       <created>1589210625451</created>
@@ -491,14 +467,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="22" key="#File_and_Code_Templates/0.0.1366.728@0.0.1366.728" timestamp="1589375835770" />
-    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1590075281541">
+    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1591364171565">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1590075281541" />
-    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser" timestamp="1590151226885">
+    <state x="137" y="18" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1591364171565" />
+    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser" timestamp="1591361289791">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1590151226885" />
+    <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1591361289791" />
+    <state x="260" y="288" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1591361385668">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="260" y="288" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1366.728@0.0.1366.728" timestamp="1591361385668" />
     <state x="147" y="0" key="CommitChangelistDialog2" timestamp="1589210623329">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -507,22 +487,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="484" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1590758909846" />
-    <state width="1323" height="244" key="GridCell.Tab.0.bottom" timestamp="1590419286161">
+    <state width="1323" height="273" key="GridCell.Tab.0.bottom" timestamp="1591362794544">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="244" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1590419286161" />
-    <state width="1323" height="244" key="GridCell.Tab.0.center" timestamp="1590419286161">
+    <state width="1323" height="273" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1591362794544" />
+    <state width="1323" height="273" key="GridCell.Tab.0.center" timestamp="1591362794543">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="244" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1590419286161" />
-    <state width="1323" height="244" key="GridCell.Tab.0.left" timestamp="1590419286161">
+    <state width="1323" height="273" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1591362794543" />
+    <state width="1323" height="273" key="GridCell.Tab.0.left" timestamp="1591362794543">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="244" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1590419286161" />
-    <state width="1323" height="244" key="GridCell.Tab.0.right" timestamp="1590419286161">
+    <state width="1323" height="273" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1591362794543" />
+    <state width="1323" height="273" key="GridCell.Tab.0.right" timestamp="1591362794543">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="244" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1590419286161" />
+    <state width="1323" height="273" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1591362794543" />
     <state width="1323" height="244" key="GridCell.Tab.1.bottom" timestamp="1590419286162">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -567,10 +547,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="475" y="280" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728@0.0.1366.728" timestamp="1589210512255" />
-    <state x="57" y="0" key="new project wizard" timestamp="1589639105090">
+    <state x="115" y="63" key="new project wizard" timestamp="1591360258730">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="57" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1589639105090" />
+    <state x="115" y="63" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1591360258730" />
     <state x="376" y="75" width="716" height="653" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1589037896906">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -579,10 +559,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="339" y="162" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1589201625879" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1590154949810">
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1591361844293">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1590154949810" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1591361844293" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

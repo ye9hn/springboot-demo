@@ -6,17 +6,18 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="boot_redis" />
         <module name="boot-kafka" />
         <module name="boot_rabbitmq" />
         <module name="boot-mybatis" />
-        <module name="BIO" />
         <module name="boot-mongo" />
         <module name="boot_auth_server" />
         <module name="oauth_source" />
-        <module name="NIO" />
-        <module name="boot-common" />
-        <module name="boot_redis" />
         <module name="oauth_server" />
+        <module name="boot-common" />
+        <module name="BIO" />
+        <module name="boot_aliyun_sms" />
+        <module name="NIO" />
         <module name="boot_source" />
       </profile>
     </annotationProcessing>
@@ -26,6 +27,7 @@
       <module name="boot-kafka" target="1.8" />
       <module name="boot-mongo" target="1.8" />
       <module name="boot-mybatis" target="1.8" />
+      <module name="boot_aliyun_sms" target="1.8" />
       <module name="boot_auth_server" target="1.8" />
       <module name="boot_kafka_mongo_mybatis" target="1.8" />
       <module name="boot_netty" target="1.8" />
@@ -49,6 +51,7 @@
       <module name="boot-kafka" options="-parameters" />
       <module name="boot-mongo" options="-parameters" />
       <module name="boot-mybatis" options="-parameters" />
+      <module name="boot_aliyun_sms" options="-parameters" />
       <module name="boot_auth_server" options="-parameters" />
       <module name="boot_kafka_mongo_mybatis" options="-parameters" />
       <module name="boot_netty" options="-parameters" />

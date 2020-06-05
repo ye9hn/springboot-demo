@@ -1,8 +1,8 @@
 package cn.henuer.redis.controller;
 
+import cn.henuer.redis.service.UserService;
 import cn.henuer.redis.annotation.TokenRequired;
 import cn.henuer.redis.entity.User;
-import cn.henuer.redis.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;

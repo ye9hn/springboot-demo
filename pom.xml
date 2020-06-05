@@ -9,7 +9,8 @@
         <module>boot_netty</module>
         <module>boot_rabbitmq</module>
         <module>boot_redis</module>
-      </modules>
+        <module>boot_aliyun_sms</module>
+    </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
