@@ -14,7 +14,7 @@ import java.util.UUID;
 public class SmsController {
     @Autowired
     private SmsService smsService;
-    @GetMapping("/sendsms")
+    @GetMapping("/sendsms/{phonenum}")
     public String sendSms(@PathVariable("phonenum") String phoneNum){
         String templateParam = UUID.randomUUID().toString().substring(0,3);
         smsService.sendSms(phoneNum,templateParam);
