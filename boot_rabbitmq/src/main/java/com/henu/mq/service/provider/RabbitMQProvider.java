@@ -1,8 +1,11 @@
 package com.henu.mq.service.provider;
 
+import org.springframework.amqp.rabbit.connection.CorrelationData;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+
+import java.util.UUID;
 
 
 @Service
@@ -44,5 +47,14 @@ public class RabbitMQProvider {
     public void topic() {
         rabbitTemplate.convertAndSend("topics","user.save","user.save消息");
         rabbitTemplate.convertAndSend("topics","order.save","order.save消息");
+    }
+
+    /**
+     * 消费者手动确认ack机制
+     * @return
+     */
+    public void manualAck() {
+        CorrelationData messageId=new CorrelationData(UUID.randomUUID().toString());
+        rabbitTemplate.convertAndSend("boot-topic-exchange","slow.red.ne","这是一个消息",messageId);
     }
 }

@@ -10,6 +10,7 @@
         <module>boot_rabbitmq</module>
         <module>boot_redis</module>
         <module>boot_aliyun_sms</module>
+        <module>boot_excel</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

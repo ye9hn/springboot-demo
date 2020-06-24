@@ -34,4 +34,11 @@ public class ProviderController {
         workProvider.topic();
         return "success";
     }
+
+    @GetMapping("/manualack")
+    public String ack(){
+        workProvider.manualAck();
+        return "success";
+
+    }
 }

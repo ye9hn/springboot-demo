@@ -37,9 +37,9 @@ public class RabbitMQConfirmAndReturnConfig implements RabbitTemplate.ConfirmCal
     @Override
     public void confirm(CorrelationData correlationData, boolean ack, String cause) {
         if (ack) {
-            log.info("消息已经到达Exchange");
+            log.info("消息已经到达Exchange--> 消息附带标识：{}--->ack:{}",correlationData,ack);
         }else {
-            log.info("消息没有到达Exchange");
+            log.info("消息没有到达Exchange-->消息失败原因：{}",cause);
         }
     }
 
