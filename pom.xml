@@ -10,7 +10,7 @@
         <module>boot_rabbitmq</module>
         <module>boot_redis</module>
         <module>boot_aliyun_sms</module>
-        <module>boot_excel</module>
+        <module>boot_quartz</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -24,7 +24,6 @@
     <name>springboot-demo</name>
     <packaging>pom</packaging>
     <description>Demo project for Spring Boot</description>
-
     <properties>
         <java.version>1.8</java.version>
     </properties>
