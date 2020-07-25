@@ -9,7 +9,6 @@
         <module name="boot-mongo" />
         <module name="oauth_source" />
         <module name="boot-kafka" />
-        <module name="boot_quarz" />
         <module name="boot_auth_server" />
         <module name="boot_aliyun_sms" />
         <module name="boot-mybatis" />
@@ -19,6 +18,7 @@
         <module name="boot_redis" />
         <module name="boot_rabbitmq" />
         <module name="NIO" />
+        <module name="boot_quartz" />
         <module name="boot_source" />
         <module name="oauth_server" />
       </profile>
@@ -35,7 +35,7 @@
       <module name="boot_kafka_mongo_mybatis" target="1.8" />
       <module name="boot_netty" target="1.8" />
       <module name="boot_oauth2" target="1.8" />
-      <module name="boot_quarz" target="1.8" />
+      <module name="boot_quartz" target="1.8" />
       <module name="boot_rabbitmq" target="1.8" />
       <module name="boot_redis" target="1.8" />
       <module name="boot_security_distribute" target="1.8" />
@@ -61,7 +61,7 @@
       <module name="boot_kafka_mongo_mybatis" options="-parameters" />
       <module name="boot_netty" options="-parameters" />
       <module name="boot_oauth2" options="-parameters" />
-      <module name="boot_quarz" options="-parameters" />
+      <module name="boot_quartz" options="-parameters" />
       <module name="boot_rabbitmq" options="-parameters" />
       <module name="boot_redis" options="-parameters" />
       <module name="boot_security_distribute" options="-parameters" />

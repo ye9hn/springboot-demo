@@ -1,0 +1,12 @@
+version: '3.7'
+services:
+  rabbitmq-1.0.0:
+    build: .
+    image: rabbitmq-1.0.0
+    depends_on:
+      - redis
+    #      - rabbitmq
+    ports:
+      - "8021:8021"
+  redis:
+    image: "redis:alpine"

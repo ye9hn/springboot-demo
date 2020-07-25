@@ -11,8 +11,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot_rabbitmq/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/boot_rabbitmq/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot_rabbitmq/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/boot_rabbitmq/Dockerfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,7 +149,33 @@
       <command value="mvn package" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.HelloQuartz">
+  <component name="RunManager" selected="Application.CronScheduleBuilderJobTest">
+    <configuration name="CalendarIntervalScheduleBuilderJobTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.henuer.quartz.base.CalendarIntervalScheduleBuilderJobTest" />
+      <module name="boot_quartz" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.henuer.quartz.base.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CronScheduleBuilderJobTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.henuer.quartz.base.CronScheduleBuilderJobTest" />
+      <module name="boot_quartz" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.henuer.quartz.base.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="GroupChatClient1" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -162,44 +187,13 @@
     </configuration>
     <configuration name="HelloQuartz" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.henuer.quartz.base.HelloQuartz" />
-      <module name="boot_quarz" />
+      <module name="boot_quartz" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cn.henuer.quartz.base.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestDemo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="boot_rabbitmq" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.henu.mq.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.henu.mq" />
-      <option name="MAIN_CLASS_NAME" value="com.henu.mq.TestDemo" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestDemo.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="boot_rabbitmq" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.henu.mq.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.henu.mq" />
-      <option name="MAIN_CLASS_NAME" value="com.henu.mq.TestDemo" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -345,24 +339,24 @@
     </configuration>
     <list>
       <item itemvalue="Application.GroupChatClient1" />
+      <item itemvalue="Application.HelloQuartz" />
+      <item itemvalue="Application.CalendarIntervalScheduleBuilderJobTest" />
       <item itemvalue="Docker.Docker" />
-      <item itemvalue="JUnit.TestDemo.test" />
-      <item itemvalue="JUnit.TestDemo" />
       <item itemvalue="Spring Boot.BootMongoApplication" />
       <item itemvalue="Spring Boot.BootKafkaApplication" />
       <item itemvalue="Spring Boot.BootMybatisApplication" />
       <item itemvalue="Spring Boot.RabbitMQMain8021" />
       <item itemvalue="Spring Boot.RedisMain" />
       <item itemvalue="Tomcat Server.Idea Tomcat 8.5.33" />
-      <item itemvalue="Application.HelloQuartz" />
+      <item itemvalue="Application.CronScheduleBuilderJobTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CronScheduleBuilderJobTest" />
+        <item itemvalue="Application.CalendarIntervalScheduleBuilderJobTest" />
         <item itemvalue="Application.HelloQuartz" />
         <item itemvalue="Spring Boot.RedisMain" />
         <item itemvalue="Spring Boot.RabbitMQMain8021" />
-        <item itemvalue="JUnit.TestDemo.test" />
-        <item itemvalue="JUnit.TestDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -541,7 +535,9 @@
       <workItem from="1595248128522" duration="2415000" />
       <workItem from="1595335195950" duration="1439000" />
       <workItem from="1595421444456" duration="17000" />
-      <workItem from="1595422944689" duration="5937000" />
+      <workItem from="1595422944689" duration="6793000" />
+      <workItem from="1595602187038" duration="2146000" />
+      <workItem from="1595682072933" duration="5980000" />
     </task>
     <task id="LOCAL-00001" summary="add mybatis 二级缓存">
       <created>1589210625451</created>
@@ -582,11 +578,11 @@
     </state>
     <state x="137" y="0" width="1092" height="728" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1593011698206" />
     <state x="137" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738@0.0.1366.738" timestamp="1595079539874" />
-    <state x="488" y="74" key="#com.intellij.ide.util.MemberChooser" timestamp="1595423725522">
+    <state x="488" y="74" key="#com.intellij.ide.util.MemberChooser" timestamp="1595602748223">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="488" y="73" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1591361289791" />
-    <state x="488" y="74" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1595423725522" />
+    <state x="488" y="74" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1595602748223" />
     <state x="260" y="288" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1591361385668">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -600,46 +596,46 @@
     </state>
     <state x="484" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1593176308274" />
     <state x="484" y="120" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1595421455896" />
-    <state width="1323" height="238" key="GridCell.Tab.0.bottom" timestamp="1595429854736">
+    <state width="1323" height="225" key="GridCell.Tab.0.bottom" timestamp="1595690066457">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1323" height="332" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593014984858" />
-    <state width="1323" height="238" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1595429854736" />
-    <state width="1323" height="238" key="GridCell.Tab.0.center" timestamp="1595429854736">
+    <state width="1323" height="225" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1595690066457" />
+    <state width="1323" height="225" key="GridCell.Tab.0.center" timestamp="1595690066457">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1323" height="332" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1593014984857" />
-    <state width="1323" height="238" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1595429854736" />
-    <state width="1323" height="238" key="GridCell.Tab.0.left" timestamp="1595429854736">
+    <state width="1323" height="225" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1595690066457" />
+    <state width="1323" height="225" key="GridCell.Tab.0.left" timestamp="1595690066456">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1323" height="332" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1593014984857" />
-    <state width="1323" height="238" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1595429854736" />
-    <state width="1323" height="238" key="GridCell.Tab.0.right" timestamp="1595429854736">
+    <state width="1323" height="225" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1595690066456" />
+    <state width="1323" height="225" key="GridCell.Tab.0.right" timestamp="1595690066457">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1323" height="332" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1593014984858" />
-    <state width="1323" height="238" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1595429854736" />
-    <state width="1323" height="221" key="GridCell.Tab.1.bottom" timestamp="1595429835589">
+    <state width="1323" height="225" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1595690066457" />
+    <state width="1323" height="410" key="GridCell.Tab.1.bottom" timestamp="1595430658491">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1323" height="332" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1593014984858" />
-    <state width="1323" height="221" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1595429835589" />
-    <state width="1323" height="221" key="GridCell.Tab.1.center" timestamp="1595429835588">
+    <state width="1323" height="410" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1595430658491" />
+    <state width="1323" height="410" key="GridCell.Tab.1.center" timestamp="1595430658490">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1323" height="332" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1593014984858" />
-    <state width="1323" height="221" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1595429835588" />
-    <state width="1323" height="221" key="GridCell.Tab.1.left" timestamp="1595429835588">
+    <state width="1323" height="410" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1595430658490" />
+    <state width="1323" height="410" key="GridCell.Tab.1.left" timestamp="1595430658490">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1323" height="332" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1593014984858" />
-    <state width="1323" height="221" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1595429835588" />
-    <state width="1323" height="221" key="GridCell.Tab.1.right" timestamp="1595429835588">
+    <state width="1323" height="410" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1595430658490" />
+    <state width="1323" height="410" key="GridCell.Tab.1.right" timestamp="1595430658491">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1323" height="332" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1593014984858" />
-    <state width="1323" height="221" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1595429835588" />
+    <state width="1323" height="410" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1595430658491" />
     <state width="1323" height="218" key="GridCell.Tab.2.bottom" timestamp="1589901201325">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -686,11 +682,11 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="376" y="75" width="716" height="653" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1366.728@0.0.1366.728" timestamp="1589037896906" />
-    <state x="339" y="164" width="672" height="687" key="run.anything.popup" timestamp="1595425246757">
+    <state x="339" y="164" width="672" height="687" key="run.anything.popup" timestamp="1595684732326">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="339" y="162" width="672" height="677" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1589201625879" />
-    <state x="339" y="164" width="672" height="687" key="run.anything.popup/0.0.1366.738@0.0.1366.738" timestamp="1595425246757" />
+    <state x="339" y="164" width="672" height="687" key="run.anything.popup/0.0.1366.738@0.0.1366.738" timestamp="1595684732326" />
     <state x="346" y="50" width="672" height="688" key="search.everywhere.popup" timestamp="1594472898192">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -761,8 +757,8 @@
           <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/boot_quarz/src/main/java/cn/henuer/quartz/base/HelloQuartz.java</url>
-          <line>36</line>
+          <url>file://$PROJECT_DIR$/boot_quartz/src/main/java/cn/henuer/quartz/base/HelloQuartz.java</url>
+          <line>35</line>
           <option name="timeStamp" value="27" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">
