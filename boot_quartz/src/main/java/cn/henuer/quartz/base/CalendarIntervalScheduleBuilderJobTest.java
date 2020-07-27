@@ -41,7 +41,7 @@ public class CalendarIntervalScheduleBuilderJobTest implements Job {
                     //.endAt() //结束时间
                     .build();
             //创建JobDetail ，JobBuilder
-            JobDetail jobDetail = JobBuilder.newJob(HelloQuartz.class)
+            JobDetail jobDetail = JobBuilder.newJob(BaseQuartz.class)
                     .withIdentity("job04", "group")
                     .usingJobData("data", "hello world")
                     .build();

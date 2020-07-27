@@ -5,10 +5,8 @@ import org.quartz.impl.StdSchedulerFactory;
 
 import java.util.Date;
 
-/**
- * 简单Job
- */
-public class HelloQuartz implements Job {
+public class SimpleScheduleBuilderJobTest implements Job {
+
     @Override
     public void execute(JobExecutionContext context) throws JobExecutionException {
         //创建工作详情
@@ -19,7 +17,6 @@ public class HelloQuartz implements Job {
         String job = jobDetail.getJobDataMap().getString("data");
         System.out.println("job执行，job名：" + name + "group: " + group + "data: " + job + "  " + new Date());
     }
-
     public static void main(String[] args) {
         //创建scheduler ,调度器 核心组件
         try {
@@ -40,7 +37,7 @@ public class HelloQuartz implements Job {
                     //.endAt() //结束时间
                     .build();
             //创建JobDetail ，JobBuilder
-            JobDetail jobDetail = JobBuilder.newJob(HelloQuartz.class)
+            JobDetail jobDetail = JobBuilder.newJob(BaseQuartz.class)
                     .withIdentity("job04", "group")
                     .usingJobData("data", "hello world")
                     .build();
