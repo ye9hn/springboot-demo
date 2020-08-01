@@ -11,6 +11,7 @@
         <module>boot_redis</module>
         <module>boot_aliyun_sms</module>
         <module>boot_quartz</module>
+        <module>boot_elasticsearch</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

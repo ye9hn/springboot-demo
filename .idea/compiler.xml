@@ -14,6 +14,7 @@
         <module name="boot-mybatis" />
         <module name="boot-common" />
         <module name="boot_excel" />
+        <module name="boot_elasticsearch" />
         <module name="BIO" />
         <module name="boot_redis" />
         <module name="boot_rabbitmq" />
@@ -31,6 +32,7 @@
       <module name="boot-mybatis" target="1.8" />
       <module name="boot_aliyun_sms" target="1.8" />
       <module name="boot_auth_server" target="1.8" />
+      <module name="boot_elasticsearch" target="1.8" />
       <module name="boot_excel" target="1.8" />
       <module name="boot_kafka_mongo_mybatis" target="1.8" />
       <module name="boot_netty" target="1.8" />
@@ -57,6 +59,7 @@
       <module name="boot-mybatis" options="-parameters" />
       <module name="boot_aliyun_sms" options="-parameters" />
       <module name="boot_auth_server" options="-parameters" />
+      <module name="boot_elasticsearch" options="-parameters" />
       <module name="boot_excel" options="-parameters" />
       <module name="boot_kafka_mongo_mybatis" options="-parameters" />
       <module name="boot_netty" options="-parameters" />

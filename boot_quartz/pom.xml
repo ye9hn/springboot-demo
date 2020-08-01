@@ -17,7 +17,6 @@
         <quartz.version>2.2.3</quartz.version>
     </properties>
     <dependencies>
-
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-context</artifactId>

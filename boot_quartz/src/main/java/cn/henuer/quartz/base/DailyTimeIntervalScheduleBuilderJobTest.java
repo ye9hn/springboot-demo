@@ -10,17 +10,7 @@ import java.util.Date;
 /**
  *  DailyTimeIntervalScheduleBuilder
  */
-public class DailyTimeIntervalScheduleBuilderJobTest implements Job {
-    @Override
-    public void execute(JobExecutionContext context) throws JobExecutionException {
-        //创建工作详情
-        JobDetail jobDetail = context.getJobDetail();
-        //获取工作的名称
-        String name = jobDetail.getKey().getName();
-        String group = jobDetail.getKey().getGroup();
-        String job = jobDetail.getJobDataMap().getString("data");
-        System.out.println("job执行，job名：" + name + "group: " + group + "data: " + job + "  " + new Date());
-    }
+public class DailyTimeIntervalScheduleBuilderJobTest extends BaseQuartz {
 
     public static void main(String[] args) {
         //创建scheduler ,调度器 核心组件
