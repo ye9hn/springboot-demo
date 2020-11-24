@@ -43,15 +43,16 @@ public class RabbitMQConsumer {
      *
      * @param message
      */
-//    @RabbitListener(queuesToDeclare = @Queue("work"))
-//    public void receive1(String message) {
-//        log.info("message1 ={} ", message);
-//    }
-//
-//    @RabbitListener(queuesToDeclare = @Queue("work"))
-//    public void receive2(String message) {
-//        log.info("message2 ={} ", message);
-//    }
+    @RabbitListener(queuesToDeclare = @Queue("work"))
+    public void receive1(String message) {
+        log.info("message1 ={} ", message);
+    }
+
+    @RabbitListener(queuesToDeclare = @Queue("work"))
+    public void receive2(Message message, Channel channel) throws IOException {
+        channel.basicAck(message.getMessageProperties().getDeliveryTag(), false);
+        log.info("message2 ={} ", message);
+    }
 
     /**
      * fanout工作模型
@@ -138,6 +139,14 @@ public class RabbitMQConsumer {
     public void getMsg(String meg, Channel channel, Message message) {
         log.info("boot-queue receive msg:{} ", message);
         try {
+            /**
+             * 消息预取机制：
+             * rabbitMQ服务端，默认一次将消息发送到客户端供客户端消费，加入有100个消息，有2个客户端，采用轮询的方式就会
+             * 发送50个到两个客户端，这时候如果一个客户端消费快一个慢就会造成性能问题，怎么办呢？
+             * 这时候就可以设置每个客户端一次只接受一条消息，然后给服务端手动确认ack，自动确认的话每次接受一条无效
+             */
+            channel.basicQos(1);
+            //手动确认，这个是单条确认，multiple=false
             channel.basicAck(message.getMessageProperties().getDeliveryTag(), false);
         } catch (IOException e) {
             e.printStackTrace();

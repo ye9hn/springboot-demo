@@ -14,7 +14,6 @@
         <module name="boot-mybatis" />
         <module name="boot-common" />
         <module name="boot_excel" />
-        <module name="boot_elasticsearch" />
         <module name="BIO" />
         <module name="boot_redis" />
         <module name="boot_rabbitmq" />

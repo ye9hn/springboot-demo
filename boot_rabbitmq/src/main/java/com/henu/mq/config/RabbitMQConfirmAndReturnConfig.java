@@ -1,10 +1,13 @@
 package com.henu.mq.config;
 
+import com.rabbitmq.client.ConnectionFactory;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.amqp.core.Message;
+import org.springframework.amqp.rabbit.connection.CachingConnectionFactory;
 import org.springframework.amqp.rabbit.connection.CorrelationData;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 import javax.annotation.PostConstruct;
@@ -55,5 +58,17 @@ public class RabbitMQConfirmAndReturnConfig implements RabbitTemplate.ConfirmCal
     @Override
     public void returnedMessage(Message message, int i, String s, String s1, String s2) {
         log.info("消息没有到达queue");
+    }
+
+   // @Bean
+    //模拟yml配置文件
+    public CachingConnectionFactory connectionFactory(){
+        CachingConnectionFactory connectionFactory=new CachingConnectionFactory("192.168.0.124",5672);
+        connectionFactory.setUsername("guest");
+        connectionFactory.setPassword("guest");
+        connectionFactory.setPublisherConfirms(true);
+        connectionFactory.setPublisherReturns(true);
+
+        return connectionFactory;
     }
 }
