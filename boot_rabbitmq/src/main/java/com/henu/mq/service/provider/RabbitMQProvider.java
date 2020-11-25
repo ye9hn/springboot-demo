@@ -57,4 +57,11 @@ public class RabbitMQProvider {
         CorrelationData messageId=new CorrelationData(UUID.randomUUID().toString());
         rabbitTemplate.convertAndSend("boot-topic-exchange","slow.red.ne","这是一个消息",messageId);
     }
+
+    /**
+     * 死信队列 fanout类型
+     */
+    public void deadMsg(String msg){
+        rabbitTemplate.convertSendAndReceive("dead.letter.demo.simple.business.exchange", "", msg);
+    }
 }

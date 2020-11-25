@@ -3,6 +3,7 @@ package com.henu.mq.controller;
 import com.henu.mq.service.provider.RabbitMQProvider;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
@@ -39,6 +40,10 @@ public class ProviderController {
     public String ack(){
         workProvider.manualAck();
         return "success";
+    }
 
+    @RequestMapping("sendmsg")
+    public void deadMsg(String msg){
+        workProvider.deadMsg(msg);
     }
 }

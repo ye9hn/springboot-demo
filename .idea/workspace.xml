@@ -7,19 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f15c308-8065-45a2-b182-f557d0f640f9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot_elasticsearch/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot_elasticsearch/src/main/java/cn/henuer/elastic/ElasticSearchMain.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot_elasticsearch/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot_elasticsearch/src/main/webapp/exts.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot_netty/BIO/src/main/java/co/henu/boot_bio/BIOClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot_netty/BIO/src/main/java/co/henu/boot_bio/BIOClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/boot_rabbitmq/src/main/java/com/henu/mq/config/RabbitMQConfirmAndReturnConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot_rabbitmq/src/main/java/com/henu/mq/config/RabbitMQConfirmAndReturnConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot_rabbitmq/src/main/java/com/henu/mq/controller/ProviderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot_rabbitmq/src/main/java/com/henu/mq/controller/ProviderController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/boot_rabbitmq/src/main/java/com/henu/mq/service/consumer/RabbitMQConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot_rabbitmq/src/main/java/com/henu/mq/service/consumer/RabbitMQConsumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot_rabbitmq/src/main/java/com/henu/mq/service/provider/RabbitMQProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot_rabbitmq/src/main/java/com/henu/mq/service/provider/RabbitMQProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot_rabbitmq/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/boot_rabbitmq/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -585,7 +578,8 @@
       <workItem from="1605879078635" duration="5407000" />
       <workItem from="1605965487404" duration="5164000" />
       <workItem from="1606049844819" duration="4441000" />
-      <workItem from="1606224678791" duration="2730000" />
+      <workItem from="1606224678791" duration="3853000" />
+      <workItem from="1606309713851" duration="3451000" />
     </task>
     <task id="LOCAL-00001" summary="add mybatis 二级缓存">
       <created>1589210625451</created>
@@ -609,6 +603,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="137" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.738@0.0.1366.738" timestamp="1605706350183" />
+    <state x="488" y="84" key="#com.intellij.ide.util.MemberChooser" timestamp="1606310820755">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="488" y="84" key="#com.intellij.ide.util.MemberChooser/0.0.1366.738@0.0.1366.738" timestamp="1606310820755" />
     <state x="320" y="178" width="665" height="426" key="#xdebugger.evaluate" timestamp="1599409792802">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -621,38 +619,38 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="484" y="120" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1602592464961" />
-    <state width="1323" height="357" key="GridCell.Tab.0.bottom" timestamp="1606061729621">
+    <state width="1323" height="357" key="GridCell.Tab.0.bottom" timestamp="1606312198432">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="357" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1606061729621" />
-    <state width="1323" height="357" key="GridCell.Tab.0.center" timestamp="1606061729621">
+    <state width="1323" height="357" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1606312198432" />
+    <state width="1323" height="357" key="GridCell.Tab.0.center" timestamp="1606312198432">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="357" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1606061729621" />
-    <state width="1323" height="357" key="GridCell.Tab.0.left" timestamp="1606061729621">
+    <state width="1323" height="357" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1606312198432" />
+    <state width="1323" height="357" key="GridCell.Tab.0.left" timestamp="1606312198430">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="357" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1606061729621" />
-    <state width="1323" height="357" key="GridCell.Tab.0.right" timestamp="1606061729621">
+    <state width="1323" height="357" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1606312198430" />
+    <state width="1323" height="357" key="GridCell.Tab.0.right" timestamp="1606312198432">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="357" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1606061729621" />
-    <state width="1323" height="357" key="GridCell.Tab.1.bottom" timestamp="1606061729621">
+    <state width="1323" height="357" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1606312198432" />
+    <state width="1323" height="357" key="GridCell.Tab.1.bottom" timestamp="1606312198432">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="357" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1606061729621" />
-    <state width="1323" height="357" key="GridCell.Tab.1.center" timestamp="1606061729621">
+    <state width="1323" height="357" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1606312198432" />
+    <state width="1323" height="357" key="GridCell.Tab.1.center" timestamp="1606312198432">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="357" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1606061729621" />
-    <state width="1323" height="357" key="GridCell.Tab.1.left" timestamp="1606061729621">
+    <state width="1323" height="357" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1606312198432" />
+    <state width="1323" height="357" key="GridCell.Tab.1.left" timestamp="1606312198432">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="357" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1606061729621" />
-    <state width="1323" height="357" key="GridCell.Tab.1.right" timestamp="1606061729621">
+    <state width="1323" height="357" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1606312198432" />
+    <state width="1323" height="357" key="GridCell.Tab.1.right" timestamp="1606312198432">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="357" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1606061729621" />
+    <state width="1323" height="357" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1606312198432" />
     <state x="105" y="104" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1599409483595">
       <screen x="0" y="0" width="1366" height="738" />
     </state>

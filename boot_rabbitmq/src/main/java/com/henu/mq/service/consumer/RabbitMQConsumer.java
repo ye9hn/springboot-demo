@@ -25,6 +25,8 @@ public class RabbitMQConsumer {
             new LinkedBlockingQueue<>(10),
             Executors.defaultThreadFactory(),
             new ThreadPoolExecutor.AbortPolicy());
+    private Message message;
+    private Channel channel;
 
     /**
      * work使用线程池消费
@@ -136,7 +138,7 @@ public class RabbitMQConsumer {
 //                    exchange = @Exchange(value = "boot-topic-exchange", type = "topic"),
 //                    key = {"*.red.*"}
 //            )})
-    public void getMsg(String meg, Channel channel, Message message) {
+    public void receiveMsg(String meg, Channel channel, Message message) {
         log.info("boot-queue receive msg:{} ", message);
         try {
             /**

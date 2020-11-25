@@ -6,7 +6,7 @@ spring:
     name: rabbitmq-provider
 #配置rabbitMq 服务器
   rabbitmq:
-    host: 192.168.0.124
+    host: 192.168.1.124
     port: 5672
     username: user
     password: 123456
@@ -15,7 +15,8 @@ spring:
     listener:
       simple:
         acknowledge-mode: manual  #消费者手动执行ack确认
-#RabbitTemplate.ConfirmCallback, RabbitTemplate.ReturnCallback
+        default-requeue-rejected: false #默认拒绝重回队列
+    #RabbitTemplate.ConfirmCallback, RabbitTemplate.ReturnCallback
     publisher-confirms: true
     publisher-returns: true
   redis:
