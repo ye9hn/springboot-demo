@@ -8,11 +8,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7f15c308-8065-45a2-b182-f557d0f640f9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot_rabbitmq/src/main/java/com/henu/mq/config/RabbitMQConfirmAndReturnConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot_rabbitmq/src/main/java/com/henu/mq/config/RabbitMQConfirmAndReturnConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot_rabbitmq/src/main/java/com/henu/mq/controller/ProviderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot_rabbitmq/src/main/java/com/henu/mq/controller/ProviderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot_rabbitmq/src/main/java/com/henu/mq/service/consumer/RabbitMQConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot_rabbitmq/src/main/java/com/henu/mq/service/consumer/RabbitMQConsumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot_rabbitmq/src/main/java/com/henu/mq/service/provider/RabbitMQProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot_rabbitmq/src/main/java/com/henu/mq/service/provider/RabbitMQProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot_rabbitmq/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/boot_rabbitmq/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -579,7 +574,11 @@
       <workItem from="1605965487404" duration="5164000" />
       <workItem from="1606049844819" duration="4441000" />
       <workItem from="1606224678791" duration="3853000" />
-      <workItem from="1606309713851" duration="3451000" />
+      <workItem from="1606309713851" duration="3620000" />
+      <workItem from="1606569305370" duration="132000" />
+      <workItem from="1606572424897" duration="6270000" />
+      <workItem from="1606666396403" duration="1327000" />
+      <workItem from="1607004459638" duration="260000" />
     </task>
     <task id="LOCAL-00001" summary="add mybatis 二级缓存">
       <created>1589210625451</created>
@@ -615,50 +614,50 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1269" height="438" key="DebuggerActiveHint/0.0.1366.738@0.0.1366.738" timestamp="1599410014435" />
-    <state x="484" y="120" key="FileChooserDialogImpl" timestamp="1602592464961">
+    <state x="484" y="120" key="FileChooserDialogImpl" timestamp="1606569436212">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="484" y="120" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1602592464961" />
-    <state width="1323" height="357" key="GridCell.Tab.0.bottom" timestamp="1606312198432">
+    <state x="484" y="120" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1606569436212" />
+    <state width="1323" height="357" key="GridCell.Tab.0.bottom" timestamp="1606315713754">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="357" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1606312198432" />
-    <state width="1323" height="357" key="GridCell.Tab.0.center" timestamp="1606312198432">
+    <state width="1323" height="357" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1606315713754" />
+    <state width="1323" height="357" key="GridCell.Tab.0.center" timestamp="1606315713754">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="357" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1606312198432" />
-    <state width="1323" height="357" key="GridCell.Tab.0.left" timestamp="1606312198430">
+    <state width="1323" height="357" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1606315713754" />
+    <state width="1323" height="357" key="GridCell.Tab.0.left" timestamp="1606315713754">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="357" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1606312198430" />
-    <state width="1323" height="357" key="GridCell.Tab.0.right" timestamp="1606312198432">
+    <state width="1323" height="357" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1606315713754" />
+    <state width="1323" height="357" key="GridCell.Tab.0.right" timestamp="1606315713754">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="357" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1606312198432" />
-    <state width="1323" height="357" key="GridCell.Tab.1.bottom" timestamp="1606312198432">
+    <state width="1323" height="357" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1606315713754" />
+    <state width="1323" height="357" key="GridCell.Tab.1.bottom" timestamp="1606315713758">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="357" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1606312198432" />
-    <state width="1323" height="357" key="GridCell.Tab.1.center" timestamp="1606312198432">
+    <state width="1323" height="357" key="GridCell.Tab.1.bottom/0.0.1366.738@0.0.1366.738" timestamp="1606315713758" />
+    <state width="1323" height="357" key="GridCell.Tab.1.center" timestamp="1606315713758">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="357" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1606312198432" />
-    <state width="1323" height="357" key="GridCell.Tab.1.left" timestamp="1606312198432">
+    <state width="1323" height="357" key="GridCell.Tab.1.center/0.0.1366.738@0.0.1366.738" timestamp="1606315713758" />
+    <state width="1323" height="357" key="GridCell.Tab.1.left" timestamp="1606315713754">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="357" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1606312198432" />
-    <state width="1323" height="357" key="GridCell.Tab.1.right" timestamp="1606312198432">
+    <state width="1323" height="357" key="GridCell.Tab.1.left/0.0.1366.738@0.0.1366.738" timestamp="1606315713754" />
+    <state width="1323" height="357" key="GridCell.Tab.1.right" timestamp="1606315713758">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="357" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1606312198432" />
+    <state width="1323" height="357" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1606315713758" />
     <state x="105" y="104" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1599409483595">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="105" y="104" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1366.738@0.0.1366.738" timestamp="1599409483595" />
-    <state x="346" y="50" width="672" height="688" key="search.everywhere.popup" timestamp="1599401979322">
+    <state x="346" y="50" width="672" height="688" key="search.everywhere.popup" timestamp="1606666914316">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="346" y="50" width="672" height="688" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1599401979322" />
+    <state x="346" y="50" width="672" height="688" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1606666914316" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
