@@ -1,0 +1,7 @@
+com\henu\mongo\service\impl\MongoServiceImpl.class
+com\henu\mongo\service\MongoService.class
+com\henu\mongo\controller\MongoController.class
+com\henu\mongo\entity\Area.class
+com\henu\mongo\config\MongoDBConfig.class
+com\henu\mongo\entity\Message.class
+com\henu\mongo\BootMongoApplication.class

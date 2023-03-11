@@ -1,0 +1,9 @@
+com\henu\oauth\service\UserService.class
+com\henu\oauth\mapper\RoleMapper.class
+com\henu\oauth\OauthServerApplication.class
+com\henu\oauth\mapper\UserMapper.class
+com\henu\oauth\service\impl\UserServiceImpl.class
+com\henu\oauth\config\Oauth2ServerConfig.class
+com\henu\oauth\domain\SysRole.class
+com\henu\oauth\domain\SysUser.class
+com\henu\oauth\config\WebSecurityConfig.class

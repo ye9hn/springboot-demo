@@ -2,6 +2,7 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -9,11 +10,13 @@
         <module name="boot-mongo" />
         <module name="oauth_source" />
         <module name="boot-kafka" />
+        <module name="Netty" />
         <module name="boot_auth_server" />
         <module name="boot_aliyun_sms" />
         <module name="boot-mybatis" />
         <module name="boot-common" />
         <module name="boot_excel" />
+        <module name="boot_distributedlock" />
         <module name="BIO" />
         <module name="boot_redis" />
         <module name="boot_rabbitmq" />
@@ -31,6 +34,7 @@
       <module name="boot-mybatis" target="1.8" />
       <module name="boot_aliyun_sms" target="1.8" />
       <module name="boot_auth_server" target="1.8" />
+      <module name="boot_distributedlock" target="1.8" />
       <module name="boot_elasticsearch" target="1.8" />
       <module name="boot_excel" target="1.8" />
       <module name="boot_kafka_mongo_mybatis" target="1.8" />
@@ -42,6 +46,7 @@
       <module name="boot_security_distribute" target="1.8" />
       <module name="boot_source" target="1.8" />
       <module name="boot_websocket" target="1.8" />
+      <module name="Netty" target="1.8" />
       <module name="NIO" target="1.8" />
       <module name="oauth_server" target="1.8" />
       <module name="oauth_source" target="1.8" />
@@ -52,12 +57,14 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="BIO" options="-parameters" />
       <module name="NIO" options="-parameters" />
+      <module name="Netty" options="-parameters" />
       <module name="boot-common" options="-parameters" />
       <module name="boot-kafka" options="-parameters" />
       <module name="boot-mongo" options="-parameters" />
       <module name="boot-mybatis" options="-parameters" />
       <module name="boot_aliyun_sms" options="-parameters" />
       <module name="boot_auth_server" options="-parameters" />
+      <module name="boot_distributedlock" options="-parameters" />
       <module name="boot_elasticsearch" options="-parameters" />
       <module name="boot_excel" options="-parameters" />
       <module name="boot_kafka_mongo_mybatis" options="-parameters" />

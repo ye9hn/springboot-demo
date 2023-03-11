@@ -4,12 +4,14 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/boot_netty/BIO/BIO.iml" filepath="$PROJECT_DIR$/boot_netty/BIO/BIO.iml" />
       <module fileurl="file://$PROJECT_DIR$/boot_netty/NIO/NIO.iml" filepath="$PROJECT_DIR$/boot_netty/NIO/NIO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boot_netty/Netty/Netty.iml" filepath="$PROJECT_DIR$/boot_netty/Netty/Netty.iml" />
       <module fileurl="file://$PROJECT_DIR$/boot_security_distribute/boot-common/boot-common.iml" filepath="$PROJECT_DIR$/boot_security_distribute/boot-common/boot-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-kafka/boot-kafka.iml" filepath="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-kafka/boot-kafka.iml" />
       <module fileurl="file://$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mongo/boot-mongo.iml" filepath="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mongo/boot-mongo.iml" />
       <module fileurl="file://$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mybatis/boot-mybatis.iml" filepath="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot-mybatis/boot-mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/boot_aliyun_sms/boot_aliyun_sms.iml" filepath="$PROJECT_DIR$/boot_aliyun_sms/boot_aliyun_sms.iml" />
       <module fileurl="file://$PROJECT_DIR$/boot_security_distribute/boot_auth_server/boot_auth_server.iml" filepath="$PROJECT_DIR$/boot_security_distribute/boot_auth_server/boot_auth_server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/boot_distributedlock/boot_distributedlock.iml" filepath="$PROJECT_DIR$/boot_distributedlock/boot_distributedlock.iml" />
       <module fileurl="file://$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot_kafka_mongo_mybatis.iml" filepath="$PROJECT_DIR$/boot_kafka_mongo_mybatis/boot_kafka_mongo_mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/boot_netty/boot_netty.iml" filepath="$PROJECT_DIR$/boot_netty/boot_netty.iml" />
       <module fileurl="file://$PROJECT_DIR$/boot_oauth2/boot_oauth2.iml" filepath="$PROJECT_DIR$/boot_oauth2/boot_oauth2.iml" />

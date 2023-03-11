@@ -1,0 +1,12 @@
+com\henu\auth\domain\SysRole.class
+com\henu\auth\service\UserService.class
+com\henu\auth\domain\SysUser.class
+com\henu\auth\filter\JwtLoginFilter.class
+com\henu\auth\config\RsaKeyProperties.class
+com\henu\auth\controller\ProductController.class
+com\henu\auth\mapper\RoleMapper.class
+com\henu\auth\filter\JwtVerifyFilter.class
+com\henu\auth\mapper\UserMapper.class
+com\henu\auth\AuthServerApplication.class
+com\henu\auth\service\impl\UserServiceImpl.class
+com\henu\auth\config\WebSecurityConfig.class

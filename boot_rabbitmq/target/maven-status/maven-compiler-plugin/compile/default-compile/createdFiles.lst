@@ -1,0 +1,8 @@
+com\henu\mq\RabbitMQMain8021.class
+com\henu\mq\service\provider\HelloWorldProvider.class
+com\henu\mq\service\provider\RabbitMQProvider.class
+com\henu\mq\config\RabbitMQConfirmAndReturnConfig.class
+com\henu\mq\service\consumer\RabbitMQConsumer.class
+com\henu\mq\config\RabbitMQConfig.class
+com\henu\mq\service\consumer\DeadMsgConsumer.class
+com\henu\mq\controller\ProviderController.class

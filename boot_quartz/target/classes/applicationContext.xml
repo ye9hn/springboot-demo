@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                 http://www.springframework.org/schema/beans/spring-beans-3.2.xsd">
+    <!--
+    定义工作的Job
+    定义触发器Trigger，并将触发器与工作任务绑定
+    定义调度器，并将Trigger注册到Scheduler
+    -->
+    <bean name="lxJob" class="org.springframework.scheduling.quartz.JobDetailFactoryBean">
+        <property name="name" value="job"/>
+        <property name="group" value="group"/>
+        <property name="jobClass" value="cn.henuer.quartz.base.BaseQuartz"/>
+        <property name="durability" value="true"/>
+        <property name="applicationContextJobDataKey" value="app"/>
+        <property name="jobDataAsMap">
+            <map>
+
+                <entry key="data" value="张三"></entry>
+            </map>
+        </property>
+    </bean>
+
+    <bean id="cronTrigger" class="org.springframework.scheduling.quartz.CronTriggerFactoryBean">
+        <property name="name" value="job"/>
+        <property name="group" value="group"/>
+        <property name="jobDetail" ref="lxJob"/>
+        <property name="cronExpression" value="*/2 * * * * ?"/>
+    </bean>
+
+    <!--配置调度工厂-->
+    <bean id="schedulerFactoryBean" class="org.springframework.scheduling.quartz.SchedulerFactoryBean">
+        <property name="triggers">
+            <list>
+                <ref bean="cronTrigger"/>
+            </list>
+        </property>
+    </bean>
+</beans>

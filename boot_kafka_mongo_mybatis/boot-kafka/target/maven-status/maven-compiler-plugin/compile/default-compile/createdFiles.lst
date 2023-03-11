@@ -1,0 +1,7 @@
+com\henu\kafka\BootKafkaApplication.class
+com\henu\kafka\service\KafkaSendService.class
+com\henu\kafka\service\KafkaSendService$1.class
+com\henu\kafka\entity\Message.class
+com\henu\kafka\entity\Area.class
+com\henu\kafka\service\KafkaReceiveService.class
+com\henu\kafka\controller\KafkaController.class

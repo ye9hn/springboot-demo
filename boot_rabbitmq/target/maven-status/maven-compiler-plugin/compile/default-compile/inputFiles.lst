@@ -1,0 +1,8 @@
+D:\DataSpace\IdeaSpace\springboot-demo\boot_rabbitmq\src\main\java\com\henu\mq\controller\ProviderController.java
+D:\DataSpace\IdeaSpace\springboot-demo\boot_rabbitmq\src\main\java\com\henu\mq\service\provider\RabbitMQProvider.java
+D:\DataSpace\IdeaSpace\springboot-demo\boot_rabbitmq\src\main\java\com\henu\mq\config\RabbitMQConfirmAndReturnConfig.java
+D:\DataSpace\IdeaSpace\springboot-demo\boot_rabbitmq\src\main\java\com\henu\mq\service\consumer\RabbitMQConsumer.java
+D:\DataSpace\IdeaSpace\springboot-demo\boot_rabbitmq\src\main\java\com\henu\mq\service\provider\HelloWorldProvider.java
+D:\DataSpace\IdeaSpace\springboot-demo\boot_rabbitmq\src\main\java\com\henu\mq\service\consumer\DeadMsgConsumer.java
+D:\DataSpace\IdeaSpace\springboot-demo\boot_rabbitmq\src\main\java\com\henu\mq\config\RabbitMQConfig.java
+D:\DataSpace\IdeaSpace\springboot-demo\boot_rabbitmq\src\main\java\com\henu\mq\RabbitMQMain8021.java

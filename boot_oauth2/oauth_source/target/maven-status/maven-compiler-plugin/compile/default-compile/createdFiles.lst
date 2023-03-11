@@ -1,0 +1,5 @@
+com\henu\oauth\config\Oauth2SourceConfig.class
+com\henu\oauth\controller\ProductController.class
+com\henu\oauth\domain\SysRole.class
+com\henu\oauth\domain\SysUser.class
+com\henu\oauth\OauthSourceApplication.class
