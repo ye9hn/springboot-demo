@@ -12,6 +12,7 @@
         <module>boot_aliyun_sms</module>
         <module>boot_quartz</module>
         <module>boot_distributedlock</module>
+        <module>boot_shardingsphere</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>

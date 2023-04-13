@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="boot-mongo" />
+        <module name="boot_source" />
         <module name="oauth_source" />
         <module name="boot-kafka" />
         <module name="Netty" />
@@ -16,13 +17,13 @@
         <module name="boot-mybatis" />
         <module name="boot-common" />
         <module name="boot_excel" />
-        <module name="boot_distributedlock" />
         <module name="BIO" />
+        <module name="boot_shardingsphere" />
         <module name="boot_redis" />
         <module name="boot_rabbitmq" />
         <module name="NIO" />
         <module name="boot_quartz" />
-        <module name="boot_source" />
+        <module name="boot_distributedlock" />
         <module name="oauth_server" />
       </profile>
     </annotationProcessing>
@@ -44,6 +45,7 @@
       <module name="boot_rabbitmq" target="1.8" />
       <module name="boot_redis" target="1.8" />
       <module name="boot_security_distribute" target="1.8" />
+      <module name="boot_shardingsphere" target="1.8" />
       <module name="boot_source" target="1.8" />
       <module name="boot_websocket" target="1.8" />
       <module name="Netty" target="1.8" />
@@ -74,6 +76,7 @@
       <module name="boot_rabbitmq" options="-parameters" />
       <module name="boot_redis" options="-parameters" />
       <module name="boot_security_distribute" options="-parameters" />
+      <module name="boot_shardingsphere" options="-parameters" />
       <module name="boot_source" options="-parameters" />
       <module name="boot_websocket" options="-parameters" />
       <module name="oauth_server" options="-parameters" />

@@ -14,7 +14,7 @@ public class NettyClient {
         EventLoopGroup group = new NioEventLoopGroup();
 
         //创建客户端启动对象
-        //主义客户端使用的不是ServerBootStrap而是BootStrap
+        //注意客户端使用的不是ServerBootStrap而是BootStrap
         Bootstrap bootstrap = new Bootstrap();
         try {
             //设置相关参数
@@ -29,7 +29,7 @@ public class NettyClient {
             System.out.println("客户端 OK....");
             //启动客户端连接服务端
             //关于channelFuture要分析，涉及到netty的异步模型
-            ChannelFuture channelFuture = bootstrap.connect("127.0.0.1", 6668).sync();
+            ChannelFuture channelFuture = bootstrap.connect("127.0.0.1", 9001).sync();
             //给关闭通道进行监听
             channelFuture.channel().closeFuture().sync();
         } finally {

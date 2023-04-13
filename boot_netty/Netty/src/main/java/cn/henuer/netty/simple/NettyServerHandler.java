@@ -85,7 +85,7 @@ public class NettyServerHandler extends ChannelInboundHandlerAdapter {
 //        ChannelPipeline pipeline = ctx.pipeline();
 //
 //        //将msg转换成一个bytebuf
-//        //不腰疼不会是netty提供的，不是NIO的ByteBuffer
+//        //ByteBuf是netty提供的，不是NIO的ByteBuffer
 //        ByteBuf buf = (ByteBuf) msg;
 //        System.out.println("客户端发送的消息是：" + buf.toString(CharsetUtil.UTF_8));
 //        System.out.println("客户端地址：" + channel.remoteAddress());

@@ -33,5 +33,6 @@
     <file url="file://$PROJECT_DIR$/boot_security_distribute/boot_auth_server/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/boot_security_distribute/boot_source" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/boot_security_distribute/boot_source/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/boot_shardingsphere/src/main/java" charset="UTF-8" />
   </component>
 </project>
